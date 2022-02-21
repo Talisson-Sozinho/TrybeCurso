@@ -1,4 +1,4 @@
-# DIA 2
+# # Fundamentos bloco 1 dia 2
 
 Esses foram os comandos seguidos para as resolução dos execícios do dia 2
 
