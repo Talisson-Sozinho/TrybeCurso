@@ -14,7 +14,7 @@ _"A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vi
 - [x] 1.3 - Unix & Bash - Parte 1
 - [x] 1.4 - Unix & Bash - Parte 2
 
-##### Bloco 2: Git, GitHub e Internet
+##### Bloco 2: [Git, GitHub e Internet](https://github.com/Talisson-Sozinho/TrybeCurso/tree/main/fundamentos/bloco-02-git-github-e-internet)
 - [x] 2.1 - Git & GitHub  - O que é e para que serve
 - [x] 2.2 - Git & GitHub - Entendendo os comandos
 - [x] 2.3 - Internet - Entendendo como ela funciona
