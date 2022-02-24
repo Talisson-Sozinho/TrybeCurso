@@ -1,0 +1,36 @@
+body{
+  font-size: 16px;
+}
+
+h1 {
+  font-family: sans-serif;
+  font-size: 65px;
+  color: orange;
+}
+
+.bColorBlue {
+  background-color: blue;
+}
+
+p {
+  font-weight: 600;
+  font-size: 3em;
+}
+
+li {
+  font-style: italic;
+  text-decoration: underline;
+  line-height: 2em;
+}
+
+.listColorAmarelo{
+  background-color: yellow;
+}
+
+.listColorVermelho{
+  background-color:red;
+}
+
+.listColorMarrom{
+  background-color: brown;
+}

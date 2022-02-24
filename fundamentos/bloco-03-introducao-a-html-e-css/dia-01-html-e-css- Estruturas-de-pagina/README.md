@@ -1,4 +1,4 @@
-# fundamentos bloco 2 dia 3
+# fundamentos bloco 3 dia 1
 
 Para fixar 1:
 
