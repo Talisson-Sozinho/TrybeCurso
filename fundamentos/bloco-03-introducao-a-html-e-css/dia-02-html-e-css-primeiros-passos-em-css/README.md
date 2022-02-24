@@ -25,3 +25,7 @@
   [x] Explore as propriedades font-style, line-height, text-align e text-decoration
 
   [x] Troque a cor de fundo de cada item da lista para a cor correspondente ao texto
+
+  #### Para fixar 22
+
+  [x] Colocando os styles em um arquivo local separado do html 
