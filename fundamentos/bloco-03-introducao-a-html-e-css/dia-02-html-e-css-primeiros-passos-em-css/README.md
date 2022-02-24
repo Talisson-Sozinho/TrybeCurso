@@ -24,4 +24,4 @@
 
   [x] Explore as propriedades font-style, line-height, text-align e text-decoration
 
-  [ ] Troque a cor de fundo de cada item da lista para a cor correspondente ao texto
+  [x] Troque a cor de fundo de cada item da lista para a cor correspondente ao texto
