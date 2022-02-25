@@ -4,7 +4,7 @@
 
 [x] - Faça cada div ter uma cor própria.
 
-[ ] - Estilize cada uma das tags h3 .
+[x] - Estilize cada uma das tags h3 .
 
 [ ] - Faça a terceira div ser maior que as demais.
 

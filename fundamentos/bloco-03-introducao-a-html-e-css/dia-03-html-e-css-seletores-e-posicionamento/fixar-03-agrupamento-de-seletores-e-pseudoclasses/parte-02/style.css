@@ -4,28 +4,49 @@
   padding: 0;
 }
 
-div{
+div {
   height: 30px;
   width: 350px;
 }
 
-div:nth-of-type(1){
+/* cada div ter uma cor própria. */
+
+div:nth-of-type(1) {
   background-color: red;
 }
-
-div:nth-of-type(2){
+div:nth-of-type(2) {
   background-color: blue;
 }
-div:nth-of-type(3){
+div:nth-of-type(3) {
   background-color: yellow;
 }
-div:nth-of-type(4){
+div:nth-of-type(4) {
   background-color: green;
 }
-div:nth-of-type(5){
+div:nth-of-type(5) {
   background-color: pink;
 }
 
-div:hover{
+/* estilizando cada uma das tags h3  */
+
+div:nth-of-type(1) h3 {
+  color: white;
+}
+div:nth-of-type(2) h3 {
+  color: black;
+}
+div:nth-of-type(3) h3 {
+  color: lightseagreen
+}
+div:nth-of-type(4) h3 {
+  color: red;
+}
+div:nth-of-type(5) h3 {
+  color: green;
+}
+
+/* estilizando as divs para que, ao passar o cursor por cima das mesmas, elas ganhem uma borda. */
+
+div:hover {
   border: 1px solid black;
 }
