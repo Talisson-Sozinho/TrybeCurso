@@ -1,5 +1,3 @@
-# fundamentos bloco 3 dia 3
-
 #### Para fixar 1
 
   [x] insira na classe "padding" um padding de 20px para aplicá-lo aos itens B, C e D
