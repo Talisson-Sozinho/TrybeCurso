@@ -25,7 +25,8 @@
   background-color:blue;
   width: 200px;
   height: 150px;
-  right: 0;
+  right: 230px;
+  top: 120px;
 }
 
 .baloon {
@@ -47,6 +48,6 @@
 .bowser {
   width: 200px;
   position: absolute;
-  right: 0;
-  bottom: 0;
+  right: 55px;
+  bottom: 105px;
 }

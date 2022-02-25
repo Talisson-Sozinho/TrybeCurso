@@ -4,4 +4,4 @@
 
   [x] Posicione a tag p para que fique dentro do balão de fala.
 
-  [ ] Posicione o balão para que se torne uma fala de Bowser.
+  [x] Posicione o balão para que se torne uma fala de Bowser.
