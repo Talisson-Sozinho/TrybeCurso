@@ -2,7 +2,7 @@
 
 [x] - Estilize as divs para que, ao passar o cursor por cima das mesmas, elas ganhem uma borda.
 
-[ ] - Faça cada div ter uma cor própria.
+[x] - Faça cada div ter uma cor própria.
 
 [ ] - Estilize cada uma das tags h3 .
 
