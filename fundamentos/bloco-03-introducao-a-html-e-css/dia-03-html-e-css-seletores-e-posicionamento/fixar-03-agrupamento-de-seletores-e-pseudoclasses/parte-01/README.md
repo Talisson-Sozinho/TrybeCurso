@@ -1,6 +1,6 @@
 # parte 1 Requisitos
 
-  [ ] - Adicione uma lista ordenada dos 3 melhores sites que você conhece.
+  [x] - Adicione uma lista ordenada dos 3 melhores sites que você conhece.
 
   [ ] - Crie um arquivo no mesmo diretório e nomeie-o de 'style.css'.
 
