@@ -9,6 +9,6 @@
     * A cor de fundo da sua lista mude quando o cursor estiver sobre o item.
     * A fonte do item mude quando ele for clicado.
 
-  [ ] - Adicione uma lista não ordenada com, pelo menos, 3 características que você gosta.
+  [x] - Adicione uma lista não ordenada com, pelo menos, 3 características que você gosta.
   
-  [ ] - No 'style.css', adicione a propriedade 'list-style: none' para ambas as listas.
+  [x] - No 'style.css', adicione a propriedade 'list-style: none' para ambas as listas.
