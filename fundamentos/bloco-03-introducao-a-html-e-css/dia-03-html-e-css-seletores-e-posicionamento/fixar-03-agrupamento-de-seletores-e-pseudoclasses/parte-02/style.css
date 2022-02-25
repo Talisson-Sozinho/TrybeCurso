@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+div{
+  height: 30px;
+}
+
+div:hover{
+  border: 1px solid black;
+}
