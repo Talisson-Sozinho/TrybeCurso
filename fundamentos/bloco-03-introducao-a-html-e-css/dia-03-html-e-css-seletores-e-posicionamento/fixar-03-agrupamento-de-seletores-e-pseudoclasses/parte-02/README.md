@@ -6,6 +6,6 @@
 
 [x] - Estilize cada uma das tags h3 .
 
-[ ] - Faça a terceira div ser maior que as demais.
+[x] - Faça a terceira div ser maior que as demais.
 
-[ ] - Deixe as tags ímpares h3 com o texto em itálico.
+[x] - Deixe as tags ímpares h3 com o texto em itálico.

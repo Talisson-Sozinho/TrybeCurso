@@ -46,6 +46,12 @@ div:nth-of-type(5) h3 {
   color: green;
 }
 
+/* deixando as tags h3 ímpar em italic */
+
+div:nth-of-type(2n + 1) h3 {
+  font-style: italic;
+}
+
 /* estilizando as divs para que, ao passar o cursor por cima das mesmas, elas ganhem uma borda. */
 
 div:hover {
