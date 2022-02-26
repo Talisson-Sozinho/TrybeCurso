@@ -1,0 +1,15 @@
+/* todos os itens da lista ordenada com o fundo amarelo */
+ol li{
+  background-color: yellow;
+}
+
+/* Cada item par da lista ordenada com a letra seja verde */
+
+ol li:nth-child(2n){
+  color : green;
+}
+
+/* Cada item ímpar da lista ordenada com a letra em maiusculo  */
+ol li:nth-child(2n + 1){
+  text-transform : uppercase;
+}
