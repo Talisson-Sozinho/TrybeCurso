@@ -1,0 +1,79 @@
+/* todos os itens da lista ordenada com o fundo amarelo */
+ol li{
+  background-color: yellow;
+}
+
+/* Cada item par da lista ordenada com a letra seja verde */
+
+ol li:nth-child(2n){
+  color : green;
+}
+
+/* Cada item ímpar da lista ordenada com a letra em maiusculo  */
+ol li:nth-child(2n + 1){
+  text-transform : uppercase;
+}
+
+/* Faça todas as li's terem 20px de tamanho de fonte e, 
+para todo texto em itálico dentro de alguma li, deixá-lo negrito. */
+
+li {
+  font-size: 20px;
+}
+
+li em{
+  font-weight: bold;
+}
+
+/*  Na listagem de linguagens de programação, as 3 primeiras da lista possuam cor de fonte azul e
+ se alguma possuir "java*" no texto, utilize uma cor de fundo rosa. */
+
+ ul:first-of-type li:nth-child(-n+3){
+   color: blue;
+ }
+
+ ul:first-of-type li:nth-child(2), ul:first-of-type li:nth-child(3){
+   background-color:pink;
+ }
+
+/* todas as tags Header (h1, h2...) possuírem cor de fonte vermelha e, 
+  se alguma delas estiver em itálico, aumente seu tamanho para 40px e 
+  acrescente uma borda de 1px preta e sólida. */
+
+h1, h2, h3, h4, h5, h6{
+  color:red;
+}
+
+h1 em, h2 em, h3 em, h4 em, h5 em, h6 em{
+  font-size: 40px;
+  border-bottom: 1px solid black;
+}
+
+/* para cada link na lista de aliados da pessoa desenvolvedora, ao passar o mouse sobre cada um, 
+o texto fique em negrito e assuma a cor de fonte "temática do site" */
+a{
+  color:aqua;
+}
+a:visited {
+  color:aqua;
+}
+
+ul:last-of-type li:nth-of-type(1) a:hover{
+  color: orange;
+}
+
+ul:last-of-type li:nth-of-type(2) a:hover{
+  color: green;
+}
+
+ul:last-of-type li:nth-of-type(3) a:hover{
+  color: black;
+}
+
+ul:last-of-type li:nth-of-type(4) a:hover{
+  color: yellow;
+}
+
+ul:last-of-type li:nth-of-type(5) a:hover{
+  color: greenyellow;
+}

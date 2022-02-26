@@ -1,0 +1,18 @@
+h1, p{
+  text-align: center;
+}
+
+li:hover {
+  transition: background  1000ms;
+  transition: color 200ms;
+  background-color: black;
+  color: white;
+}
+
+li:active{
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+ul, ol{
+  list-style: none
+}
