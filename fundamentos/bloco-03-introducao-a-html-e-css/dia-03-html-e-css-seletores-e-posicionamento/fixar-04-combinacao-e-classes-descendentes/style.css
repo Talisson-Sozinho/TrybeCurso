@@ -25,6 +25,17 @@ li em{
   font-weight: bold;
 }
 
+/*  Na listagem de linguagens de programação, as 3 primeiras da lista possuam cor de fonte azul e
+ se alguma possuir "java*" no texto, utilize uma cor de fundo rosa. */
+
+ ul:first-of-type li:nth-child(-n+3){
+   color: blue;
+ }
+
+ ul:first-of-type li:nth-child(2), ul:first-of-type li:nth-child(3){
+   background-color:pink;
+ }
+
 /* todas as tags Header (h1, h2...) possuírem cor de fonte vermelha e, 
   se alguma delas estiver em itálico, aumente seu tamanho para 40px e 
   acrescente uma borda de 1px preta e sólida. */
