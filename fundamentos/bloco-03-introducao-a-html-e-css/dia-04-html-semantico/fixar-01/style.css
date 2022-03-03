@@ -1,3 +1,22 @@
+/* Minha resolução */
+section {
+  text-align: center;
+}
+
+ul{
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+}
+
+li.first{
+  display: block;
+  margin-left: calc(50% - 100px);
+}
+
+/* css que já veio no comando */
 h1 {
   text-align: center;
 }
