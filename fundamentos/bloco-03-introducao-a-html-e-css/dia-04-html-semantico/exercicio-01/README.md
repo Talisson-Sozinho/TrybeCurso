@@ -2,7 +2,7 @@
 
 #### Requisitos mínimos 
 
-  [ ] - Adicione um cabeçalho na página contendo o título Soco a 80km/h: Conheça o Stomatopoda .
+  [x] - Adicione um cabeçalho na página contendo o título Soco a 80km/h: Conheça o Stomatopoda .
 
   [ ] - Adicione um conjunto de links que representam a área de navegação do site.
     * Crie um link chamado Página Inicial .
