@@ -33,9 +33,9 @@
     * Adicione, por fim, uma seção de referências bibliográficas, contendo uma lista de todos os 
       links que foram usados como base para compilar a página em questão.
 
-  [ ] -  Adicione um conteúdo adjacente ao artigo, disponibilizando um link para este vídeo, que mostra o animal em ação.
+  [x] -  Adicione um conteúdo adjacente ao artigo, disponibilizando um link para este vídeo, que mostra o animal em ação.
 
-  [ ] - Adicione um rodapé na página, mostrando algo do gênero:
+  [x] - Adicione um rodapé na página, mostrando algo do gênero:
     `"Conteúdo compilado por <insere seu nome>, <ano atual>".`
   
   Obs: para esse exercício, é obrigatório fazer uso de, no mínimo , 6 elementos com as seguintes 
