@@ -11,7 +11,7 @@ lógicos ( > , < , && , || ).
       [x]  * Adição (a + b)
       [x]  * Subtração (a - b)
       [x]  * Multiplicação (a * b)
-      [ ]  * Divisão (a / b)
+      [x]  * Divisão (a / b)
       [ ]  * Módulo (a % b)
 
   [ ] - Faça um programa que retorne o maior de dois números. Defina no começo do programa duas 
