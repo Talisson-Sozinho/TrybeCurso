@@ -9,7 +9,7 @@
     * Crie um link chamado Sobre .
     * Crie um link chamado Contato .
   
-  [ ] - Crie um artigo que vai conter os fatos interessantes sobre o Stomatopoda . O artigo terá o subtítulo Fatos sobre o Stomatopoda . Segue um site animal de inspiração para pegar fatos.
+  [x] - Crie um artigo que vai conter os fatos interessantes sobre o Stomatopoda . O artigo terá o subtítulo Fatos sobre o Stomatopoda . Segue um site animal de inspiração para pegar fatos.
 
   [ ] - Divida o artigo em seções, organizando-o da seguinte forma:
 
