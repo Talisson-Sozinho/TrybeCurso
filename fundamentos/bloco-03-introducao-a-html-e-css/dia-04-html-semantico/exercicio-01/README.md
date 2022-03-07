@@ -11,7 +11,7 @@
   
   [x] - Crie um artigo que vai conter os fatos interessantes sobre o Stomatopoda . O artigo terá o subtítulo Fatos sobre o Stomatopoda . Segue um site animal de inspiração para pegar fatos.
 
-  [ ] - Divida o artigo em seções, organizando-o da seguinte forma:
+  [x] - Divida o artigo em seções, organizando-o da seguinte forma:
 
     * Uma primeira seção contendo informações gerais a respeito do animal. O subtítulo para essa 
       seção fica a seu critério. É necessário que conste nessa seção seu nome científico , que é 
