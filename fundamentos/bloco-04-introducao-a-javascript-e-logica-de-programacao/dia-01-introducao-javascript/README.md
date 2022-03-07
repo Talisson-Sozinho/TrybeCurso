@@ -17,7 +17,7 @@ lógicos ( > , < , && , || ).
   [x] - Faça um programa que retorne o maior de dois números. Defina no começo do programa duas 
       constantes com os valores que serão comparados.
 
-  [ ] - Faça um programa que retorne o maior de três números. Defina no começo do programa três 
+  [x] - Faça um programa que retorne o maior de três números. Defina no começo do programa três 
       constantes com os valores que serão comparados.
 
   [ ] - Faça um programa que, dado um valor definido numa constante, retorne "positive" se esse 
