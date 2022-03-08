@@ -1,9 +1,10 @@
 // lista que será usada nesse execício
 let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
-let somaNumbers = 0, elementosImpar = [];
-/* "Infinity" é uma variável global do js que significa o maio número
-* foi inicializada com o valor negativo para servir de menor número possível
-*/
+// Variáveis auxiliares para a resolução de alguns comandos
+let somaNumbers = 0, elementosImpar = [], arrayContador = [];
+// "Infinity" é uma variável global do js que significa o maio número
+let menorElemento = Infinity;
+// foi inicializada com o valor negativo para servir de menor número possível
 let maiorElemento = -Infinity;
 
 // Estrutura de repetição para percorrer a lista 
@@ -15,6 +16,10 @@ for (let number of numbers) {
   //Verificando qual é o maior elemento do array e guardando na variável maiorElemento
   if ( number > maiorElemento){
     maiorElemento = number;
+  }
+  //Verificando qual é o menor elemento do array e guardando na variável menorElemento
+  if (number < menorElemento){
+    menorElemento = number;
   }
   //salvando os elementos Impar do array para mostrar posteriormente no console
   if ( number % 2 === 1 ){
@@ -42,6 +47,9 @@ if (mediaAritmeticaArray > 20) {
 // Mostrando o maior elemento da lista
 console.log('Maior elemento da lista é: ' + maiorElemento);
 
+// Mostrando o menor elemento da lista
+console.log('Menor elemento da lista é: ' + menorElemento);
+
 // Mostrando os elementos impares da lista
 if (elementosImpar.length > 0 ){
   console.log('Números Impar da lista: ',  elementosImpar);
@@ -50,3 +58,11 @@ if (elementosImpar.length > 0 ){
   console.log('nenhum valor ímpar encontrado');
 
 }
+
+// Criando um Array com números de 1 a 25 usando a estrutura de repetição for
+for (let index = 1; index < 26; index +=1 ){
+  arrayContador.push(index);
+}
+
+// Mostrando o resultado no console 
+console.log('Array de com números de 1 até 25: ', arrayContador);
