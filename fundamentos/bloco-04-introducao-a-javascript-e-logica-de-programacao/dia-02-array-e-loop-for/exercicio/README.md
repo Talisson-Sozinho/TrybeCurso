@@ -3,7 +3,7 @@
   [x] - Nesse primeiro exercício, percorra o array imprimindo todos os valores nele contidos com a
   função console.log() ;
 
-  [ ] - Para o segundo exercício, some todos os valores contidos no array e imprima o resultado;
+  [x] - Para o segundo exercício, some todos os valores contidos no array e imprima o resultado;
 
   [ ] - Para o terceiro exercício, calcule e imprima a média aritmética dos valores contidos no 
   array;
