@@ -51,7 +51,7 @@ lógicos ( > , < , && , || ).
     * Porcentagem < 50 -> F
     * O programa deve retornar uma mensagem de erro e encerrar se a nota passada for menor que 0 ou maior que 100.
 
-  [ ] - Escreva um programa que defina três números em constantes e retorne true se pelo menos uma 
+  [x] - Escreva um programa que defina três números em constantes e retorne true se pelo menos uma 
   das três for par. Caso contrário, ele retorna false .
 
     * Bonus: use somente um if .
