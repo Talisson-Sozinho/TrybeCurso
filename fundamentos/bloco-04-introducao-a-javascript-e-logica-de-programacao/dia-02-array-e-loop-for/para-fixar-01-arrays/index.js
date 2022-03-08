@@ -9,3 +9,9 @@ console.log(menuServices);
 let indexOfPortfolio = menu.indexOf('Portfólio');
 
 console.log(indexOfPortfolio);
+
+//Execício 03
+
+menu.push('Contato');
+
+console.log(menu);

@@ -19,3 +19,6 @@ Procure o índice do valor "Portfólio" do array menu :
 
   console.log(indexOfPortfolio);
 ```
+##### Execício 03
+
+Adicione o valor "Contato" no final do array menu 
