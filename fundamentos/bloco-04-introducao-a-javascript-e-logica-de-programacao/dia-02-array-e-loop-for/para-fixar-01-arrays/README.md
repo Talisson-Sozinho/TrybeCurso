@@ -9,3 +9,13 @@ Obtenha o valor "Serviços" do array menu :
 
   console.log(menuServices);
 ```
+
+#### Execício 02
+
+Procure o índice do valor "Portfólio" do array menu :
+```js
+  let menu = ['Home', 'Serviços', 'Portfólio', 'Links'];
+  let indexOfPortfolio = ;
+
+  console.log(indexOfPortfolio);
+```
