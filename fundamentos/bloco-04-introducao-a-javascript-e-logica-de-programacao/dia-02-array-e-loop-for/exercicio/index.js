@@ -66,3 +66,9 @@ for (let index = 1; index < 26; index +=1 ){
 
 // Mostrando o resultado no console 
 console.log('Array de com números de 1 até 25: ', arrayContador);
+
+// Dividindo cada elemento do Array de números de 1 a 25 por 2
+console.log('cada elemento do Array anterior dividido por 2: ');
+for (let number of arrayContador){
+  console.log(number/2);
+}
