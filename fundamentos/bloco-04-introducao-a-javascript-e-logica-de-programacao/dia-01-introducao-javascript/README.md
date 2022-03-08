@@ -30,7 +30,7 @@ lógicos ( > , < , && , || ).
     * Para os ângulos serem de um triângulo válido, a soma dos três devem ser 180 graus.
     * Um ângulo será considerado inválido se não tiver um valor positivo.
 
-  [ ] - Escreva um programa que receba o nome de uma peça de xadrez e retorne os movimentos que ela faz.
+  [x] - Escreva um programa que receba o nome de uma peça de xadrez e retorne os movimentos que ela faz.
 
     * Como desafio, faça o programa funcionar tanto se receber o nome de uma peça com letras maiúsculas quanto com letras minúsculas, sem aumentar a quantidade de condicionais.
 
@@ -40,7 +40,7 @@ lógicos ( > , < , && , || ).
 
     * Exemplo: bishop (bispo) -> diagonals (diagonais)
 
-  [ ] - Escreva um programa que converte uma nota dada em porcentagem (de 0 a 100) em conceitos de 
+  [x] - Escreva um programa que converte uma nota dada em porcentagem (de 0 a 100) em conceitos de 
   A a F. Siga essas regras:
 
     * Porcentagem >= 90 -> A
