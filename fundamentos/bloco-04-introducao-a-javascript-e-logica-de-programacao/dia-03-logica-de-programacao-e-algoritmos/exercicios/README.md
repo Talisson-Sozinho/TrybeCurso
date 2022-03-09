@@ -19,7 +19,7 @@
 
 #### Execício 03
 
-  [ ] -  Considere o array de strings abaixo:
+  [x] -  Considere o array de strings abaixo:
 
   ```js
   let array = ['java', 'javascript', 'python', 'html', 'css'];
