@@ -7,7 +7,7 @@
 
   [x] - Ordene o array numbers em ordem crescente e imprima seus valores;
 
-  [ ] - Ordene o array numbers em ordem decrescente e imprima seus valores;
+  [x] - Ordene o array numbers em ordem decrescente e imprima seus valores;
 
   [ ] - Agora crie um novo array a partir do array numbers , sem perdê-lo. Cada valor do novo array 
   deverá ser igual ao valor correspondente no array numbers multiplicado pelo seguinte. Por 
