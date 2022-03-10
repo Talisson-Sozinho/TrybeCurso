@@ -3,5 +3,10 @@ let info = {
   origem: 'Pato Donald',
   nota: 'Namorada do personagem principal nos quadrinhos do Pato Donald',
 };
-
+// Comando 01
 console.log(`Bem-vindo(a) ${info.personagem}`);
+
+// Comando 02
+info['recorrente'] = 'Sim';
+
+console.log(info);
