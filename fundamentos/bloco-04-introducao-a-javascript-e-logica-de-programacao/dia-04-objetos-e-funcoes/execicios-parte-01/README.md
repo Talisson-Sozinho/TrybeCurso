@@ -35,7 +35,7 @@ let info = {
     recorrente
   ```
 
-  [ ] - Faça um novo for/in , mas agora mostre todos os valores das chaves do objeto. Valor esperado 
+  [x] - Faça um novo for/in , mas agora mostre todos os valores das chaves do objeto. Valor esperado 
   no console:
   ```
     Margarida
