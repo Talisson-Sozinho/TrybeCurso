@@ -14,7 +14,7 @@ exemplo:
     *****
     *****
   ```
-[ ] -  Para o segundo exercício, faça o mesmo que antes, mas que imprima um triângulo retângulo com 5 asteriscos de base. Por exemplo:
+[x] -  Para o segundo exercício, faça o mesmo que antes, mas que imprima um triângulo retângulo com 5 asteriscos de base. Por exemplo:
 
   ```js
     n = 5
@@ -24,7 +24,7 @@ exemplo:
     ****
     *****
   ```
-[ ] - Agora inverta o lado do triângulo. Por exemplo:
+[x] - Agora inverta o lado do triângulo. Por exemplo:
 
   ```js
   n = 5
