@@ -27,7 +27,7 @@ let info = {
     }
   ```
 
-  [ ] - Faça um for/in que mostre todas as chaves do objeto. Valor esperado no console:
+  [x] - Faça um for/in que mostre todas as chaves do objeto. Valor esperado no console:
   ```js
     personagem
     origem

@@ -9,4 +9,7 @@ console.log(`Bem-vindo(a) ${info.personagem}`);
 // Comando 02
 info['recorrente'] = 'Sim';
 
-console.log(info);
+// Comando 03
+for ( let key in info ) {
+  console.log(key);
+}
