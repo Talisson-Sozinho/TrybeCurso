@@ -8,6 +8,6 @@ transformadas em parâmetros das funções.
 
 [x] - Execício 1
 [x] - Execício 2
-[ ] - Execício 3
+[x] - Execício 3
 [ ] - Execício 4
 [ ] - Execício 5
