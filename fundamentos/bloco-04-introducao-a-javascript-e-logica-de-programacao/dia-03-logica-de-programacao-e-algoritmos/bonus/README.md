@@ -44,7 +44,7 @@ exemplo:
    ***
   *****
   ```
-[ ] - Faça uma pirâmide com n asteriscos de base que seja vazia no meio. Assuma que o valor de n 
+[x] - Faça uma pirâmide com n asteriscos de base que seja vazia no meio. Assuma que o valor de n 
 será sempre ímpar:
 
   ```js
@@ -56,7 +56,7 @@ será sempre ímpar:
     *******
   ```
 
-[ ] -  Faça um programa que diz se um número definido numa variável é primo ou não.
+[x] -  Faça um programa que diz se um número definido numa variável é primo ou não.
 
   * Um número primo é um número que só é divisível por 1 e por ele mesmo, ou seja, a divisão dele 
   com quaisquer outros números dá resto diferente de zero.
