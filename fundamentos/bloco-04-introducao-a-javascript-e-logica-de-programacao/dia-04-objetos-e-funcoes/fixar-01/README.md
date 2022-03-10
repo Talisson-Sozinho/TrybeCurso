@@ -22,5 +22,5 @@
   [x] - Acesse a chave bestInTheWorld e faça um console.log no seguinte formato: "A jogadora Marta 
   Silva foi eleita a melhor do mundo por 6 vezes".
 
-  [ ] - Acesse a chave medals e faça um console.log no seguinte formato: "A jogadora possui 2 
+  [x] - Acesse a chave medals e faça um console.log no seguinte formato: "A jogadora possui 2 
   medalhas de ouro e 3 medalhas de prata".
