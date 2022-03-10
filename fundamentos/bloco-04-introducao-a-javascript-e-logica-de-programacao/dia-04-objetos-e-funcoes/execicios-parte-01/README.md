@@ -75,7 +75,7 @@ Usando o objeto abaixo, faça os exercícios a seguir:
   um console.log no seguinte formato: "O livro favorito de Julia Pessoa se chama 'O Pior Dia de 
   Todos'".
 
-  [ ] - Adicione um novo livro favorito na chave livrosFavoritos , que é um array . Atribua a esta 
+  [x] - Adicione um novo livro favorito na chave livrosFavoritos , que é um array . Atribua a esta 
   chave um objeto contendo as seguintes informações:
   ```js
     {
