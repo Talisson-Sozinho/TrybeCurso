@@ -10,4 +10,4 @@ transformadas em parâmetros das funções.
 [x] - Execício 2
 [x] - Execício 3
 [x] - Execício 4
-[ ] - Execício 5
+[x] - Execício 5
