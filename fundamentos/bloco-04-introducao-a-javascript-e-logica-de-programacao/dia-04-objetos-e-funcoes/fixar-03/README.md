@@ -7,7 +7,7 @@ um mesmo arquivo. As variáveis que você define no começo de cada arquivo deve
 transformadas em parâmetros das funções.
 
 [x] - Execício 1
-[ ] - Execício 2
+[x] - Execício 2
 [ ] - Execício 3
 [ ] - Execício 4
 [ ] - Execício 5
