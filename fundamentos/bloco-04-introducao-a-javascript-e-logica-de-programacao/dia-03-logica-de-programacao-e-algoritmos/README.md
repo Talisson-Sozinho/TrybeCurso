@@ -1,4 +1,4 @@
-# fundamentos bloco 4 dia 2
+# fundamentos bloco 4 dia 3
 
 Esse dia conta com os execícios diários mais os desafios bônus.
 
