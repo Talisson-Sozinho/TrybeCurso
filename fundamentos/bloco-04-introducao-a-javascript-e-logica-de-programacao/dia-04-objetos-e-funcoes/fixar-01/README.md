@@ -10,7 +10,7 @@
   let medals = { golden: 2, silver: 3 };
   ```
 
-  [ ] - Acesse as chaves name , lastName e age e concatene as suas informações para imprimir no 
+  [x] - Acesse as chaves name , lastName e age e concatene as suas informações para imprimir no 
   console uma mensagem no seguinte formato: "A jogadora Marta Silva tem 34 anos de idade".
 
   [ ] - Adicione ao objeto a chave bestInTheWorld e atribua a esta chave um array contendo as datas 
