@@ -30,7 +30,7 @@ Spoiler-alert : para os exercícios do dia, os métodos split , join e reverse p
   * Valor esperado no retorno da função: 6 .
   ```
 
-  [ ] - Crie uma função que receba um array de nomes e retorne o nome com a maior quantidade de 
+  [x] - Crie uma função que receba um array de nomes e retorne o nome com a maior quantidade de 
   caracteres.
   ```
   * Array de teste: ['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana']; .

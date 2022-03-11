@@ -73,3 +73,27 @@ function lowerNumber(array) {
   //retornando o índex do menor número
   return array.indexOf(menorNumber);
 }
+
+// Quarta função
+/*  Função para retornar a maior palavra dado um array
+*   Entrada: ([ Um array de strings])
+*   Saída: A maior string do array
+*/
+function biggestString(array) {
+  // caso seja um array vazio e não string, retorna 'Erro'
+  if (array.length === 0 || typeof array[0] !== 'string') {
+    return 'Erro';
+  }
+  // Inicializando variável que sera guardada o index da maior palava
+  let indexMaiorPalavra = 0;
+  //  Estrutura de repetição para percorrer todo o array, menos a primeira posição, pois já será 
+  // verificada na primeira passagem do loop, já que o indexMaiorPalavra foi inicializada com 0.
+  for (let index = 1; index < array.length; index += 1) {
+    // se a palavra atual for maior do que a que já tinha salvo o índex, é feita a troca
+    if (array[index].length > array[indexMaiorPalavra].length) {
+      indexMaiorPalavra = index;
+    }
+  }
+  // Retornado a maior palavra do array
+  return array[indexMaiorPalavra];
+}
