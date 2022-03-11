@@ -50,7 +50,7 @@ Spoiler-alert : para os exercícios do dia, os métodos split , join e reverse p
   * Valor esperado no retorno da função: 1+2+3+4+5 = 15 .
   ```
 
-  [ ] - Crie uma função que receba uma string word e outra string ending . Verifique se a string 
+  [x] - Crie uma função que receba uma string word e outra string ending . Verifique se a string 
   ending é o final da string word . Considere que a string ending sempre será menor que a string word .
   ```
   * Valor de teste: 'trybe' e 'be'

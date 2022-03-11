@@ -161,3 +161,33 @@ function sumNumbersUpTo(number) {
   // retornado a soma total
   return sum;
 }
+
+// Sétima função
+/*  Função para dado uma string verificar se a segunda é o final da primeira
+*   Entrada: ( word, word2 ), onde word é a palavra completa e word2 é a possível finalização da palavra
+*   Saída: true para caso a a word2 seja o final da palavra e false para caso a word2 não 
+*         seja o final da palavra
+*/
+function isEnding(word, ending) {
+  // Inicializando variável auxiliar que vai receber o valor da string no formato de array e reverso
+  // foi transformado em array para poder usar o método ".reverse()" de arrays, par que ficasse mais
+  // fácil a verificação do final das duas palavras
+  let wordReverse = word.split('').reverse();
+  let endingReverse = ending.split('').reverse();
+  // index inicializado fora do escopo do "for" para poder ser usado como verificação posteriormente.
+  let index;
+  //Estrutura de repetição para percorrer as duas palavras até o tamanho da palavra menor
+  for (index = 0; index < endingReverse.length; index += 1) {
+    // verificando se algum caractere é diferente, se for, irá parar o loop, pois já da pra se dizer
+    // que as palavras terminam diferente
+    if (endingReverse[index] !== wordReverse[index]) {
+      break;
+    }
+  }
+  // se o index chegou no tamanho da palavra é porque o loop foi completado, então retorna true 
+  if (index === endingReverse.length) {
+    return true;
+  }
+  // retorna false se o loop parou, pois encontrou uma letra diferente
+  return false;
+}
