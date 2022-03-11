@@ -32,14 +32,20 @@ function isPalidrome(word) {
 *   Saída: retorna o índex do maior número do array
 */
 function higherNumber(array) {
-  if ( array.length === 0 && typeof array[0] === "number") {
+  // caso seja um array vazio e não números, retorna 'Erro'
+  if (array.length === 0 || typeof array[0] !== 'number') {
     return 'Erro';
   }
+  // Inicializando uma variável com o menor número possível para guardar 
+  //o maior número do array posteriormente
   let maiorNumber = -Infinity;
+  // Estrutura de repetição para percorrer todo o array
   for (let index = 0; index < array.length; index += 1) {
+    // Comparando o valor atual com o ultimo maior número guardado
     if (array[index] > maiorNumber) {
       maiorNumber = array[index];
     }
   }
+  //retornando o índex do maior número
   return array.indexOf(maiorNumber);
 }

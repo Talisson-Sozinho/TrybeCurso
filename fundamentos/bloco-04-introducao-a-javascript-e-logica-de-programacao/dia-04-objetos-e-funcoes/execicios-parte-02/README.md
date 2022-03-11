@@ -18,7 +18,7 @@ Spoiler-alert : para os exercícios do dia, os métodos split , join e reverse p
   * Retorno esperado: false
   ```
     
-  [ ] - Crie uma função que receba um array de inteiros e retorne o índice do maior valor.
+  [x] - Crie uma função que receba um array de inteiros e retorne o índice do maior valor.
   ```
   * Array de teste: [2, 3, 6, 7, 10, 1]; 
   * Valor esperado no retorno da função: 4 .
