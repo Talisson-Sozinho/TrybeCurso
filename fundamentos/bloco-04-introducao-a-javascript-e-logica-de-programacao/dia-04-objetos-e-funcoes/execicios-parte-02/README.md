@@ -37,7 +37,7 @@ Spoiler-alert : para os exercícios do dia, os métodos split , join e reverse p
   * Valor esperado no retorno da função: Fernanda .
   ```
 
-  [ ] - Crie uma função que receba um array de inteiros e retorne o inteiro que mais se repete.
+  [x] - Crie uma função que receba um array de inteiros e retorne o inteiro que mais se repete.
   ```
   * Array de teste: [2, 3, 2, 5, 8, 2, 3]; .
   * Valor esperado no retorno da função: 2 .

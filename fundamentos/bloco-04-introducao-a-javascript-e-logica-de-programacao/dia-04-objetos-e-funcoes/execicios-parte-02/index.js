@@ -97,3 +97,42 @@ function biggestString(array) {
   // Retornado a maior palavra do array
   return array[indexMaiorPalavra];
 }
+
+// Quinta função
+/*  Função para retornar o número que mais se repete
+*   Entrada: ([ Um array de números])
+*   Saída: O número que mais se repete
+*/
+function findHighestRepetition ( array ) {
+  // caso seja um array vazio e não números, retorna 'Erro'
+  if (array.length === 0 || typeof array[0] !== 'number') {
+    return 'Erro';
+  }
+  // criando um objeto que será guardado o número que mais se repetiu e quantas vezes ele repetiu
+  let numberMostRepeats = {
+    number: null,
+    repeats: 0,
+  }
+  // Estrutura de repetição para percorrer todo o array de números
+  for (let index = 0; index < array.length; index += 1){
+    // Verificando se não estou em um número que já está salvo como o que mais se repete
+    if ( array[index] !== numberMostRepeats.number ) {
+      // inicializando um contador que ira ser incrementado a cada repetição do número dentro do loop
+      let countRepeat = 0;
+      // loop que vai percorrer todo o array e incrementado o contador a cada repetição do número atual
+      for ( let secondIndex = 0; secondIndex < array.length; secondIndex += 1){
+        // verificando se está se repetindo
+        if ( array[index] === array[secondIndex] ){
+          countRepeat += 1;
+        }
+      }
+      // Após o loop, caso o número atual tenha mais repetição do que o que estava salvo antes, será substituído
+      if ( countRepeat > numberMostRepeats.repeats ){
+        numberMostRepeats.number = array[index];
+        numberMostRepeats.repeats = countRepeat;
+      }
+    }
+  }
+  // Retornado o número de maior repetição
+  return numberMostRepeats.number;
+}
