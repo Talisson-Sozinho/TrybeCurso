@@ -49,3 +49,27 @@ function higherNumber(array) {
   //retornando o índex do maior número
   return array.indexOf(maiorNumber);
 }
+
+// Terceira função
+/*  Função para retornar o índex do menor número de um array
+*   Entrada: ([ Um array de números])
+*   Saída: retorna o índex do menor número do array
+*/
+function lowerNumber(array) {
+  // caso seja um array vazio e não números, retorna 'Erro'
+  if (array.length === 0 || typeof array[0] !== 'number') {
+    return 'Erro';
+  }
+  // Inicializando uma variável com o maior número possível para guardar 
+  //o menor número do array posteriormente
+  let menorNumber = Infinity;
+  // Estrutura de repetição para percorrer todo o array
+  for (let index = 0; index < array.length; index += 1) {
+    // Comparando o valor atual com o ultimo menor número guardado
+    if (array[index] < menorNumber) {
+      menorNumber = array[index];
+    }
+  }
+  //retornando o índex do menor número
+  return array.indexOf(menorNumber);
+}
