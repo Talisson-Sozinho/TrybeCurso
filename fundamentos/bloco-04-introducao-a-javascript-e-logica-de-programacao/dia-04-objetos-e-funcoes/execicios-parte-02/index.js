@@ -29,7 +29,8 @@ function isPalidrome(word) {
 // Segunda função
 /*  Função para retornar o índex do maior número de um array
 *   Entrada: ([ Um array de números])
-*   Saída: retorna o índex do maior número do array
+*   Saída: retorna o índex do maior número do array, ou 'Erro' caso a entrada não seja um array
+*         de números ou vazia
 */
 function higherNumber(array) {
   // caso seja um array vazio e não números, retorna 'Erro'
@@ -53,7 +54,8 @@ function higherNumber(array) {
 // Terceira função
 /*  Função para retornar o índex do menor número de um array
 *   Entrada: ([ Um array de números])
-*   Saída: retorna o índex do menor número do array
+*   Saída: retorna o índex do menor número do array, ou 'Erro' caso a entrada não seja um array
+*         de números ou vazia
 */
 function lowerNumber(array) {
   // caso seja um array vazio e não números, retorna 'Erro'
@@ -77,7 +79,8 @@ function lowerNumber(array) {
 // Quarta função
 /*  Função para retornar a maior palavra dado um array
 *   Entrada: ([ Um array de strings])
-*   Saída: A maior string do array
+*   Saída: A maior string do array, ou 'Erro' caso a entrada não seja um array
+*         de strings ou vazia
 */
 function biggestString(array) {
   // caso seja um array vazio e não string, retorna 'Erro'
@@ -101,7 +104,8 @@ function biggestString(array) {
 // Quinta função
 /*  Função para retornar o número que mais se repete
 *   Entrada: ([ Um array de números])
-*   Saída: O número que mais se repete
+*   Saída: O número que mais se repete, ou 'Erro' caso a entrada não seja um array
+*         de números ou vazia
 */
 function findHighestRepetition ( array ) {
   // caso seja um array vazio e não números, retorna 'Erro'
