@@ -107,7 +107,7 @@ function biggestString(array) {
 *   Saída: O número que mais se repete, ou 'Erro' caso a entrada não seja um array
 *         de números ou vazia
 */
-function findHighestRepetition ( array ) {
+function findHighestRepetition(array) {
   // caso seja um array vazio e não números, retorna 'Erro'
   if (array.length === 0 || typeof array[0] !== 'number') {
     return 'Erro';
@@ -118,20 +118,20 @@ function findHighestRepetition ( array ) {
     repeats: 0,
   }
   // Estrutura de repetição para percorrer todo o array de números
-  for (let index = 0; index < array.length; index += 1){
+  for (let index = 0; index < array.length; index += 1) {
     // Verificando se não estou em um número que já está salvo como o que mais se repete
-    if ( array[index] !== numberMostRepeats.number ) {
+    if (array[index] !== numberMostRepeats.number) {
       // inicializando um contador que ira ser incrementado a cada repetição do número dentro do loop
       let countRepeat = 0;
       // loop que vai percorrer todo o array e incrementado o contador a cada repetição do número atual
-      for ( let secondIndex = 0; secondIndex < array.length; secondIndex += 1){
+      for (let secondIndex = 0; secondIndex < array.length; secondIndex += 1) {
         // verificando se está se repetindo
-        if ( array[index] === array[secondIndex] ){
+        if (array[index] === array[secondIndex]) {
           countRepeat += 1;
         }
       }
       // Após o loop, caso o número atual tenha mais repetição do que o que estava salvo antes, será substituído
-      if ( countRepeat > numberMostRepeats.repeats ){
+      if (countRepeat > numberMostRepeats.repeats) {
         numberMostRepeats.number = array[index];
         numberMostRepeats.repeats = countRepeat;
       }
@@ -139,4 +139,25 @@ function findHighestRepetition ( array ) {
   }
   // Retornado o número de maior repetição
   return numberMostRepeats.number;
+}
+
+// Sexta função
+/*  Função para somar todo os números inteiros de 1 até um dado número
+*   Entrada: (n),onde n é até qual número é pra fazer a soma 
+*   Saída: a soma de 1 até n, ou NULL caso a entrada for inválida
+*/
+function sumNumbersUpTo(number) {
+  // Retornando NULL para caso a entrada não for um número ou um numero não natural
+  if (typeof number !== 'number' || number < 1) {
+    return null;
+  }
+  // inicializando com 0, a variável que será guardada a soma
+  sum = 0;
+  // estrutura de repetição para contar de 1 até o número que foi pedido
+  for (let index = 1; index <= number; index += 1) {
+    // somando o número a cada passagem do loop
+    sum += index;
+  }
+  // retornado a soma total
+  return sum;
 }

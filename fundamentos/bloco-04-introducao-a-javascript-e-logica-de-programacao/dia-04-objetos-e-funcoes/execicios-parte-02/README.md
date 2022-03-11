@@ -43,7 +43,7 @@ Spoiler-alert : para os exercícios do dia, os métodos split , join e reverse p
   * Valor esperado no retorno da função: 2 .
   ```
 
-  [ ] - Crie uma função que receba um número natural (número inteiro não negativo) N e retorne o 
+  [x] - Crie uma função que receba um número natural (número inteiro não negativo) N e retorne o 
   somatório de todos os números de 1 até N.
   ```
   * Valor de teste: N = 5 .
