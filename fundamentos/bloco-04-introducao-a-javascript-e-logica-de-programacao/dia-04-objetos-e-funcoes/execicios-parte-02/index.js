@@ -1,12 +1,13 @@
 // Primeira função
-/*  Entrada: ( 'Qualquer string' );
+/*  Função para saber se uma palavra é um palíndromo
+*   Entrada: ( 'Qualquer string' );
 *   Saída: true para caso a string seja um palíndromo ou false caso não seja
 *         um palíndromo, ou 'Erro' caso a entrada não seja uma string
 */
 function isPalidrome(word) {
   // Caso a entrada não seja uma string, retorna 'Erro'.
   if (typeof word !== 'string') {
-    return 'Erro'
+    return 'Erro';
   }
   //inicializando a variável index fora do escopo do loop, pois será usada na verificação fora.
   let index;
@@ -24,4 +25,21 @@ function isPalidrome(word) {
   // Caso não seja palíndromo retorna "false"
   return false;
 }
- 
+
+// Segunda função
+/*  Função para retornar o índex do maior número de um array
+*   Entrada: ([ Um array de números])
+*   Saída: retorna o índex do maior número do array
+*/
+function higherNumber(array) {
+  if ( array.length === 0 && typeof array[0] === "number") {
+    return 'Erro';
+  }
+  let maiorNumber = -Infinity;
+  for (let index = 0; index < array.length; index += 1) {
+    if (array[index] > maiorNumber) {
+      maiorNumber = array[index];
+    }
+  }
+  return array.indexOf(maiorNumber);
+}
