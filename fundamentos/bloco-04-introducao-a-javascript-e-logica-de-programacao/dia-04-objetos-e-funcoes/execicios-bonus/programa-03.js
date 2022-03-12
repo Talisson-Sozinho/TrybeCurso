@@ -29,11 +29,22 @@ let moradores = {
   ],
 };
 
-function imprimirFrase (moradores){
+// função para o requisito 01
+function imprimirFrase(moradores) {
   let nome = moradores.blocoDois[moradores.blocoDois.length - 1].nome;
   let sobrenome = moradores.blocoDois[moradores.blocoDois.length - 1].sobrenome;
   let andar = moradores.blocoDois[moradores.blocoDois.length - 1].andar;
   let apartamento = moradores.blocoDois[moradores.blocoDois.length - 1].apartamento;
   console.log(`O morador do bloco dois de nome ${nome} ${sobrenome} mora no ${andar}° andar, apartamento ${apartamento}`);
 }
-imprimirFrase(moradores);
+
+// função para o requisito 02
+function imprimeInfoObjeto(moradores) {
+  for ( let bloco in moradores ) {
+    for ( let morador of moradores[bloco] ){
+      console.log(`${morador.nome} ${morador.sobrenome}`);
+    }
+  }
+}
+
+imprimeInfoObjeto(moradores);

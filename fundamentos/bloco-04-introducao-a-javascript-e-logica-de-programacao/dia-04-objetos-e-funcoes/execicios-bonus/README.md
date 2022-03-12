@@ -200,5 +200,5 @@ let moradores = {
   um console.log no seguinte formato: "O morador do bloco 2 de nome Zoey Brooks mora no 1° andar, 
   apartamento 101".
 
-  [ ] - Utilize o for para imprimir o nome completo de todos os moradores do bloco 1, acessando suas 
+  [x] - Utilize o for para imprimir o nome completo de todos os moradores do bloco 1, acessando suas 
   chaves nome e sobrenome , depois faça o mesmo para os moradores do bloco 2.
