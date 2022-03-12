@@ -34,7 +34,7 @@ que a string representa. `Atenção! Esse exercício já apareceu no processo se
 
 #### Programa 02:
 
-[ ] - Crie uma função chamada arrayOfNumbers que receberá a variável vector como parâmetro. Através
+[x] - Crie uma função chamada arrayOfNumbers que receberá a variável vector como parâmetro. Através
 de um loop for , percorra essa variável, busque os números pares e os adicione a um novo array que
 deverá ser retornado ao final pela pela função.
 
