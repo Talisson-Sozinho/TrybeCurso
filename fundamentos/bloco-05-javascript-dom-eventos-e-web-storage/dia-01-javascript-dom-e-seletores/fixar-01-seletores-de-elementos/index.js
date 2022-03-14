@@ -9,3 +9,8 @@ secondParagraph.innerHTML = 'Estou alterando o segundo parágrafo pelo javascrip
 
 const subTitle = document.getElementById('subtitle');
 subTitle.innerHTML = 'TUDO PELO JAVASCRIPT';
+
+const paragraphs = document.getElementsByClassName('paragraphText');
+paragraphs[0].style.backgroundColor = 'blue';
+
+document.getElementsByTagName('h4')[0].style.color = 'green';
