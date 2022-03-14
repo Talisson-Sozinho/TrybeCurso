@@ -6,3 +6,6 @@ titulo.innerHTML = 'Harry potter';
 
 const secondParagraph = document.getElementById('second-paragraph');
 secondParagraph.innerHTML = 'Estou alterando o segundo parágrafo pelo javascript'
+
+const subTitle = document.getElementById('subtitle');
+subTitle.innerHTML = 'TUDO PELO JAVASCRIPT';

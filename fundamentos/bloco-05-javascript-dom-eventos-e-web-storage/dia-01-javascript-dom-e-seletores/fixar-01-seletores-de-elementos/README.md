@@ -7,4 +7,4 @@
 
   [x] - Agora recupere o segundo parágrafo e use sua criatividade para alterá-lo.
 
-  [ ] - Por fim, recupere o subtítulo e altere-o também.
+  [x] - Por fim, recupere o subtítulo e altere-o também.
