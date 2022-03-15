@@ -82,4 +82,4 @@
 
   5 - [x] Crie uma função que modifique todo o texto da tag `<p>` para maiúsculo.
 
-  6 - [ ] Crie uma função que exiba o conteúdo de todas as tags `<p>` no console.
+  6 - [x] Crie uma função que exiba o conteúdo de todas as tags `<p>` no console.

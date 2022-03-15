@@ -40,3 +40,11 @@ function transformToUpperCase (tag) {
 }
 
 transformToUpperCase('p');
+
+function exibirTextos () {
+  const textos = document.getElementsByTagName('p');
+  for (let texto of textos){
+    console.log(texto.innerText);
+  }
+}
+exibirTextos();
