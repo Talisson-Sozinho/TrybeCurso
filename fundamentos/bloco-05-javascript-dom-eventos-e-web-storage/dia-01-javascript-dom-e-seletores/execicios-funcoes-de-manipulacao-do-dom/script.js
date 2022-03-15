@@ -17,3 +17,10 @@ function modificaBackground (color) {
 }
 
 modificaBackground('rgb(76,164,109)');
+
+function modificaBackgroundCenterContent (color) {
+  const centerContent = document.getElementsByClassName('center-content');
+  centerContent[0].style.backgroundColor = color;
+}
+
+modificaBackgroundCenterContent('white');

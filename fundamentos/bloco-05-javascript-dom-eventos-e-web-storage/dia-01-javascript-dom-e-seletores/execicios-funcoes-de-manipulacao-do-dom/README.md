@@ -76,7 +76,7 @@
   
   2 - [x] Crie uma função que mude a cor do quadrado amarelo para o verde da Trybe `rgb(76,164,109)`.
 
-  3 - [ ] Crie uma função que mude a cor do quadrado vermelho para branco.
+  3 - [x] Crie uma função que mude a cor do quadrado vermelho para branco.
 
   4 - [ ] Crie uma função que corrija o texto da tag `<h1>`.
 
