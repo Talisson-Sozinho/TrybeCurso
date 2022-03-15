@@ -1,0 +1,1 @@
+const achei = document.getElementById('elementoOndeVoceEsta');

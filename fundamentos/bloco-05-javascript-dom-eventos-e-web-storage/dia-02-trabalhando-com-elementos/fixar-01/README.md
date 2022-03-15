@@ -1,6 +1,6 @@
 # fixar 01 - Buscando elementos
 
-  1 - [ ] Acesse o elemento elementoOndeVoceEsta .
+  1 - [x] Acesse o elemento elementoOndeVoceEsta .
 
   2 - [ ] Acesse pai a partir de elementoOndeVoceEsta e adicione uma color a ele.
 
