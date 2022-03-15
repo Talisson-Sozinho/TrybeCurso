@@ -78,7 +78,7 @@
 
   3 - [x] Crie uma função que mude a cor do quadrado vermelho para branco.
 
-  4 - [ ] Crie uma função que corrija o texto da tag `<h1>`.
+  4 - [x] Crie uma função que corrija o texto da tag `<h1>`.
 
   5 - [ ] Crie uma função que modifique todo o texto da tag `<p>` para maiúsculo.
 

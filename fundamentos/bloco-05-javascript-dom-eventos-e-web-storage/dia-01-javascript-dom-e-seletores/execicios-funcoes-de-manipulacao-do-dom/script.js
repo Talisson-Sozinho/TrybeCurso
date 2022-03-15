@@ -24,3 +24,10 @@ function modificaBackgroundCenterContent (color) {
 }
 
 modificaBackgroundCenterContent('white');
+
+function modificaTituloPrincipal (novoTitulo) {
+  const titulo = document.getElementsByClassName('title');
+  titulo[0].innerHTML = novoTitulo;
+}
+
+modificaTituloPrincipal('To amando isso nmrl');
