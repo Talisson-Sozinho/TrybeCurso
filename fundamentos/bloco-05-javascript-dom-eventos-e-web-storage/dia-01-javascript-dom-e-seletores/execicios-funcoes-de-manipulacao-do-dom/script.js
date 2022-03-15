@@ -31,3 +31,12 @@ function modificaTituloPrincipal (novoTitulo) {
 }
 
 modificaTituloPrincipal('To amando isso nmrl');
+
+function transformToUpperCase (tag) {
+  const texto = document.getElementsByTagName(tag);
+  for (let index = 0; index < texto.length; index += 1){
+    texto[index].style.textTransform = 'uppercase';
+  }
+}
+
+transformToUpperCase('p');
