@@ -7,7 +7,7 @@
   3 - [x] Acesse o primeiroFilhoDoFilho e adicione um texto a ele. Você se lembra dos vídeos da 
   aula anterior, como fazer isso?
 
-  4 - [ ] Acesse o primeiroFilho a partir de pai .
+  4 - [x] Acesse o primeiroFilho a partir de pai .
 
   5 - [ ] Agora acesse o primeiroFilho a partir de elementoOndeVoceEsta .
 
