@@ -1,3 +1,5 @@
+//// Requisitos da primeira parte comentados
+/*
 const achei = document.getElementById('elementoOndeVoceEsta');
 
 paiElement = achei.parentElement;
@@ -16,3 +18,6 @@ const terceiroFilho = achei.nextElementSibling;
 
 const elementoPai = document.getElementById('pai').children;
 console.log(elementoPai[2]);
+*/
+
+

@@ -1,4 +1,6 @@
-# fixar 01 - Buscando elementos
+# fixar bloco 5.2
+
+####  Parte 01 - Buscando Elementos
 
   1 - [x] Acesse o elemento elementoOndeVoceEsta .
 
@@ -16,3 +18,13 @@
   7 - [x] Agora acesse o terceiroFilho a partir de elementoOndeVoceEsta .
 
   8 - [x] Agora acesse o terceiroFilho a partir de pai .
+
+#### Parte 02 - Criando elementos
+
+  1 - [ ] Crie um irmão para elementoOndeVoceEsta .
+  
+  2 - [ ] Crie um filho para elementoOndeVoceEsta .
+
+  3 - [ ] Crie um filho para primeiroFilhoDoFilho .
+
+  4 - [ ] A partir desse filho criado, acesse terceiroFilho .
