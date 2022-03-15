@@ -11,3 +11,5 @@ const primeiroFilhoApartirDoPai = document.getElementById('pai').firstElementChi
 const primeiroFilhoApartirDoElementoOndeVoceEsta = document.getElementById('elementoOndeVoceEsta').previousElementSibling;
 
 const atention = document.getElementById('elementoOndeVoceEsta').nextSibling.textContent;
+
+const terceiroFilho = achei.nextElementSibling;
