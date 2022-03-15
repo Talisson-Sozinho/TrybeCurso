@@ -27,4 +27,4 @@
 
   3 - [x] Crie um filho para primeiroFilhoDoFilho .
 
-  4 - [ ] A partir desse filho criado, acesse terceiroFilho .
+  4 - [x] A partir desse filho criado, acesse terceiroFilho .

@@ -32,3 +32,6 @@ document.getElementById('elementoOndeVoceEsta').appendChild(filhoDoOndeVoceEsta)
 const primeiroFilhoDoFilhoDoFilho = document.createElement('section');
 primeiroFilhoDoFilhoDoFilho.id = 'filhoDoFilhoDoFilho';
 document.getElementById('primeiroFilhoDoFilho').appendChild(primeiroFilhoDoFilhoDoFilho);
+
+const terceiroFilho = primeiroFilhoDoFilhoDoFilho.parentElement.parentElement.parentElement.children;
+console.log(terceiroFilho[2]);
