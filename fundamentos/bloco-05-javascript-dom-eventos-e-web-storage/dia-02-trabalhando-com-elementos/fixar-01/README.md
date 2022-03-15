@@ -4,7 +4,7 @@
 
   2 - [x] Acesse pai a partir de elementoOndeVoceEsta e adicione uma color a ele.
 
-  3 - [ ] Acesse o primeiroFilhoDoFilho e adicione um texto a ele. Você se lembra dos vídeos da 
+  3 - [x] Acesse o primeiroFilhoDoFilho e adicione um texto a ele. Você se lembra dos vídeos da 
   aula anterior, como fazer isso?
 
   4 - [ ] Acesse o primeiroFilho a partir de pai .
