@@ -11,39 +11,39 @@ function modificarDoTexto(novoTexto) {
 
 modificarDoTexto('vejo-me trabalhando em uma empresa que combine comigo e meus ideais para o mundo');
 
-function modificaBackground (color) {
+function modificaBackground(color) {
   const mainContent = document.getElementsByClassName('main-content');
   mainContent[0].style.backgroundColor = color;
 }
 
 modificaBackground('rgb(76,164,109)');
 
-function modificaBackgroundCenterContent (color) {
+function modificaBackgroundCenterContent(color) {
   const centerContent = document.getElementsByClassName('center-content');
   centerContent[0].style.backgroundColor = color;
 }
 
 modificaBackgroundCenterContent('white');
 
-function modificaTituloPrincipal (novoTitulo) {
+function modificaTituloPrincipal(novoTitulo) {
   const titulo = document.getElementsByClassName('title');
   titulo[0].innerHTML = novoTitulo;
 }
 
 modificaTituloPrincipal('To amando isso nmrl');
 
-function transformToUpperCase (tag) {
+function transformToUpperCase(tag) {
   const texto = document.getElementsByTagName(tag);
-  for (let index = 0; index < texto.length; index += 1){
+  for (let index = 0; index < texto.length; index += 1) {
     texto[index].style.textTransform = 'uppercase';
   }
 }
 
 transformToUpperCase('p');
 
-function exibirTextos () {
+function exibirTextos() {
   const textos = document.getElementsByTagName('p');
-  for (let texto of textos){
+  for (let texto of textos) {
     console.log(texto.innerText);
   }
 }

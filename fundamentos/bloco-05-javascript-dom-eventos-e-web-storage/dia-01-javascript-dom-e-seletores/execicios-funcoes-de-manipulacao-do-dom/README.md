@@ -15,9 +15,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <title>Exercício 5.1</title>
-    
+
     <style>
-      main, section {
+      main,
+      section {
         border-color: black;
         border-style: solid;
       }
@@ -42,9 +43,9 @@
     </style>
   </head>
   <body>
-    <header> 
-      <h1 class="title">Exercício 5.1 - JavaEscripito </h1>
-    </header>    
+    <header>
+      <h1 class="title">Exercício 5.1 - JavaEscripito</h1>
+    </header>
     <main class="main-content">
       <section class="center-content">
         <p>Texto padrão do nosso site</p>
@@ -53,7 +54,7 @@
       </section>
     </main>
     <script>
-        /*
+      /*
         Aqui você vai modificar os elementos já existentes utilizando apenas as funções:
         - document.getElementById()
         - document.getElementsByClassName()
@@ -69,17 +70,18 @@
   </body>
 </html>
 ```
+
 #### passando os requisitos para o README
 
-  1 - [x] Crie uma função que mude o texto na tag `<p>` para uma descrição de como você se vê daqui a 2
-  anos. (Não gaste tempo pensando no texto e sim realizando o exercício)
-  
-  2 - [x] Crie uma função que mude a cor do quadrado amarelo para o verde da Trybe `rgb(76,164,109)`.
+1 - [x] Crie uma função que mude o texto na tag `<p>` para uma descrição de como você se vê daqui a 2
+anos. (Não gaste tempo pensando no texto e sim realizando o exercício)
 
-  3 - [x] Crie uma função que mude a cor do quadrado vermelho para branco.
+2 - [x] Crie uma função que mude a cor do quadrado amarelo para o verde da Trybe `rgb(76,164,109)`.
 
-  4 - [x] Crie uma função que corrija o texto da tag `<h1>`.
+3 - [x] Crie uma função que mude a cor do quadrado vermelho para branco.
 
-  5 - [x] Crie uma função que modifique todo o texto da tag `<p>` para maiúsculo.
+4 - [x] Crie uma função que corrija o texto da tag `<h1>`.
 
-  6 - [x] Crie uma função que exiba o conteúdo de todas as tags `<p>` no console.
+5 - [x] Crie uma função que modifique todo o texto da tag `<p>` para maiúsculo.
+
+6 - [x] Crie uma função que exiba o conteúdo de todas as tags `<p>` no console.
