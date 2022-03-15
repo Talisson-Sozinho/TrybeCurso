@@ -15,4 +15,4 @@
 
   7 - [x] Agora acesse o terceiroFilho a partir de elementoOndeVoceEsta .
 
-  8 - [ ] Agora acesse o terceiroFilho a partir de pai .
+  8 - [x] Agora acesse o terceiroFilho a partir de pai .

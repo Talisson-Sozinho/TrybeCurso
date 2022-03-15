@@ -13,3 +13,6 @@ const primeiroFilhoApartirDoElementoOndeVoceEsta = document.getElementById('elem
 const atention = document.getElementById('elementoOndeVoceEsta').nextSibling.textContent;
 
 const terceiroFilho = achei.nextElementSibling;
+
+const elementoPai = document.getElementById('pai').children;
+console.log(elementoPai[2]);
