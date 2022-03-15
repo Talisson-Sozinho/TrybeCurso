@@ -9,7 +9,7 @@
 
   4 - [x] Acesse o primeiroFilho a partir de pai .
 
-  5 - [ ] Agora acesse o primeiroFilho a partir de elementoOndeVoceEsta .
+  5 - [x] Agora acesse o primeiroFilho a partir de elementoOndeVoceEsta .
 
   6 - [ ] Agora acesse o texto Atenção! a partir de elementoOndeVoceEsta .
 
