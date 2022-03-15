@@ -23,7 +23,7 @@
 
   1 - [x] Crie um irmão para elementoOndeVoceEsta .
   
-  2 - [ ] Crie um filho para elementoOndeVoceEsta .
+  2 - [x] Crie um filho para elementoOndeVoceEsta .
 
   3 - [ ] Crie um filho para primeiroFilhoDoFilho .
 

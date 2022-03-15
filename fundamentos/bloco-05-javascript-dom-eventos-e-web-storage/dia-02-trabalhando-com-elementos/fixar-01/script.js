@@ -24,3 +24,9 @@ const ondeVoceEsta = document.getElementById('elementoOndeVoceEsta');
 const irmaoOndeVoceEsta = document.createElement('section');
 irmaoOndeVoceEsta.id = 'irmaoelementoOndeVoceEsta';
 document.getElementById('pai').appendChild(irmaoOndeVoceEsta);
+
+const filhoDoOndeVoceEsta = document.createElement('div');
+filhoDoOndeVoceEsta.id = 'adotado';
+document.getElementById('elementoOndeVoceEsta').appendChild(filhoDoOndeVoceEsta);
+
+
