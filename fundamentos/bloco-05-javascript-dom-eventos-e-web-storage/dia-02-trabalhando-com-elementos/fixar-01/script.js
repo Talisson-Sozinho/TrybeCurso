@@ -29,4 +29,6 @@ const filhoDoOndeVoceEsta = document.createElement('div');
 filhoDoOndeVoceEsta.id = 'adotado';
 document.getElementById('elementoOndeVoceEsta').appendChild(filhoDoOndeVoceEsta);
 
-
+const primeiroFilhoDoFilhoDoFilho = document.createElement('section');
+primeiroFilhoDoFilhoDoFilho.id = 'filhoDoFilhoDoFilho';
+document.getElementById('primeiroFilhoDoFilho').appendChild(primeiroFilhoDoFilhoDoFilho);

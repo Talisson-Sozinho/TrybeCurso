@@ -25,6 +25,6 @@
   
   2 - [x] Crie um filho para elementoOndeVoceEsta .
 
-  3 - [ ] Crie um filho para primeiroFilhoDoFilho .
+  3 - [x] Crie um filho para primeiroFilhoDoFilho .
 
   4 - [ ] A partir desse filho criado, acesse terceiroFilho .
