@@ -21,7 +21,7 @@
 
 #### Parte 02 - Criando elementos
 
-  1 - [ ] Crie um irmão para elementoOndeVoceEsta .
+  1 - [x] Crie um irmão para elementoOndeVoceEsta .
   
   2 - [ ] Crie um filho para elementoOndeVoceEsta .
 

@@ -20,4 +20,7 @@ const elementoPai = document.getElementById('pai').children;
 console.log(elementoPai[2]);
 */
 
-
+const ondeVoceEsta = document.getElementById('elementoOndeVoceEsta');
+const irmaoOndeVoceEsta = document.createElement('section');
+irmaoOndeVoceEsta.id = 'irmaoelementoOndeVoceEsta';
+document.getElementById('pai').appendChild(irmaoOndeVoceEsta);
