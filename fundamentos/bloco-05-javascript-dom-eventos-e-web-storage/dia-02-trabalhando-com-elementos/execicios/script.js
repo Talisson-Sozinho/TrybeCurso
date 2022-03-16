@@ -78,3 +78,6 @@ tagMain.removeChild(leftContent);
 
 // Comando 4
 rightContent.style.margin = 'auto';
+
+// comando 5
+centerContent.parentElement.style.backgroundColor = 'green';
