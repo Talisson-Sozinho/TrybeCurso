@@ -75,3 +75,6 @@ for ( let index = 0; index < colecaoTagH3.length; index += 1){
 
 // Comando 3
 tagMain.removeChild(leftContent);
+
+// Comando 4
+rightContent.style.margin = 'auto';
