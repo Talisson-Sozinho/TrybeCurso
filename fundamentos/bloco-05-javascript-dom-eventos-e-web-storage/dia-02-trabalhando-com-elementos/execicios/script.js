@@ -18,3 +18,8 @@ tagMain.appendChild(centerContent);
 const textCenterContent = document.createElement('p');
 textCenterContent.innerText = 'Tenho que ir dormir logo';
 centerContent.appendChild(textCenterContent);
+
+// Comando 05
+const leftContent = document.createElement('section');
+leftContent.className = 'left-content';
+tagMain.appendChild(leftContent);

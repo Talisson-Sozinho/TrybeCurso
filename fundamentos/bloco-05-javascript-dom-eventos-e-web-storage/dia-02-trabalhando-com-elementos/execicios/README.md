@@ -9,7 +9,7 @@
 
   4 - [x] Adicione a tag p como filho do section criado no passo 3 e coloque algum texto;
 
-  5 - [ ] Adicione a tag section com a classe left-content como filho da tag main criada no passo 2;
+  5 - [x] Adicione a tag section com a classe left-content como filho da tag main criada no passo 2;
 
   6 - [ ] Adicione a tag section com a classe right-content como filho da tag main criada no passo 2;
 
