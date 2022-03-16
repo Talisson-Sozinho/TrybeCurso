@@ -8,3 +8,8 @@ tagBody.appendChild(tagH1);
 const tagMain = document.createElement('main');
 tagMain.className = 'main-content';
 tagBody.appendChild(tagMain);
+
+// Comando 03
+const centerContent = document.createElement('section');
+centerContent.className = 'center-content';
+tagMain.appendChild(centerContent);
