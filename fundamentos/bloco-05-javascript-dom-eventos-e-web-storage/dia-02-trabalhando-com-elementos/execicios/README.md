@@ -23,7 +23,7 @@
 
   #### Comando parte 2
 
-  1 - [ ] Adicione a classe title na tag h1 criada;
+  1 - [x] Adicione a classe title na tag h1 criada;
 
   2 - [ ] Adicione a classe description nas 3 tags h3 criadas;
 

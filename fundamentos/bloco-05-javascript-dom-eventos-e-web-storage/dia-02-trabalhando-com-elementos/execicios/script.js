@@ -62,3 +62,7 @@ for ( let index = 0; index < 3; index +=1){
   let tagh3 = document.createElement("h3");
   tagMain.appendChild(tagh3);
 }
+
+/* Começando a parte 2 */
+// comando 1
+tagH1.className = "title";
