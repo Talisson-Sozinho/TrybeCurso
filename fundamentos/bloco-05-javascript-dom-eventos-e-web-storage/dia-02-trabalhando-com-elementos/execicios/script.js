@@ -66,3 +66,9 @@ for ( let index = 0; index < 3; index +=1){
 /* Começando a parte 2 */
 // comando 1
 tagH1.className = "title";
+
+// comando 2
+const colecaoTagH3 = document.getElementsByTagName('h3');
+for ( let index = 0; index < colecaoTagH3.length; index += 1){
+  colecaoTagH3[index].className = "description";
+}
