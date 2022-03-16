@@ -13,3 +13,8 @@ tagBody.appendChild(tagMain);
 const centerContent = document.createElement('section');
 centerContent.className = 'center-content';
 tagMain.appendChild(centerContent);
+
+// Comando 04
+const textCenterContent = document.createElement('p');
+textCenterContent.innerText = 'Tenho que ir dormir logo';
+centerContent.appendChild(textCenterContent);
