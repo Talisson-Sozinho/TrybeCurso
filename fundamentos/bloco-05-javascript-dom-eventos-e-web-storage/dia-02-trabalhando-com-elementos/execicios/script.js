@@ -72,3 +72,6 @@ const colecaoTagH3 = document.getElementsByTagName('h3');
 for ( let index = 0; index < colecaoTagH3.length; index += 1){
   colecaoTagH3[index].className = "description";
 }
+
+// Comando 3
+tagMain.removeChild(leftContent);

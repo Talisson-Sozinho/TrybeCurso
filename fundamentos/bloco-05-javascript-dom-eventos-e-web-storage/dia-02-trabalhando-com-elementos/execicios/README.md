@@ -27,7 +27,7 @@
 
   2 - [x] Adicione a classe description nas 3 tags h3 criadas;
 
-  3 - [ ] Remova a section criado no passo 5 (aquele que possui a classe left-content ). Utilize a 
+  3 - [x] Remova a section criado no passo 5 (aquele que possui a classe left-content ). Utilize a 
   função .removeChild() ;
 
   4 - [ ] Centralize a section criado no passo 6 (aquele que possui a classe right-content ). Dica: 
