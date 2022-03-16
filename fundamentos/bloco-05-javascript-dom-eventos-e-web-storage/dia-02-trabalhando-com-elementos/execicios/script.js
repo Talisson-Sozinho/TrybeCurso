@@ -28,3 +28,9 @@ tagMain.appendChild(leftContent);
 const rightContent = document.createElement('section');
 rightContent.className = 'right-content';
 tagMain.appendChild(rightContent);
+
+// Comando 07
+const leftSmallImage = document.createElement('img');
+leftSmallImage.setAttribute('src', 'https://picsum.photos/200');
+leftSmallImage.className = 'small-image';
+leftContent.appendChild(leftSmallImage);
