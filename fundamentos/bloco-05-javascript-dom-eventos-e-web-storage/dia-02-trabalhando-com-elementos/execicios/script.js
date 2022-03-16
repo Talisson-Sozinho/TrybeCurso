@@ -56,3 +56,9 @@ for ( let numero of listaDeNumeroPorExtenso){
   listItem.innerText = numero;
   listNaoOrdenada.appendChild(listItem);
 }
+
+// Comando 09
+for ( let index = 0; index < 3; index +=1){
+  let tagh3 = document.createElement("h3");
+  tagMain.appendChild(tagh3);
+}

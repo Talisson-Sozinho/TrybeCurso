@@ -19,7 +19,7 @@
   8 - [x] Adicione uma lista não ordenada com os valores de 1 a 10 por extenso, ou seja, um, dois
   três , ... como valores da lista. Essa lista deve ser filha do section criado no passo 6;
 
-  9 - [ ] Adicione 3 tags h3 , todas sendo filhas do main criado no passo 2.
+  9 - [x] Adicione 3 tags h3 , todas sendo filhas do main criado no passo 2.
 
   #### Comando parte 2
 
