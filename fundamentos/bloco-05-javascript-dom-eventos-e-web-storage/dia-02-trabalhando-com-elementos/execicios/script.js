@@ -51,14 +51,14 @@ const listaDeNumeroPorExtenso = [
 
 const listNaoOrdenada = document.createElement("ul");
 rightContent.appendChild(listNaoOrdenada);
-for ( let numero of listaDeNumeroPorExtenso){
+for (let numero of listaDeNumeroPorExtenso) {
   const listItem = document.createElement("li");
   listItem.innerText = numero;
   listNaoOrdenada.appendChild(listItem);
 }
 
 // Comando 09
-for ( let index = 0; index < 3; index +=1){
+for (let index = 0; index < 3; index += 1) {
   let tagh3 = document.createElement("h3");
   tagMain.appendChild(tagh3);
 }
@@ -68,8 +68,8 @@ for ( let index = 0; index < 3; index +=1){
 tagH1.className = "title";
 
 // comando 2
-const colecaoTagH3 = document.getElementsByTagName('h3');
-for ( let index = 0; index < colecaoTagH3.length; index += 1){
+const colecaoTagH3 = document.getElementsByTagName("h3");
+for (let index = 0; index < colecaoTagH3.length; index += 1) {
   colecaoTagH3[index].className = "description";
 }
 
@@ -77,7 +77,12 @@ for ( let index = 0; index < colecaoTagH3.length; index += 1){
 tagMain.removeChild(leftContent);
 
 // Comando 4
-rightContent.style.margin = 'auto';
+rightContent.style.margin = "auto";
 
 // comando 5
-centerContent.parentElement.style.backgroundColor = 'green';
+centerContent.parentElement.style.backgroundColor = "green";
+
+// Comando 6
+for (let index = 0; index < 2; index += 1) {
+  listNaoOrdenada.lastChild.remove();
+}

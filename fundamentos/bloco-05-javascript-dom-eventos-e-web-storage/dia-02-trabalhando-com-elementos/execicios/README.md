@@ -36,4 +36,4 @@
   5 - [x] Troque a cor de fundo do elemento pai da section criada no passo 3 (aquela que possui a 
   classe center-content ) para a cor verde;
 
-  6 - [ ] Remova os dois últimos elementos ( nove e dez ) da lista criada no passo 8.
+  6 - [x] Remova os dois últimos elementos ( nove e dez ) da lista criada no passo 8.
