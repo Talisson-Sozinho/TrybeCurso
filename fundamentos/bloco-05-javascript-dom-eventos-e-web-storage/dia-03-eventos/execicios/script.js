@@ -187,3 +187,27 @@ function adicionaCorNoDia() {
   }
 }
 adicionaCorNoDia();
+
+// Comando Bônus
+function adicionaTaskNaTaskList(){
+  document.getElementById('task-input').addEventListener('keyup',(event) => {
+    if (event.key === 'Enter'){
+      adicionaTextoTaskListNaLista(); 
+    }
+  });
+  document.getElementById('btn-add').addEventListener('click',adicionaTextoTaskListNaLista);
+}
+adicionaTaskNaTaskList();
+
+function adicionaTextoTaskListNaLista(){
+  const inputTexto = document.getElementById('task-input');
+  if ( inputTexto.value === ''){
+    alert('ADICIONAR');
+  } else{
+    const taskHtmlList = document.querySelector('.task-list');
+    const novoItemDaLista = document.createElement('li');
+    novoItemDaLista.innerText = inputTexto.value;
+    taskHtmlList.appendChild(novoItemDaLista);
+    inputTexto.value = '';
+  }
+}
