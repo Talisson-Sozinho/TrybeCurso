@@ -127,3 +127,12 @@ function adicionandoTarefa(string){
   const paiElement = document.querySelector('.my-tasks');
   paiElement.appendChild(textoEmSpan);
 }
+
+// Comando 08
+function adicionaLegendCor(cor){
+  const legendCor = document.createElement('div');
+  legendCor.className = 'task';
+  legendCor.style.backgroundColor = cor;
+  const paiElement = document.querySelector('.my-tasks');
+  paiElement.appendChild(legendCor);
+}

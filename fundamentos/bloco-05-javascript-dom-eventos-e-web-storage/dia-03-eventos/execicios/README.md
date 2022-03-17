@@ -14,7 +14,7 @@
 
   - [x] Comando 07:
 
-  - [ ] Comando 08:
+  - [x] Comando 08:
 
   - [ ] Comando 09:
 
