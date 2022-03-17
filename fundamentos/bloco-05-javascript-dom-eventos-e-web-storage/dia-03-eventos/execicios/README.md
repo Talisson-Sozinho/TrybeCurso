@@ -2,7 +2,7 @@
 
   - [x] Comando 01:
 
-  - [ ] Comando 02:
+  - [x] Comando 02:
 
   - [ ] Comando 03:
 

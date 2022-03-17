@@ -23,6 +23,7 @@ createDaysOfTheWeek();
 
 // Escreva seu código abaixo.
 
+// Comando 01
 function createDays() {
   const dezDaysList = [
     29, 30, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19,
@@ -44,3 +45,13 @@ function createDays() {
 }
 
 createDays();
+
+// Comando 02
+function adicionaButton ( string ) {
+  const button = document.createElement("button");
+  button.innerText = string;
+  button.id = "btn-holiday";
+  document.querySelector('.buttons-container').appendChild(button);
+}
+
+adicionaButton('Feriados');
