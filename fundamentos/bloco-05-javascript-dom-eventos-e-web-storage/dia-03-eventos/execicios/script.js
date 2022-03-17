@@ -89,15 +89,31 @@ function adicionaListenerOnButtonFriday() {
   const btnfriday = document.getElementById("btn-friday");
   btnfriday.addEventListener("click", () => {
     const fridayDates = document.getElementsByClassName("friday");
-    const arrayOfDaysFriday = [ 4, 11, 18, 25];
+    const arrayOfDaysFriday = [4, 11, 18, 25];
     for (let index = 0; index < fridayDates.length; index += 1) {
       if (fridayDates[index].innerHTML === "Sexta feira") {
         fridayDates[index].innerHTML = arrayOfDaysFriday[index];
       } else {
-        fridayDates[index].innerHTML = 'Sexta feira';
+        fridayDates[index].innerHTML = "Sexta feira";
       }
     }
   });
 }
 
 adicionaListenerOnButtonFriday();
+
+// Comando 06
+function adicionaEffectZoom() {
+  const days = document.getElementsByClassName("day");
+  for (let day of days) {
+    day.addEventListener("mouseover", (event) => {
+      event.target.style.fontSize = '30px';
+      event.target.style.border = '1px dashed green'
+    });
+    day.addEventListener("mouseout", (event) => {
+      event.target.style.fontSize = '';
+      event.target.style.border = ''
+    });
+  }
+}
+adicionaEffectZoom();
