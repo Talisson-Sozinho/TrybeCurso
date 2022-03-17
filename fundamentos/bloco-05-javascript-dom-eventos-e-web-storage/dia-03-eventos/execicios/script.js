@@ -47,14 +47,14 @@ function createDays() {
 createDays();
 
 // Comando 02
-function adicionaButton ( string ) {
+function adicionaButtonHoliday ( string ) {
   const button = document.createElement("button");
   button.innerText = string;
   button.id = "btn-holiday";
   document.querySelector('.buttons-container').appendChild(button);
 }
 
-adicionaButton('Feriados');
+adicionaButtonHoliday('Feriados');
 
 // Comando 03
 function adicionaListenerOnButton(){
@@ -74,3 +74,13 @@ function adicionaListenerOnButton(){
 }
 
 adicionaListenerOnButton();
+
+// Comando 04
+function adicionaButtonFriday ( string ) {
+  const button = document.createElement("button");
+  button.innerText = string;
+  button.id = "btn-friday";
+  document.querySelector('.buttons-container').appendChild(button);
+}
+
+adicionaButtonFriday ('Sexta-feira');
