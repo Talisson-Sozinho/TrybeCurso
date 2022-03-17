@@ -4,7 +4,7 @@
 
   - [x] Comando 02:
 
-  - [ ] Comando 03:
+  - [x] Comando 03:
 
   - [ ] Comando 04:
 

@@ -55,3 +55,22 @@ function adicionaButton ( string ) {
 }
 
 adicionaButton('Feriados');
+
+// Comando 03
+function adicionaListenerOnButton(){
+  const btnFeriado = document.getElementById('btn-holiday');
+  btnFeriado.addEventListener('click', () => {
+    const holidayDates = document.getElementsByClassName('holiday');
+    for (let holidayDate of holidayDates){
+      if (holidayDate.style.backgroundColor === 'green'){
+        holidayDate.style.backgroundColor = 'rgb(238,238,238)';
+        holidayDate.style.color = '#666';
+      } else {
+        holidayDate.style.backgroundColor = 'green';
+        holidayDate.style.color = 'rgb(238,238,238)';
+      }
+    }
+  })
+}
+
+adicionaListenerOnButton();
