@@ -119,3 +119,11 @@ function adicionaEffectZoom() {
   }
 }
 adicionaEffectZoom();
+
+// Comando 07
+function adicionandoTarefa(string){
+  const textoEmSpan = document.createElement('span');
+  textoEmSpan.innerHTML = string;
+  const paiElement = document.querySelector('.my-tasks');
+  paiElement.appendChild(textoEmSpan);
+}

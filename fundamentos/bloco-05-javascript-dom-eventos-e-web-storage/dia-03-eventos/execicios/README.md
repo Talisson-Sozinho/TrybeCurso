@@ -10,9 +10,9 @@
 
   - [x] Comando 05:
 
-  - [ ] Comando 06:
+  - [x] Comando 06:
 
-  - [ ] Comando 07:
+  - [x] Comando 07:
 
   - [ ] Comando 08:
 
