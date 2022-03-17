@@ -153,3 +153,35 @@ function selecionarTask(){
   }
 }
 selecionarTask();
+
+// Comando 10
+function adicionaCorNoDia() {
+  const collectionOfDays = document.getElementsByClassName('day');
+
+
+  for ( let day of collectionOfDays ){
+    day.addEventListener('click', () =>{
+      if ( document.querySelector('.selected') !== null ){
+        if (day.children.length === 0){
+          const marked = document.createElement('span');
+          marked.style.display = 'inline-block';
+          marked.style.height = '10px';
+          marked.style.width = '10px';
+          marked.style.position = 'absolute';
+          marked.style.top = '10px';
+          marked.style.left =  '10px';
+          marked.style.zIndex = '99';
+          marked.style.borderRadius = '20px';
+          const cor = document.querySelector('.selected').style.backgroundColor;
+          marked.style.backgroundColor = cor;
+          day.appendChild(marked);
+        } else { 
+          day.children[0].remove();
+        }
+      } else {
+        alert('Não tem nenhuma tarefa selecionada');
+      }
+    })
+  }
+}
+adicionaCorNoDia();

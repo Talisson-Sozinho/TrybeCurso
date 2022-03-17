@@ -18,6 +18,6 @@
 
   - [x] Comando 09:
 
-  - [ ] Comando 10:
+  - [x] Comando 10:
 
   - [ ] Comando bônus:
