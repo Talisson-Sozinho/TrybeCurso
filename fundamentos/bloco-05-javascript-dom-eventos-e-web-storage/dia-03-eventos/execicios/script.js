@@ -37,9 +37,8 @@ function createDays() {
     if (day === 25 || day === 31 || day === 24) {
       dayListItem.className += " holiday";
     }
-    if( day === 4 || day === 11 || day === 18 || day === 25)(
-      dayListItem.className += " friday"
-    )
+    if (day === 4 || day === 11 || day === 18 || day === 25)
+      dayListItem.className += " friday";
     daysList.appendChild(dayListItem);
   }
 }
@@ -47,40 +46,58 @@ function createDays() {
 createDays();
 
 // Comando 02
-function adicionaButtonHoliday ( string ) {
+function adicionaButtonHoliday(string) {
   const button = document.createElement("button");
   button.innerText = string;
   button.id = "btn-holiday";
-  document.querySelector('.buttons-container').appendChild(button);
+  document.querySelector(".buttons-container").appendChild(button);
 }
 
-adicionaButtonHoliday('Feriados');
+adicionaButtonHoliday("Feriados");
 
 // Comando 03
-function adicionaListenerOnButton(){
-  const btnFeriado = document.getElementById('btn-holiday');
-  btnFeriado.addEventListener('click', () => {
-    const holidayDates = document.getElementsByClassName('holiday');
-    for (let holidayDate of holidayDates){
-      if (holidayDate.style.backgroundColor === 'green'){
-        holidayDate.style.backgroundColor = 'rgb(238,238,238)';
-        holidayDate.style.color = '#666';
+function adicionaListenerOnButton() {
+  const btnFeriado = document.getElementById("btn-holiday");
+  btnFeriado.addEventListener("click", () => {
+    const holidayDates = document.getElementsByClassName("holiday");
+    for (let holidayDate of holidayDates) {
+      if (holidayDate.style.backgroundColor === "green") {
+        holidayDate.style.backgroundColor = "rgb(238,238,238)";
+        holidayDate.style.color = "#666";
       } else {
-        holidayDate.style.backgroundColor = 'green';
-        holidayDate.style.color = 'rgb(238,238,238)';
+        holidayDate.style.backgroundColor = "green";
+        holidayDate.style.color = "rgb(238,238,238)";
       }
     }
-  })
+  });
 }
 
 adicionaListenerOnButton();
 
 // Comando 04
-function adicionaButtonFriday ( string ) {
+function adicionaButtonFriday(string) {
   const button = document.createElement("button");
   button.innerText = string;
   button.id = "btn-friday";
-  document.querySelector('.buttons-container').appendChild(button);
+  document.querySelector(".buttons-container").appendChild(button);
 }
 
-adicionaButtonFriday ('Sexta-feira');
+adicionaButtonFriday("Sexta-feira");
+
+// Comando 05
+function adicionaListenerOnButtonFriday() {
+  const btnfriday = document.getElementById("btn-friday");
+  btnfriday.addEventListener("click", () => {
+    const fridayDates = document.getElementsByClassName("friday");
+    const arrayOfDaysFriday = [ 4, 11, 18, 25];
+    for (let index = 0; index < fridayDates.length; index += 1) {
+      if (fridayDates[index].innerHTML === "Sexta feira") {
+        fridayDates[index].innerHTML = arrayOfDaysFriday[index];
+      } else {
+        fridayDates[index].innerHTML = 'Sexta feira';
+      }
+    }
+  });
+}
+
+adicionaListenerOnButtonFriday();

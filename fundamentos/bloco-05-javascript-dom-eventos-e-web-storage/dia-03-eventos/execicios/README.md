@@ -6,9 +6,9 @@
 
   - [x] Comando 03:
 
-  - [ ] Comando 04:
+  - [x] Comando 04:
 
-  - [ ] Comando 05:
+  - [x] Comando 05:
 
   - [ ] Comando 06:
 
