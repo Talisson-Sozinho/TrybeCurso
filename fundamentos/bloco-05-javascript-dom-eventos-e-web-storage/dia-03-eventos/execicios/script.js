@@ -109,10 +109,12 @@ function adicionaEffectZoom() {
     day.addEventListener("mouseover", (event) => {
       event.target.style.fontSize = '30px';
       event.target.style.border = '1px dashed green'
+      event.target.style.fontWeight = 'bold';
     });
     day.addEventListener("mouseout", (event) => {
       event.target.style.fontSize = '';
       event.target.style.border = ''
+      event.target.style.fontWeight = ''
     });
   }
 }
