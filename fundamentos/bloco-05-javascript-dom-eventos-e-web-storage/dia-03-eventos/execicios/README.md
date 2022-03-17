@@ -21,3 +21,7 @@
   - [x] Comando 10:
 
   - [x] Comando bônus:
+
+  ps: Não segui boas práticas, apenas estava procurando resultados que o execício pedia, nessecita de refatoração.
+
+  [ ] - Check se foi refatorado.
