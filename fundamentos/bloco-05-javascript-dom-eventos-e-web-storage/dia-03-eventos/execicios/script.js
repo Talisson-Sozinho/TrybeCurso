@@ -136,8 +136,8 @@ function adicionaLegendCor(cor){
   const paiElement = document.querySelector('.my-tasks');
   paiElement.appendChild(legendCor);
 }
-adicionandoTarefa('teste');
-adicionaLegendCor('red');
+adicionandoTarefa('Projeto');
+adicionaLegendCor('green');
 
 // Comando 09
 function selecionarTask(){
@@ -145,9 +145,11 @@ function selecionarTask(){
   for ( let task of taskColection){
     task.addEventListener('click', () => {
       if (task.className === 'task'){
+        task.style.border = '3px dashed red'
         task.className += ' selected';
       } else {
         task.className = 'task';
+        task.style.border = '';
       }
     });
   }

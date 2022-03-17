@@ -20,4 +20,4 @@
 
   - [x] Comando 10:
 
-  - [ ] Comando bônus:
+  - [x] Comando bônus:
