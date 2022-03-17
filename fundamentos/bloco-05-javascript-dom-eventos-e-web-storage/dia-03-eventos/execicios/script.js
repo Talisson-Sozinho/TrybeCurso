@@ -136,3 +136,20 @@ function adicionaLegendCor(cor){
   const paiElement = document.querySelector('.my-tasks');
   paiElement.appendChild(legendCor);
 }
+adicionandoTarefa('teste');
+adicionaLegendCor('red');
+
+// Comando 09
+function selecionarTask(){
+  const taskColection = document.getElementsByClassName('task');
+  for ( let task of taskColection){
+    task.addEventListener('click', () => {
+      if (task.className === 'task'){
+        task.className += ' selected';
+      } else {
+        task.className = 'task';
+      }
+    });
+  }
+}
+selecionarTask();
