@@ -22,7 +22,7 @@
 .main-container {
   position: absolute;
   top: 12vh;
-  height: 76vh;
+  height: 81vh;
   width: 100%;
   background-color: gray;
 }
@@ -34,6 +34,10 @@
 
 .input-background-color{
   display: inline;
+}
+.input-font-family {
+  border-radius: 10px;
+  text-align: center;
 }
 
 .main-container a {
@@ -67,8 +71,18 @@
   margin: 0 auto;
   border-left: 1px solid black;
   border-right: 1px solid black;
-  overflow:scroll;
+  overflow-y:scroll;
   position: relative;
+}
+
+/* peguei no insta kkkk link: 'https://www.instagram.com/p/CZNfcIwu6T8/'*/
+.article-container::-webkit-scrollbar{
+  border-radius: 8px;
+}
+
+.article-container::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background-color: black;
 }
 
 .configure-container {
@@ -80,6 +94,9 @@
   align-items: center;
   gap: 6px;
 }
+.article-container select {
+  width: 105px;
+}
 
 .article-container section {
   margin-top: 2em;
@@ -89,10 +106,10 @@
 .footer-container {
   position: fixed;
   bottom: 0;
-  height: 12vh;
+  height: 7vh;
   width: 100%;
   text-align: center;
   background-color: black;
   color: rgb(231, 233, 234);
-  padding-top: 30px;
+  padding-top: 15px;
 }
