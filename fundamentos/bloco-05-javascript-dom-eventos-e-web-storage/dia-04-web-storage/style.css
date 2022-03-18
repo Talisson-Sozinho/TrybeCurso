@@ -94,6 +94,13 @@
   align-items: center;
   gap: 6px;
 }
+
+.configure-container button {
+  width: 75px;
+  height: 25px;
+  border-radius: 10px;
+}
+
 .article-container select {
   width: 105px;
 }
