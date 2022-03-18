@@ -1,14 +1,102 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./style.css" type="text/css" />
-  <title>Leitor</title>
-</head>
-<body>
-
-  <script src="./script.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" type="text/css" />
+    <title>Leitor</title>
+  </head>
+  <body>
+    <header class="header-container">
+      <h1>Leitor De Texto Online</h1>
+    </header>
+    <main class="main-container">
+      <a href="#" class="previous-article">
+        <img src="./image/costas.png" alt="previous" />
+        <p>Anterior</p>
+      </a>
+      <article class="article-container">
+        <h1>Titulo do article</h1>
+        <!-- configuração do leitor para leitura  -->
+        <div class="configure-container"> 
+          <label >Font Size:</label>
+          <input class="input-font-size" type="range"  min="12" max="32" step="1" />
+          <label >Letter color</label>
+          <input class="input-font-color" type="color" />
+          <label >Background color</label>
+          <input class="input-background-color" type="color" />
+        </div>
+        <!-- fim das configuração  -->
+        <section>
+          <h2>Lorem Ipsum</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque
+            qui, aspernatur officiis sunt reprehenderit odio quas error atque
+            eos. Aliquid ullam libero deleniti possimus corporis ipsa similique
+            ducimus quo vel!
+          </p>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint
+            soluta quis voluptatem quibusdam vel placeat dignissimos
+            voluptatibus tempore repellat, laboriosam aperiam itaque accusantium
+            excepturi dolorum ipsa nam delectus officia magnam!
+          </p>
+        </section>
+        <section>
+          <h2>Lorem Ipsum</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque
+            qui, aspernatur officiis sunt reprehenderit odio quas error atque
+            eos. Aliquid ullam libero deleniti possimus corporis ipsa similique
+            ducimus quo vel!
+          </p>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint
+            soluta quis voluptatem quibusdam vel placeat dignissimos
+            voluptatibus tempore repellat, laboriosam aperiam itaque accusantium
+            excepturi dolorum ipsa nam delectus officia magnam!
+          </p>
+        </section>
+        <section>
+          <h2>Lorem Ipsum</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque
+            qui, aspernatur officiis sunt reprehenderit odio quas error atque
+            eos. Aliquid ullam libero deleniti possimus corporis ipsa similique
+            ducimus quo vel!
+          </p>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint
+            soluta quis voluptatem quibusdam vel placeat dignissimos
+            voluptatibus tempore repellat, laboriosam aperiam itaque accusantium
+            excepturi dolorum ipsa nam delectus officia magnam!
+          </p>
+        </section>
+        <section>
+          <h2>Lorem Ipsum</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque
+            qui, aspernatur officiis sunt reprehenderit odio quas error atque
+            eos. Aliquid ullam libero deleniti possimus corporis ipsa similique
+            ducimus quo vel!
+          </p>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint
+            soluta quis voluptatem quibusdam vel placeat dignissimos
+            voluptatibus tempore repellat, laboriosam aperiam itaque accusantium
+            excepturi dolorum ipsa nam delectus officia magnam!
+          </p>
+        </section>
+      </article>
+      <a href="#" class="next-article">
+        <img src="./image/proximo.png" alt="proximo" />
+        <p>Próximo</p>
+      </a>
+    </main>
+    <footer class="footer-container">
+      <p>Leitor ©℗™</p>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
 </html>
