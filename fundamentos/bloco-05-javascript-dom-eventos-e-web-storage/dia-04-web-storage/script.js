@@ -1,10 +1,11 @@
+/* Pegando Elementos do HTML importantes para os scripts e salvando em constantes para facilitar a utilização*/
 const configureFontColor = document.querySelector('.input-font-color');
 const configureFontSize = document.querySelector('.input-font-size');
 const configureBackgroundColor = document.querySelector('.input-background-color');
 const configureFontFamily = document.querySelector('.input-font-family');
 const configureReset =  document.getElementsByClassName('.reset-config')[0];
 
-
+/* Obejetos com a configuração original da pagina */
 let articleConfig = {
   fontColor: '#000000',
   fontSize: 16,
@@ -12,27 +13,35 @@ let articleConfig = {
   fontFamily: 'Fira Code',
 };
 
+/* Chamando a função que irá colocar as configurações antigas da pessoa, na página caso tenha */
+initialRender();
+
+/* Chamando a função que irá habilitar a modificação de configuração de texto do artigo */
+adicionaInteractiveConfigurationOnPage();
+
+// função que irá colocar as configurações antigas da pessoa, na página caso tenha
 function initialRender() {
-  let oldConfig = localStorage.getItem('articleConfig');
-  
-
-  if (oldConfig === null){
-    localStorage.setItem('articleConfig', JSON.stringify(articleConfig));
-  } else {
+  const oldConfig = localStorage.getItem('articleConfig');
+  if (oldConfig !== null){
     articleConfig = JSON.parse(oldConfig);
-
-    configureFontColor.value = articleConfig.fontColor;
-    document.querySelector('.article-container').style.color = articleConfig.fontColor;
-    configureFontSize.value = articleConfig.fontSize;
-    document.querySelector('.article-container').style.fontSize = articleConfig.fontSize +'px';
-    configureBackgroundColor.value = articleConfig.BackgroundColor;
-    document.querySelector('.article-container').style.backgroundColor = articleConfig.BackgroundColor;
-    configureFontFamily.value = articleConfig.fontFamily;
-    document.querySelector('.article-container').style.fontFamily = articleConfig.fontFamily;
+    applyOldConfig(articleConfig);
   }
 }
 
-function adicionaConfigurationOnPage (){
+// função para aplicar um obejeto de configuração no artigo
+function applyOldConfig(oldConfigObject){
+  configureFontColor.value = oldConfigObject.fontColor;
+  document.querySelector('.article-container').style.color = oldConfigObject.fontColor;
+  configureFontSize.value = oldConfigObject.fontSize;
+  document.querySelector('.article-container').style.fontSize = oldConfigObject.fontSize +'px';
+  configureBackgroundColor.value = oldConfigObject.BackgroundColor;
+  document.querySelector('.article-container').style.backgroundColor = oldConfigObject.BackgroundColor;
+  configureFontFamily.value = oldConfigObject.fontFamily;
+  document.querySelector('.article-container').style.fontFamily = oldConfigObject.fontFamily;
+}
+
+// função para adicionar os escutadores de eventos nos elementos interativos
+function adicionaInteractiveConfigurationOnPage (){
   configureFontColor.addEventListener('input', ()=>{
     const newFontColor = configureFontColor.value;
     document.querySelector('.article-container').style.color = newFontColor;
@@ -77,12 +86,8 @@ function adicionaConfigurationOnPage (){
     adicionandoNoLocalStorage(articleConfig);
   })
 }
-adicionaConfigurationOnPage();
 
+// função para adicionar o objeto de configuração no localStorage
 function adicionandoNoLocalStorage(newConfig) {
   localStorage.setItem('articleConfig', JSON.stringify(newConfig))
-}
-
-window.onload = () => {
-  initialRender();
 }
