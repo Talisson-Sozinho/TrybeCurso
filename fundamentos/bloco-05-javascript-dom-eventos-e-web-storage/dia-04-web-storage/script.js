@@ -5,8 +5,6 @@ const configureBackgroundColor = document.querySelector('.input-background-color
 const configureFontFamily = document.querySelector('.input-font-family');
 const configureReset =  document.getElementsByClassName('.reset-config')[0];
 
-/* Obejetos com a configuração original da pagina */
-
 /* Chamando a função que irá colocar as configurações antigas da pessoa, na página caso tenha */
 initialRender();
 
