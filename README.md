@@ -25,7 +25,7 @@ _"A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vi
 - [x] 3.2 - HTML & CSS - Primeiros passos em CSS
 - [x] 3.3 - HTML & CSS - Seletores e posicionamento
 - [x] 3.4 - HTML Semântico
-- [x] 3.5 - Projeto - Lessons Learned
+- [x] 3.5 - [Projeto - Lessons Learned](https://github.com/Talisson-Sozinho/sd-021-b-project-lessons-learned)
 
 ##### Bloco 4: [Introdução à JavaScript e Lógica de Programação](./fundamentos/bloco-04-introducao-a-javascript-e-logica-de-programacao/)
 - [x] 4.1 - Introdução - JavaScript
@@ -35,11 +35,11 @@ _"A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vi
 - [x] 4.4 - JavaScript - Objetos e funções
 - [x] 4.5 - Projeto - Playground Functions
 
-##### Bloco 5: JavaScript: DOM, Eventos e Web Storage
+##### Bloco 5: [JavaScript: DOM, Eventos e Web Storage](../fundamentos/bloco-05-javascript-dom-eventos-e-web-storage/)
 - [x] 5.1 - JavaScript - DOM e seletores
 - [x] 5.2 - JavaScript - Trabalhando com elementos
 - [x] 5.3 - JavaScript - Eventos
-- [ ] 5.4 - JavaScript - Web Storage
+- [x] 5.4 - JavaScript - Web Storage
 - [ ] 5.5 - Fundamentos - JavaScript - Projetos
 - [ ] 5.5 - Projeto - Arte com Pixels
 - [ ] 5.6 - Projeto - Lista de tarefas
