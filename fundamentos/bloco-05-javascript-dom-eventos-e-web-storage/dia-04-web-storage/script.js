@@ -24,7 +24,7 @@ function initialRender() {
       backgroundColor: '#e7e9ea',
       fontFamily: 'Fira code',
     };
-    localStorage.setItem('articleConfig', articleConfig);
+    localStorage.setItem('articleConfig', JSON.stringify(articleConfig));
   }
 }
 
@@ -103,6 +103,4 @@ function reset () {
   configureFontFamily.value = 'Fira code';
   document.querySelector('.article-container').style.fontFamily = 'Fira code';
   adicionandoNoLocalStorage( 'fontFamily', 'Fira code');
-
-  
 }
