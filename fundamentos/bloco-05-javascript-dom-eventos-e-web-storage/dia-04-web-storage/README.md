@@ -1,5 +1,7 @@
 # Execício do bloco 5.4 - web storage
 
+<img src="https://user-images.githubusercontent.com/79944385/159149092-5f085301-0f56-4026-898d-fbd8f8088e5a.gif">
+
 ## Conceito do execício
 
   Imagine que você é a pessoa responsável por desenvolver uma página que servirá como um leitor de 
