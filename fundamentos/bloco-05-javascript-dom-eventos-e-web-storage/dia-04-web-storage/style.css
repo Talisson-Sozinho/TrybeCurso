@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* cabeçalho */
+.header-container {
+  position: fixed;
+  top: 0;
+  display: inline-block;
+  text-align: center;
+  font-size: 1.25em;
+  padding-top: 15px;
+  width: 100%;
+  height: 12vh;
+  background-color: black;
+  color: rgb(231, 233, 234);
+  border-bottom: 1px solid rgb(47, 51, 54);
+}
+
+/* conteúdo principal */
+.main-container {
+  position: absolute;
+  top: 12vh;
+  height: 81vh;
+  width: 100%;
+  background-color: gray;
+}
+
+
+.article-container h1{
+  display: inline-block;
+}
+
+.input-background-color{
+  display: inline;
+}
+.input-font-family {
+  border-radius: 10px;
+  text-align: center;
+}
+
+.main-container a {
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+.main-container a:hover {
+  text-decoration: underline;
+}
+
+.next-article{
+  position: absolute;
+  top: calc(50% - 32px);
+  right: 33px;
+}
+
+.previous-article{
+  position: absolute;
+  left: 33px;
+  top: calc(50% - 32px);
+}
+
+.article-container {
+  background-color: rgb(231, 233, 234);
+  font-family: 'fira code';
+  max-width: 80vw;
+  height: 100%;
+  padding: 2em;
+  margin: 0 auto;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  overflow-y:scroll;
+  position: relative;
+}
+
+/* peguei no insta kkkk link: 'https://www.instagram.com/p/CZNfcIwu6T8/'*/
+.article-container::-webkit-scrollbar{
+  border-radius: 8px;
+}
+
+.article-container::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background-color: black;
+}
+
+.configure-container {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.configure-container button {
+  width: 75px;
+  height: 25px;
+  border-radius: 10px;
+}
+
+.article-container select {
+  width: 105px;
+}
+
+.article-container section {
+  margin-top: 2em;
+}
+
+/* footer container  */
+.footer-container {
+  position: fixed;
+  bottom: 0;
+  height: 7vh;
+  width: 100%;
+  text-align: center;
+  background-color: black;
+  color: rgb(231, 233, 234);
+  padding-top: 15px;
+}

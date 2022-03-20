@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Fira+Code:wght@300;400;500;600;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Quicksand:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css" type="text/css" />
+    <title>Leitor</title>
+  </head>
+  <body>
+    <header class="header-container">
+      <h1>Leitor De Texto Online</h1>
+    </header>
+    <main class="main-container">
+      <a href="#" class="previous-article">
+        <img src="./image/costas.png" alt="previous" />
+        <p>Anterior</p>
+      </a>
+      <article class="article-container">
+        <h1>Titulo do article</h1>
+        <!-- configuração do leitor para leitura  -->
+        <div class="configure-container">
+          <button class=".reset-config" type="button" >Reset</button>
+          <label >Font Size:</label>
+          <input class="input-font-size" type="range"  min="12" max="32" step="1" />
+          <label >Letter color:</label>
+          <input class="input-font-color" type="color" />
+          <label >Background color:</label>
+          <input class="input-background-color" type="color" />
+          <label >Font family:</label>
+          <select class="input-font-family">
+            <option >Fira code</option>
+            <option >Open Sans</option>
+            <option >Quicksand</option>
+            <option >Roboto</option>
+            <option >Lato</option>
+            <option >Ubuntu</option>
+            <option >Comic Neue</option>
+          </select>
+        </div>
+        <!-- fim das configuração  -->
+        <section>
+          <h2>Lorem Ipsum</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque
+            qui, aspernatur officiis sunt reprehenderit odio quas error atque
+            eos. Aliquid ullam libero deleniti possimus corporis ipsa similique
+            ducimus quo vel!
+          </p>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint
+            soluta quis voluptatem quibusdam vel placeat dignissimos
+            voluptatibus tempore repellat, laboriosam aperiam itaque accusantium
+            excepturi dolorum ipsa nam delectus officia magnam!
+          </p>
+        </section>
+        <section>
+          <h2>Lorem Ipsum</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque
+            qui, aspernatur officiis sunt reprehenderit odio quas error atque
+            eos. Aliquid ullam libero deleniti possimus corporis ipsa similique
+            ducimus quo vel!
+          </p>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint
+            soluta quis voluptatem quibusdam vel placeat dignissimos
+            voluptatibus tempore repellat, laboriosam aperiam itaque accusantium
+            excepturi dolorum ipsa nam delectus officia magnam!
+          </p>
+        </section>
+        <section>
+          <h2>Lorem Ipsum</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque
+            qui, aspernatur officiis sunt reprehenderit odio quas error atque
+            eos. Aliquid ullam libero deleniti possimus corporis ipsa similique
+            ducimus quo vel!
+          </p>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint
+            soluta quis voluptatem quibusdam vel placeat dignissimos
+            voluptatibus tempore repellat, laboriosam aperiam itaque accusantium
+            excepturi dolorum ipsa nam delectus officia magnam!
+          </p>
+        </section>
+        <section>
+          <h2>Lorem Ipsum</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque
+            qui, aspernatur officiis sunt reprehenderit odio quas error atque
+            eos. Aliquid ullam libero deleniti possimus corporis ipsa similique
+            ducimus quo vel!
+          </p>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint
+            soluta quis voluptatem quibusdam vel placeat dignissimos
+            voluptatibus tempore repellat, laboriosam aperiam itaque accusantium
+            excepturi dolorum ipsa nam delectus officia magnam!
+          </p>
+        </section>
+      </article>
+      <a href="#" class="next-article">
+        <img src="./image/proximo.png" alt="proximo" />
+        <p>Próximo</p>
+      </a>
+    </main>
+    <footer class="footer-container">
+      <p>Leitor ©℗™</p>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
