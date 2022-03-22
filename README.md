@@ -40,8 +40,8 @@ _"A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vi
 - [x] 5.2 - JavaScript - Trabalhando com elementos
 - [x] 5.3 - JavaScript - Eventos
 - [x] 5.4 - JavaScript - Web Storage
-- [ ] 5.5 - Fundamentos - JavaScript - Projetos
-- [ ] 5.5 - Projeto - Arte com Pixels
+- [x] 5.5 - Fundamentos - JavaScript - Projetos
+- [x] 5.5 - Projeto - Arte com Pixels
 - [ ] 5.6 - Projeto - Lista de tarefas
 - [ ] 5.7 - (Bônus) Projeto - Meme Generator
 - [ ] 5.7 - (Bônus) Projeto - Adivinhe a Cor
