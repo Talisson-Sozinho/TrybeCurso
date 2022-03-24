@@ -21,7 +21,7 @@ Esse bloco pertence ao módulo de `fundamentos` do curso da [Trybe](https://www.
 
 
  E pra fechar, fiz um projeto colocando em prática tudo que vi e aprendi durante esse bloco 
- podendo ser acessado [aqui](#)
+ podendo ser acessado [aqui](https://github.com/Talisson-Sozinho/project-playground-functions)
 
 Tendo isso em mente aqui você encontrará os exercícios que desenvolvi para fixar os conhecimentos que
 adquiri ao longo desse bloco.
