@@ -1,5 +1,7 @@
 # Execício do bloco 6.1
 
+<img src='https://user-images.githubusercontent.com/79944385/160213215-06e32894-207b-4ef9-92cd-4a1880074615.gif'>
+
 ## Requisitos
 
   1 [x] - O formulário deverá permitir que o usuário insira os seguintes campos:
