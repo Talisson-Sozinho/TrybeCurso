@@ -15,3 +15,6 @@
   [x] - Adicione o atributo autocomplete="off" para o campo de email.
 
   [x] - Adicione o atributo autofocus para o campo de email.
+
+  <img src='./printscreen/Captura de tela de 2022-03-25 12-41-02.png'>
+  
