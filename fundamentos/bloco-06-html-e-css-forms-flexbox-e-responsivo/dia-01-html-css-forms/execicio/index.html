@@ -15,26 +15,32 @@
       <fieldset class="input-text">
         <legend>Nome</legend>
         <input
+          id='input-name'
           type="text"
           placeholder="Insira seu nome"
           minlength="10"
           maxlength="40"
-          required
         />
       </fieldset>
       <fieldset class="input-text">
         <legend>Email</legend>
         <input
+          id="input-email"
           type="email"
           placeholder="Insira seu email"
           minlength="10"
           maxlength="50"
-          required
         />
       </fieldset>
       <fieldset class="input-radio">
         <legend>Destino Preferido</legend>
-        <input id="input-city" type="radio" name="locale" value="city" />
+        <input 
+          id="input-city" 
+          type="radio" 
+          name="locale" 
+          value="city" 
+          checked
+        />
         <label for="input-city">Cidade</label>
 
         <input
@@ -45,10 +51,20 @@
         />
         <label for="input-countryside">Campo</label>
 
-        <input id="input-beach" type="radio" name="locale" value="beach" />
+        <input 
+          id="input-beach" 
+          type="radio" 
+          name="locale" 
+          value="beach" 
+        />
         <label for="input-beach">Praia</label>
 
-        <input id="input-mound" type="radio" name="locale" value="mound" />
+        <input 
+          id="input-mound" 
+          type="radio" 
+          name="locale" 
+          value="mound" 
+        />
         <label for="input-mound">Montanhas</label>
       </fieldset>
       <fieldset class="input-text-description">
@@ -81,7 +97,7 @@
       </div>
       <div class="buttons-container">
         <button id='button-limpar' type='reset'>Limpar</button>
-        <button id='button-submit' type='submit' required>Concluído</button>
+        <button id='button-submit' type='submit' disabled>Concluído</button>
       </div>
     </form>
     <script src="./script.js"></script>
