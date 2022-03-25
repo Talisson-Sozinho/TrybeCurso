@@ -2,7 +2,7 @@
 
 ## Requisitos
 
-  1 [ ] - O formulário deverá permitir que o usuário insira os seguintes campos:
+  1 [x] - O formulário deverá permitir que o usuário insira os seguintes campos:
      - Nome Completo:
        - Limitado entre 10 e 40 caracteres.
      - E-mail:
@@ -13,8 +13,8 @@
        - Limite de 500 caracteres.
      - Qual a melhor data para realizar sua viagem?
      - Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?
-     - Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.
-     - 
+     - Concordo que imagens das minhas érias poderão ser usadas na divulgação de concursos futuros.
+      
   Esses serão os principais campos utilizadas nos próximos exercícios.
 
   2 [ ] - Crie um botão para enviar as informações preenchidas.

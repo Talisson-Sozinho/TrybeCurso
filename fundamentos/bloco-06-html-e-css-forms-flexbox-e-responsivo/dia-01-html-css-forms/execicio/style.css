@@ -3,3 +3,71 @@
   margin: 0;
   padding: 0;
 }
+
+body {
+  background-color: black;
+  color: rgb(158, 158, 158);
+}
+
+header {
+  padding: 1.5em;  
+  text-align: center;
+}
+
+form {
+  color: black;
+  width: 54vw;
+  margin: 0 auto;
+  padding: 1em 4em 4em 4em;
+  background-color:rgba(243, 102, 201, 0.5);
+  border-radius: 5em;
+}
+
+form fieldset {
+  border-color: black;
+  height: 4em;
+  padding-left: 1.5em;
+  border-radius: 2em;
+  margin-top: 2.5em;
+}
+
+.input-text input {
+  display: inline-block;
+  width: 25em;
+  padding: 0 1em;
+  margin-top: 0.5em;
+  line-height: 1.75em;
+  border-radius: 2em;
+  border: 1px solid black;
+}
+
+.input-radio input {
+  margin-top: 0.8em;
+  margin-left: 3.5em;
+}
+
+.input-text-description {
+  height: 16em;
+}
+
+.input-text-description textarea {
+  margin-top: 1em;
+  border-radius: 2em;
+  padding: 1.75em;
+  resize: none;
+}
+
+.input-date input {
+  margin-top: 0.5em;
+  border-radius:  2em;
+  border: 1px solid black;
+  padding-left: 1em;
+}
+
+.checkbox-container{
+  padding: 2em;
+}
+
+.check-2-container {
+  margin-top: 1em;
+}
