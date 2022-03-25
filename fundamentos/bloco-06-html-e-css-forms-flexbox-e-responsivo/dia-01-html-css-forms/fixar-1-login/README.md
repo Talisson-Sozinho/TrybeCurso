@@ -8,10 +8,10 @@
 
   [x] -  Adicione um botão com o texto Entrar .
 
-  [ ] - Adicione os placeholder Digite seu email e Digite sua senha para os campos de email e senha.
+  [x] - Adicione os placeholder Digite seu email e Digite sua senha para os campos de email e senha.
 
-  [ ] - Adicione o atributo required para os campos de email e senha.
+  [x] - Adicione o atributo required para os campos de email e senha.
 
-  [ ] - Adicione o atributo autocomplete="off" para o campo de email.
+  [x] - Adicione o atributo autocomplete="off" para o campo de email.
 
-  [ ] - Adicione o atributo autofocus para o campo de email.
+  [x] - Adicione o atributo autofocus para o campo de email.
