@@ -71,3 +71,10 @@ form fieldset {
 .check-2-container {
   margin-top: 1em;
 }
+
+form button {
+  display: block;
+  margin: 0 auto;
+  padding: 1em 2em;
+  border: 0;
+}

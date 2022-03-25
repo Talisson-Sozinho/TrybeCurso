@@ -17,7 +17,7 @@
       
   Esses serão os principais campos utilizadas nos próximos exercícios.
 
-  2 [ ] - Crie um botão para enviar as informações preenchidas.
+  2 [x] - Crie um botão para enviar as informações preenchidas.
 
   Agora vamos utilizar um pouco de javascript, para isso crie o arquivo script.js e o referencie no HTML.
     - Dica: Coloque a tag <script> no final do seu body.
