@@ -6,7 +6,7 @@
 
   [x] - Adicione um checkbox com o texto Lembre-me .
 
-  [ ] -  Adicione um botão com o texto Entrar .
+  [x] -  Adicione um botão com o texto Entrar .
 
   [ ] - Adicione os placeholder Digite seu email e Digite sua senha para os campos de email e senha.
 
