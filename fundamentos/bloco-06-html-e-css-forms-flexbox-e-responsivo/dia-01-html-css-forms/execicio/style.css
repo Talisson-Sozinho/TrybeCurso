@@ -72,9 +72,18 @@ form fieldset {
   margin-top: 1em;
 }
 
-form button {
+.buttons-container {
   display: block;
+  width: 22em;
   margin: 0 auto;
-  padding: 1em 2em;
+}
+
+.buttons-container button {
+  width: 10em;
+  height: 3em;
   border: 0;
+}
+
+.buttons-container button:last-of-type {
+  margin-left: 2em;
 }
