@@ -11,7 +11,7 @@ Esse bloco pertence ao módulo de `fundamentos` do curso da [Trybe](https://www.
    - [Todo List](https://github.com/Talisson-Sozinho/project-todo-list)
    - [Meme Generator](https://github.com/Talisson-Sozinho/project-meme-generator)
    - [Color Guess](https://github.com/Talisson-Sozinho/project-color-guess)
-   - [Mistery Letter](#)
+   - [Mistery Letter](https://github.com/Talisson-Sozinho/project-mistery-letter)
 
   Antes desses projetos, tivemos 3 dias de folga pois iria ter uma reunião interna, então usando o tempo
   livre para desenvolver um projeto pessoal para fixar os conhecimentos que adquirir e durante o conteúdo
