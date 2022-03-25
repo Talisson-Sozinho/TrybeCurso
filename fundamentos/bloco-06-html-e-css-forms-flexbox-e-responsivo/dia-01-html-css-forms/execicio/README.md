@@ -29,7 +29,7 @@
 
 # Bônus
 
-  1 [ ] - A TrybeTrip precisa muito de fotos para divulgar seus concursos. Tendo isso em mente, faça com 
+  1 [x] - A TrybeTrip precisa muito de fotos para divulgar seus concursos. Tendo isso em mente, faça com 
   que somente quem autorizar o uso de imagens possa enviar suas informações.
 
   2 [ ] - Faça a validação dos campos com limite de caracteres. Caso não estejam dentro do esperado ao 
