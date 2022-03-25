@@ -33,7 +33,7 @@ _"A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vi
 - [x] 4.2 - JavaScript - Array e loop For
 - [x] 4.3 - JavaScript - Lógica de Programação e Algoritmos
 - [x] 4.4 - JavaScript - Objetos e funções
-- [x] 4.5 - Projeto - Playground Functions
+- [x] 4.5 - [Projeto - Playground Functions](https://github.com/Talisson-Sozinho/project-playground-functions)
 
 ##### Bloco 5: [JavaScript: DOM, Eventos e Web Storage](../fundamentos/bloco-05-javascript-dom-eventos-e-web-storage/)
 - [x] 5.1 - JavaScript - DOM e seletores
@@ -41,11 +41,11 @@ _"A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vi
 - [x] 5.3 - JavaScript - Eventos
 - [x] 5.4 - JavaScript - Web Storage
 - [x] 5.5 - Fundamentos - JavaScript - Projetos
-- [x] 5.5 - Projeto - Arte com Pixels
-- [ ] 5.6 - Projeto - Lista de tarefas
-- [ ] 5.7 - (Bônus) Projeto - Meme Generator
-- [ ] 5.7 - (Bônus) Projeto - Adivinhe a Cor
-- [ ] 5.7 - (Bônus) Projeto - Carta Misteriosa
+- [x] 5.5 - [Projeto - Arte com Pixels](https://github.com/Talisson-Sozinho/project-pixel-art)
+- [x] 5.6 - [Projeto - Lista de tarefas](https://github.com/Talisson-Sozinho/project-todo-list)
+- [x] 5.7 - (Bônus) [Projeto - Meme Generator](https://github.com/Talisson-Sozinho/project-meme-generator)
+- [x] 5.7 - (Bônus) [Projeto - Adivinhe a Cor](https://github.com/Talisson-Sozinho/project-color-guess)
+- [x] 5.7 - (Bônus) [Projeto - Carta Misteriosa](https://github.com/Talisson-Sozinho/project-mistery-letter)
 
 ##### Bloco 6: HTML e CSS: Forms, Flexbox e Responsivo
 - [ ] 6.1 - HTML & CSS - Forms
