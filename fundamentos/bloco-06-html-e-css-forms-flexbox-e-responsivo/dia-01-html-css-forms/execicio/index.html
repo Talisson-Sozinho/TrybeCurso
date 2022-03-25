@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h1>TrybeTrip</h1>
+    </header>
+    <form action="" method="get">
+      <fieldset class="input-text">
+        <legend>Nome</legend>
+        <input
+          id='input-name'
+          type="text"
+          placeholder="Insira seu nome"
+          minlength="10"
+          maxlength="40"
+        />
+      </fieldset>
+      <fieldset class="input-text">
+        <legend>Email</legend>
+        <input
+          id="input-email"
+          type="email"
+          placeholder="Insira seu email"
+          minlength="10"
+          maxlength="50"
+        />
+      </fieldset>
+      <fieldset class="input-radio">
+        <legend>Destino Preferido</legend>
+        <input 
+          id="input-city" 
+          type="radio" 
+          name="locale" 
+          value="city" 
+          checked
+        />
+        <label for="input-city">Cidade</label>
+
+        <input
+          id="input-countryside"
+          type="radio"
+          name="locale"
+          value="countryside"
+        />
+        <label for="input-countryside">Campo</label>
+
+        <input 
+          id="input-beach" 
+          type="radio" 
+          name="locale" 
+          value="beach" 
+        />
+        <label for="input-beach">Praia</label>
+
+        <input 
+          id="input-mound" 
+          type="radio" 
+          name="locale" 
+          value="mound" 
+        />
+        <label for="input-mound">Montanhas</label>
+      </fieldset>
+      <fieldset class="input-text-description">
+        <legend>
+          Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso
+          TrybeTrip?
+        </legend>
+        <textarea
+          name="description"
+          id="input-description"
+          cols="60"
+          rows="10"
+          spellcheck="true"
+          placeholder='Digite sua resposta...'
+        ></textarea>
+      </fieldset>
+      <fieldset class="input-date">
+        <legend>Qual a melhor data para realizar sua viagem?</legend>
+        <input type="date">
+      </fieldset>
+      <div class="checkbox-container">
+        <div class='check-1-container'>
+          <input id='check-1' type='checkbox' value="offers">
+          <label for="check-1">Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?</label>
+        </div>
+        <div class='check-2-container'>
+          <input id='check-2' type="checkbox" value="terms">
+          <label for="check-2">Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.</label>
+        </div>
+      </div>
+      <div class="buttons-container">
+        <button id='button-limpar' type='reset'>Limpar</button>
+        <button id='button-submit' type='submit' disabled>Concluído</button>
+      </div>
+    </form>
+    <script src="./script.js"></script>
+  </body>
+</html>
