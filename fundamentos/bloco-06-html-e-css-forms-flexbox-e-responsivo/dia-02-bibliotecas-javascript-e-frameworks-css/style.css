@@ -1,0 +1,23 @@
+@import './bulma/css/bulma.min.css';
+
+body {
+  padding-bottom: 2em;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2em;
+  margin-top: 1em;
+}
+
+.container {
+  border: 5px solid lightgrey;
+  padding: 2em;
+  border-radius: 2em;
+}
+.date {
+  border: 1px solid lightgrey;
+  padding: 0.5em;
+  border-radius: 4px;
+  color: lightgray;
+}
