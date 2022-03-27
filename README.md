@@ -48,8 +48,8 @@ _"A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vi
 - [x] 5.7 - (Bônus) [Projeto - Carta Misteriosa](https://github.com/Talisson-Sozinho/project-mistery-letter)
 
 ##### Bloco 6: HTML e CSS: Forms, Flexbox e Responsivo
-- [ ] 6.1 - HTML & CSS - Forms
-- [ ] 6.2 - Bibliotecas JavaScript e Frameworks CSS
+- [x] 6.1 - HTML & CSS - Forms
+- [x] 6.2 - Bibliotecas JavaScript e Frameworks CSS
 - [ ] 6.3 - Introdução - CSS Flexbox
 - [ ] 6.3 - CSS Flexbox - Parte 1
 - [ ] 6.4 - CSS Flexbox - Parte 2
