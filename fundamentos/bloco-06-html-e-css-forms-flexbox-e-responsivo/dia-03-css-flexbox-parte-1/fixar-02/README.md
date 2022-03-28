@@ -1,0 +1,7 @@
+# fixar 02 - justify-content, align-items e align-content
+
+Esse 'para fixar' foi dividida em 3 questões isoladas.
+
+  Q1 - [ ];
+  Q2 - [ ];
+  Q3 - [ ];
