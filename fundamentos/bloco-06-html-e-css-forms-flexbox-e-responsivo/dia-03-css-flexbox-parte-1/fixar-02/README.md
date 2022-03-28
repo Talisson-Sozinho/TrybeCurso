@@ -4,4 +4,4 @@ Esse 'para fixar' foi dividida em 3 questões isoladas.
 
   Q1 - [x];
   Q2 - [x];
-  Q3 - [ ];
+  Q3 - [x];
