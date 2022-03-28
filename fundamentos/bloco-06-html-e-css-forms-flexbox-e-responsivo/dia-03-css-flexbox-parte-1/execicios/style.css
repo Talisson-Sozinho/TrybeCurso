@@ -26,3 +26,9 @@
   background-color: #323433;
   color: #fff;
 }
+
+/* Estilizando section do parágrafo */
+.section-container {
+  display: flex;
+  justify-content: center;
+}
