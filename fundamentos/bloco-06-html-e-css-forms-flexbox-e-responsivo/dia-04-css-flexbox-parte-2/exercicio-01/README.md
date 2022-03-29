@@ -12,5 +12,5 @@ aparecem na tela. Após aplicar a propriedade o header deverá estar similar a i
 3 - [x] Adicione uma propriedade Flexbox que faça o container do menu crescer, quando houver espaço 
 disponível. Após aplicar a propriedade o header deverá estar similar a imagem abaixo:
 
-4 - [ ] Utilize a propriedade align-self no elemento correto para que o header da página tenha o seguinte 
+4 - [x] Utilize a propriedade align-self no elemento correto para que o header da página tenha o seguinte 
 comportamento:
