@@ -10,7 +10,7 @@
 
 4 - [x] Adicione um pouco de margin na página.
 
-5 - [ ] Guarde a largura da tela no ponto que você identificou que o layout atual não funcionou bem (por 
+5 - [x] Guarde a largura da tela no ponto que você identificou que o layout atual não funcionou bem (por 
 exemplo 800px) . Esse será o primeiro breakpoint do layout . Um breakpoint é apenas um ponto onde estamos 
 definindo que o design atual deve mudar;
 
