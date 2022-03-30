@@ -19,7 +19,7 @@ comportamento:
 
 1 - [x] Aplique uma base de 350px para seu container aside . Deverá ficar similar a imagem abaixo:
 
-2 - [ ] Aplique um alinhamento para centralizar e outro para expandir. Seu aside apresentar o seguinte 
+2 - [x] Aplique um alinhamento para centralizar e outro para expandir. Seu aside apresentar o seguinte 
 comportamento:
 
 3 - [ ] Adicione uma propriedade que faça com que seu container de filmes tenha uma base de 700px e outra 
