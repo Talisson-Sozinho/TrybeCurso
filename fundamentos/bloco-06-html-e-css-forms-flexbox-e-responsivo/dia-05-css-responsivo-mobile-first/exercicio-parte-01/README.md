@@ -6,7 +6,7 @@
 
 2 - [x] Faça o tamanho da fonte dos elementos h1 ser menor;
 
-3 - [ ] Aumente o espaçamento entre as figuras;
+3 - [x] Aumente o espaçamento entre as figuras;
 
 4 - [ ] Adicione um pouco de margin na página.
 
