@@ -28,5 +28,5 @@ base de 16% para as div do container de seu card. Deve ficar similar a imagem ab
 4 - [x] Aplique uma propriedade com o valor 10 que expanda o container de filmes. Deve ficar similar a 
 imagem abaixo:
 
-5 - [ ] Adicione uma propriedade com o valor 1 que faça com que suas div do container de filmes ocupe 
+5 - [x] Adicione uma propriedade com o valor 1 que faça com que suas div do container de filmes ocupe 
 todo o espaço em branco. Deve ficar similar a imagem abaixo:
