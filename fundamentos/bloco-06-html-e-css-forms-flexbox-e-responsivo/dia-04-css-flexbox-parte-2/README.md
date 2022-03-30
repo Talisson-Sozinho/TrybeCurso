@@ -17,7 +17,7 @@ comportamento:
 
 ## Execícios parte 02.
 
-1 - [ ] Aplique uma base de 350px para seu container aside . Deverá ficar similar a imagem abaixo:
+1 - [x] Aplique uma base de 350px para seu container aside . Deverá ficar similar a imagem abaixo:
 
 2 - [ ] Aplique um alinhamento para centralizar e outro para expandir. Seu aside apresentar o seguinte 
 comportamento:
