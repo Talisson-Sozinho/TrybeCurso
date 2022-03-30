@@ -2,7 +2,7 @@
 
 Para os seguintes exercícios você não precisará alterar o arquivo HTML, apenas o CSS. 😉
 
-1 - [ ] A primeira div só poderá aparecer se nossa tela possuir largura mínima de 500px .
+1 - [x] A primeira div só poderá aparecer se nossa tela possuir largura mínima de 500px .
 
 2 - [ ] A segunda div só poderá aparecer apenas se a largura estiver entre 600px e 1000px .
 
