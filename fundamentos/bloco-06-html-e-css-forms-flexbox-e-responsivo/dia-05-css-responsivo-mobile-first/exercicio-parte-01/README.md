@@ -14,7 +14,7 @@
 exemplo 800px) . Esse será o primeiro breakpoint do layout . Um breakpoint é apenas um ponto onde estamos 
 definindo que o design atual deve mudar;
 
-6 - [ ] Crie uma media query no seu arquivo CSS , usando a dimensão em pixels que você guardou como o 
+6 - [x] Crie uma media query no seu arquivo CSS , usando a dimensão em pixels que você guardou como o 
 min-width do teste da media query . Dentro desse breakpoint , adicione os seguintes ajustes:
 Altere a cor de fundo (isso vai te ajudar a perceber quando a media query teve efeito) ;
 

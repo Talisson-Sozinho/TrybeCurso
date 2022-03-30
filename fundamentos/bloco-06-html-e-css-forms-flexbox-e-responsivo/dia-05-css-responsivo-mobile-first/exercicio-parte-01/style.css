@@ -13,7 +13,7 @@
 }
 
 body {
-  padding: 0 1em;
+  padding: 1em;
 }
 
 article {
@@ -39,6 +39,7 @@ main {
 section {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 1em;
 }
 
@@ -51,5 +52,20 @@ figcaption {
 }
 
 @media screen and (min-width: 768px) {
-  
+  * {
+    font-size: 16px;
+  }
+  h1 {
+    font-size: 2em;
+  }
+  body {
+    background-color: lightgrey;
+  }
+  figure {
+    flex-basis: 320px;
+    flex-grow: 1;
+  }
+  body {
+    padding: 2em;
+  }
 }
