@@ -4,7 +4,7 @@
 
 1 - [x] Faça o tamanho da fonte ser maior;
 
-2 - [ ] Faça o tamanho da fonte dos elementos h1 ser menor;
+2 - [x] Faça o tamanho da fonte dos elementos h1 ser menor;
 
 3 - [ ] Aumente o espaçamento entre as figuras;
 
