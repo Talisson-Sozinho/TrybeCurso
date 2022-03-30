@@ -8,5 +8,5 @@ Para os seguintes exercícios você não precisará alterar o arquivo HTML, apen
 
 3 - [x] A terceira div não deverá aparecer se nossa tela possuir largura entre 650px e 950px .
 
-4 - [ ] Sem alterar a classe trick , faça com que o texto dela apareça somente quando a tela estiver com 
+4 - [x] Sem alterar a classe trick , faça com que o texto dela apareça somente quando a tela estiver com 
 menos de 500px de largura .
