@@ -22,10 +22,10 @@ Altere a cor de fundo (isso vai te ajudar a perceber quando a media query teve e
    - Ajuste as margens da página;
    - Faça as imagens serem mostradas em duas colunas.
 
-7 - [ ] Agora, você vai criar outro breakpoint para telas grandes. Redimensione sua tela de novo para 
+7 - [x] Agora, você vai criar outro breakpoint para telas grandes. Redimensione sua tela de novo para 
 encontrar um novo breakpoint .
 
-8 - [ ] Crie uma nova media query no seu arquivo CSS usando a dimensão que você encontrou para telas 
+8 - [x] Crie uma nova media query no seu arquivo CSS usando a dimensão que você encontrou para telas 
 grandes (por exemplo 1300px) , e realize os seguintes ajustes dentro do breakpoint :
 
    - Altere a cor de fundo;
