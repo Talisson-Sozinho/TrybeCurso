@@ -5,3 +5,20 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
+
+* {
+  font-size: 14px;
+}
+
+.container { 
+  padding: 1em;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+}
+
+footer h3 {
+  align-self: center;
+}
