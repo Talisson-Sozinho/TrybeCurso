@@ -7,7 +7,7 @@ imagem abaixo quando ela for impressa. Especificamente:
    - Os elementos com id header , navigation e footer devem desaparecer;
    - O elemento com id aside deve ser mostrado abaixo do conteúdo principal.
 
-2 - [ ] Adicione uma media query no arquivo CSS e as regras necessárias para que a página se pareça com 
+2 - [x] Adicione uma media query no arquivo CSS e as regras necessárias para que a página se pareça com 
 as imagens abaixo quando a tela for redimensionada para larguras menores. Especificamente:
    - O elemento com id aside deve desaparecer;
    - O elemento body não deve ter padding ;

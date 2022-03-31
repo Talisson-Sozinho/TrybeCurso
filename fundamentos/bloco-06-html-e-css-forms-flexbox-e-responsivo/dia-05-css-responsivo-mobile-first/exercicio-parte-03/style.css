@@ -88,3 +88,32 @@ body {
     align-items: center;
   }
 }
+
+@media screen and (max-width: 420px) {
+  body {
+    padding: 0;
+  }
+  #header{
+    position: fixed;
+    width: 100%;
+  }
+  #aside {
+    display: none;
+  }
+  #navigation {
+    padding-top: 80px;
+  }
+  #navigation ul {
+    flex-direction: column;
+  }
+  #navigation ul li a {
+    border: none;
+    flex-grow: 1;
+  }
+  #content {
+    width: 90%;
+  }
+  img {
+    width: 100%;
+  }
+}
