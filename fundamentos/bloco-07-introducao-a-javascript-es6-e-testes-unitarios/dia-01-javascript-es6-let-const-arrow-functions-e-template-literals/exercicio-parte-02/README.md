@@ -22,7 +22,7 @@ Comandos:
    - Um campo no HTML que vá atualizando a quantidade de clicks no botão conforme a variável clickCount é 
   atualizada.
 
-  4 - [ ] Crie um código JavaScript com a seguinte especificação:
+  4 - [x] Crie um código JavaScript com a seguinte especificação:
 
     Não se esqueça de usar template literals
 
