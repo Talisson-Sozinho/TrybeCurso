@@ -8,7 +8,7 @@ Comandos:
    - Bônus (opcional): tente fazer o mesmo exercício de forma recursiva . Spoiler: É possível resolver 
   com uma linha usando ternary operator .
 
-  2 - [ ] Crie uma função que receba uma frase e retorne qual a maior palavra.
+  2 - [x] Crie uma função que receba uma frase e retorne qual a maior palavra.
 
   exemplo:
 
