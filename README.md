@@ -35,7 +35,7 @@ _"A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vi
 - [x] 4.4 - JavaScript - Objetos e funções
 - [x] 4.5 - [Projeto - Playground Functions](https://github.com/Talisson-Sozinho/project-playground-functions)
 
-##### Bloco 5: [JavaScript: DOM, Eventos e Web Storage](../fundamentos/bloco-05-javascript-dom-eventos-e-web-storage/)
+##### Bloco 5: [JavaScript: DOM, Eventos e Web Storage](./fundamentos/bloco-05-javascript-dom-eventos-e-web-storage/)
 - [x] 5.1 - JavaScript - DOM e seletores
 - [x] 5.2 - JavaScript - Trabalhando com elementos
 - [x] 5.3 - JavaScript - Eventos
@@ -47,7 +47,7 @@ _"A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vi
 - [x] 5.7 - (Bônus) [Projeto - Adivinhe a Cor](https://github.com/Talisson-Sozinho/project-color-guess)
 - [x] 5.7 - (Bônus) [Projeto - Carta Misteriosa](https://github.com/Talisson-Sozinho/project-mistery-letter)
 
-##### Bloco 6: HTML e CSS: Forms, Flexbox e Responsivo
+##### Bloco 6: [HTML e CSS: Forms, Flexbox e Responsivo](./fundamentos/bloco-06-html-e-css-forms-flexbox-e-responsivo/)
 - [x] 6.1 - HTML & CSS - Forms
 - [x] 6.2 - Bibliotecas JavaScript e Frameworks CSS
 - [x] 6.3 - Introdução - CSS Flexbox
@@ -56,8 +56,8 @@ _"A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vi
 - [x] 6.5 - CSS Responsivo - Mobile First
 - [x] 6.6 - [Projeto - Trybewarts](#)
 
-##### Bloco 7: Introdução à JavaScript ES6 e Testes Unitários
-- [ ] 7.1 - JavaScript ES6 - let, const, arrow functions e template literals
+##### Bloco 7: [Introdução à JavaScript ES6 e Testes Unitários](./fundamentos/bloco-07-introducao-a-javascript-es6-e-testes-unitarios/)
+- [x] 7.1 - JavaScript ES6 - let, const, arrow functions e template literals
 - [ ] 7.2 - JavaScript ES6 - Fluxo de execeção e Objetos
 - [ ] 7.3 - Primeiros passos em Jest
 - [ ] 7.4 - Projeto - JavaScript Testes Unitários
