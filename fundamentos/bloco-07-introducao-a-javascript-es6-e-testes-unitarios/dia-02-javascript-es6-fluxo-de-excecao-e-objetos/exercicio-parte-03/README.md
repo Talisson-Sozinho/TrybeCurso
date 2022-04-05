@@ -13,7 +13,7 @@ Comandos:
   4 - [x] Crie uma função para listar os valores de um objeto. Essa função deve receber um objeto como
   parâmetro.
 
-  5 - [ ] Crie um objeto de nome allLessons , que deve agrupar todas as aulas através do Object.assign .
+  5 - [x] Crie um objeto de nome allLessons , que deve agrupar todas as aulas através do Object.assign .
   Cada chave desse novo objeto será uma aula, sendo essas chaves: lesson1 , lesson2 e lesson3 . Ao
   executar o comando console.log(allLessons) , a saída deverá ser a seguinte:
 

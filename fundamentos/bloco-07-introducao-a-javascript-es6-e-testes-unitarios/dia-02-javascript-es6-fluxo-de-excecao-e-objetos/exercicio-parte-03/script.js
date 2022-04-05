@@ -23,14 +23,29 @@ function addPropriety(object, key, value) {
   return object;
 };
 
+addPropriety(lesson2, 'turno', 'noite');
+
 function listKeys(object) {
   return Object.keys(object);
 };
 
 function length(object) {
   return Object.keys(object).length;
-}
+};
 
 function listValues(object) {
   return Object.values(object);
-}
+};
+
+function getTogether(object1, object2, object3) {
+  const newObject = {
+    lesson1: Object.assign({}, object1),
+    lesson2: Object.assign({}, object2),
+    lesson3: Object.assign({}, object3),
+  }
+  return newObject;
+};
+
+const allLessons = getTogether(lesson1, lesson2, lesson3);
+
+console.log(allLessons);
