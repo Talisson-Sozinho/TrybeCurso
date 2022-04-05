@@ -51,7 +51,7 @@ Tire um tempinho para entender o código acima:
 Aparentemente está tudo funcionando, mas a aplicação não possui fluxo de exceção. Ou seja, caso ocorra um 
 erro, eles não serão tratados. Que tal resolver isso?
 
-  1 - [ ] Crie um erro personalizado que será chamado se a pessoa usuária digitar apenas um número.
+  1 - [x] Crie um erro personalizado que será chamado se a pessoa usuária digitar apenas um número.
    - Tente executar a aplicação com um dos valores em branco. Notou que o retorno não é muito descritivo?
    - Utilize o throw new Error e o bloco try/catch .
    - Imprima o erro no parágrafo com id result , para que a pessoa usuária saiba o que aconteceu. Lembre-se de usar erros descritivos!
