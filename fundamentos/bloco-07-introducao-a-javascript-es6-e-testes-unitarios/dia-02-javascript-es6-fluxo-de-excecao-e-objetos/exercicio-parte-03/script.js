@@ -22,3 +22,7 @@ function addPropriety(object, key, value) {
   object[key] = value;
   return object;
 };
+
+function listKeys(object) {
+  return Object.keys(object);
+}
