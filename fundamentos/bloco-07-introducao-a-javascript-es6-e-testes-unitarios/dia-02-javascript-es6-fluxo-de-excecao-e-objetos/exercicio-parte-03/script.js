@@ -25,4 +25,8 @@ function addPropriety(object, key, value) {
 
 function listKeys(object) {
   return Object.keys(object);
+};
+
+function length(object) {
+  return Object.keys(object).length;
 }
