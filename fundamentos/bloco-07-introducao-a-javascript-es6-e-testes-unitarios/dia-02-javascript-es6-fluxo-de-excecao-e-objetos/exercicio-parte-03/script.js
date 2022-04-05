@@ -57,4 +57,6 @@ function quantityStudent(allLessons) {
   return quantity;
 }
 
-console.log(quantityStudent(allLessons));
+function getValueByNumber(object, position) {
+  return Object.entries(object)[position][1];
+}

@@ -43,7 +43,7 @@ Comandos:
   6 - [x] Usando o objeto criado no exercício 5, crie uma função que retorne o número total de estudantes
   em todas as aulas.
 
-  7 - [ ] Crie uma função que obtenha o valor da chave de acordo com a sua posição no objeto. Por exemplo:
+  7 - [x] Crie uma função que obtenha o valor da chave de acordo com a sua posição no objeto. Por exemplo:
 
   ```js
   console.log(getValueByNumber(lesson1, 0));
