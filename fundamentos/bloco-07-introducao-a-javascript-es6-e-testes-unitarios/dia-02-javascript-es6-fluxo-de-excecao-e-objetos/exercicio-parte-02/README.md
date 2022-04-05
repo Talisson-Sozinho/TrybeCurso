@@ -2,7 +2,7 @@
 
 Comandos:
 
-  1 - [ ] Complete a função customerInfo() para que seu retorno seja similar a "Olá Ana Silveira, entrega 
+  1 - [x] Complete a função customerInfo() para que seu retorno seja similar a "Olá Ana Silveira, entrega 
   para: Rafael Andrade, Telefone: 11-98763-1416, R. Rua das Flores, Nº: 389, AP: 701".
    - Note que o parâmetro da função já está sendo passado na chamada da função.
   
