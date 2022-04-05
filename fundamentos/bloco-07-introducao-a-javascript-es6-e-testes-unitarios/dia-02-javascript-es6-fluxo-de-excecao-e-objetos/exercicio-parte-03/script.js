@@ -17,3 +17,8 @@ const lesson3 = {
   professor: 'Maria Clara',
   turno: 'noite',
 };
+
+function addPropriety(object, key, value) {
+  object[key] = value;
+  return object;
+};
