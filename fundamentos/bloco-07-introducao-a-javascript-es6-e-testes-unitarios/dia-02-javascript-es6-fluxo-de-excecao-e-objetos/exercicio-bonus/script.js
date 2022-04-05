@@ -30,4 +30,21 @@ function peopleWatched(allLessons, matter) {
   return people;
 };
 
-console.log(peopleWatched(allLessons, 'Matemática'));
+function createReport(allLessons, teacher) {
+  const report = {
+    professor: teacher,
+    materia: [],
+    estudantes: 0,
+  };
+  const arrayLessons = Object.values(allLessons);
+
+  for (let lesson of arrayLessons) {
+    if (lesson.professor === teacher) {
+      report.materia.push(lesson.materia);
+      report.estudantes += lesson.numeroEstudantes;
+    }
+  };
+  return report;
+}
+
+console.log(createReport(allLessons, 'Maria Clara'));
