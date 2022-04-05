@@ -18,3 +18,16 @@ const allLessons = {
     turno: 'noite',
   },
 };
+
+function peopleWatched(allLessons, matter) {
+  const arrayLessons = Object.values(allLessons);
+  let people = 0;
+  for (let lesson of arrayLessons) {
+    if (lesson.materia === matter) {
+      people += lesson.numeroEstudantes;
+    }
+  }
+  return people;
+};
+
+console.log(peopleWatched(allLessons, 'Matemática'));
