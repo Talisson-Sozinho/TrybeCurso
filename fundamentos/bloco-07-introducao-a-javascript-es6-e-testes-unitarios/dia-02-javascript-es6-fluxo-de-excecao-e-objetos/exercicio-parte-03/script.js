@@ -38,12 +38,7 @@ function listValues(object) {
 };
 
 function getTogether(object1, object2, object3) {
-  const newObject = {
-    lesson1: Object.assign({}, object1),
-    lesson2: Object.assign({}, object2),
-    lesson3: Object.assign({}, object3),
-  }
-  return newObject;
+  return Object.assign({}, { object1, object2, object3 });
 };
 
 const allLessons = getTogether(lesson1, lesson2, lesson3);
