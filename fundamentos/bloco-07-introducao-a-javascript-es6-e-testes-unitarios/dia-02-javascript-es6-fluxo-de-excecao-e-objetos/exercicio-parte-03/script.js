@@ -60,3 +60,13 @@ function quantityStudent(allLessons) {
 function getValueByNumber(object, position) {
   return Object.entries(object)[position][1];
 }
+
+function verifyPair(object, key, value) {
+  const entries = Object.entries(object);
+  for (let pair of entries) {
+    if (pair[0] === key && pair[1] === value) {
+      return true;
+    }
+  }
+  return false;
+}

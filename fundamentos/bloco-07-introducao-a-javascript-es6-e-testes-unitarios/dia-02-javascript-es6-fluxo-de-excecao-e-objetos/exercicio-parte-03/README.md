@@ -50,7 +50,7 @@ Comandos:
   // Output: 'Matématica'
   ```
 
-  8 - [ ] Crie uma função que verifique se o par (chave / valor) existe na função. Essa função deve
+  8 - [x] Crie uma função que verifique se o par (chave / valor) existe na função. Essa função deve
   possuir três parâmetros, sendo eles: o objeto, o nome da chave e o valor da chave. Exemplo:
 
   ```js
