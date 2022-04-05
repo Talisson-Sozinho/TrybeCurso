@@ -1,5 +1,5 @@
 const order = {
-  name: "Rafael Andrade",
+  name: "Luiz Silva",
   phoneNumber: "11-98763-1416",
   address: {
     street: "Rua das Flores",
@@ -10,7 +10,7 @@ const order = {
     pizza: {
       marguerita: {
         amount: 1,
-        price: 25,
+        price: 20,
       },
       pepperoni: {
         amount: 1,
@@ -30,7 +30,7 @@ const order = {
     },
   },
   payment: {
-    total: 60,
+    total: 50,
   },
 };
 
@@ -48,10 +48,20 @@ const customerInfo = (order) => {
   return customText;
 };
 
-console.log(customerInfo(order));
+customerInfo(order);
 
 const orderModifier = (order) => {
   // Adicione abaixo as informações necessárias.
+
+  const clientName = order.name;
+  const pizzas = Object.keys(order.order.pizza).join(', ');
+  const drinks = order.order.drinks.coke.type;
+  const finalPrice = order.payment.total.toLocaleString('pt-br', {style: 'currency', currency: 'BRL'});
+
+  const customText = `Olá ${clientName}, o total do seu pedido de ${pizzas} e ${
+    drinks} é ${finalPrice}.`
+
+  return customText;
 };
 
-orderModifier(order);
+console.log(orderModifier(order));
