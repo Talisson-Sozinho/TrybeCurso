@@ -10,7 +10,7 @@ Comandos:
 
   3 - [x] Crie uma função para mostrar o tamanho de um objeto.
 
-  4 - [ ] Crie uma função para listar os valores de um objeto. Essa função deve receber um objeto como
+  4 - [x] Crie uma função para listar os valores de um objeto. Essa função deve receber um objeto como
   parâmetro.
 
   5 - [ ] Crie um objeto de nome allLessons , que deve agrupar todas as aulas através do Object.assign .
