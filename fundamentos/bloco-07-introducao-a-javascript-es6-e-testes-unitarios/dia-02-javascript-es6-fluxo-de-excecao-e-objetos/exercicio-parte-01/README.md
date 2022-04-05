@@ -60,4 +60,4 @@ erro, eles não serão tratados. Que tal resolver isso?
   2 - [x]  Agora adicione uma outra exceção,  um valor que não seja numérico.
    - Você pode fazer essa verificação utilizando a função isNan() .
   
-  3 - [ ] Você se lembrou de limpar os inputs após o clique do botão? Teve que repetir código para isso? Que tal refatorar sua função utilizando o finally ?
+  3 - [x] Você se lembrou de limpar os inputs após o clique do botão? Teve que repetir código para isso? Que tal refatorar sua função utilizando o finally ?
