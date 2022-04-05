@@ -57,7 +57,7 @@ erro, eles não serão tratados. Que tal resolver isso?
    - Imprima o erro no parágrafo com id result , para que a pessoa usuária saiba o que aconteceu. Lembre-se de usar erros descritivos!
    - Evite funções que tenham muitas responsabilidades distintas.
   
-  2 - [ ]  Agora adicione uma outra exceção, caso a pessoa usuária digite um valor que não seja numérico.
+  2 - [x]  Agora adicione uma outra exceção,  um valor que não seja numérico.
    - Você pode fazer essa verificação utilizando a função isNan() .
   
   3 - [ ] Você se lembrou de limpar os inputs após o clique do botão? Teve que repetir código para isso? Que tal refatorar sua função utilizando o finally ?
