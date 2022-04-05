@@ -40,7 +40,7 @@ Comandos:
   */
   ```
 
-  6 - [ ] Usando o objeto criado no exercício 5, crie uma função que retorne o número total de estudantes
+  6 - [x] Usando o objeto criado no exercício 5, crie uma função que retorne o número total de estudantes
   em todas as aulas.
 
   7 - [ ] Crie uma função que obtenha o valor da chave de acordo com a sua posição no objeto. Por exemplo:

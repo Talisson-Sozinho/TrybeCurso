@@ -29,7 +29,7 @@ function listKeys(object) {
   return Object.keys(object);
 };
 
-function length(object) {
+function lengthObject(object) {
   return Object.keys(object).length;
 };
 
@@ -48,4 +48,13 @@ function getTogether(object1, object2, object3) {
 
 const allLessons = getTogether(lesson1, lesson2, lesson3);
 
-console.log(allLessons);
+function quantityStudent(allLessons) {
+  const arrayValues = listValues(allLessons);
+  let quantity = 0;
+  for (let index = 0; index < arrayValues.length; index += 1) {
+    quantity += arrayValues[index].numeroEstudantes;
+  }
+  return quantity;
+}
+
+console.log(quantityStudent(allLessons));
