@@ -1,10 +1,12 @@
 # Bloco 7.3 - Primeiros passos em Jest
 
+Exercício diário:
+
 ### Praticando a implementação de testes
   Você vai implementar vários testes em contextos diferentes a fim de consolidar a mecânica e também a
   forma de pensar em testes.
 
-1 - [ ] A função sum(a, b) retorna a soma do parâmetro a com o b.
+1 - [x] A função sum(a, b) retorna a soma do parâmetro a com o b.
 
   - Teste se o retorno de sum(4, 5) é 9
   - Teste se o retorno de sum(0, 0) é 0
