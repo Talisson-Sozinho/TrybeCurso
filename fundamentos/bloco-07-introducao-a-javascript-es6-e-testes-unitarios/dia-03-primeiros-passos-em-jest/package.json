@@ -1,8 +1,8 @@
 {
-  "name": "exercicio-02",
+  "name": "dia-03-primeiros-passos-em-jest",
   "version": "1.0.0",
-  "description": "",
-  "main": "function-test.test.js",
+  "description": "Exercício diário:",
+  "main": "index.js",
   "scripts": {
     "test": "jest"
   },
