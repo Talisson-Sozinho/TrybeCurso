@@ -1,5 +1,6 @@
+// Requisito 01
 function formatInfoPerson(namePerson) {
-  const email = `${namePerson.replace(' ', '_').toLowerCase()}@trybe.com`
+  const email = `${namePerson.replace(' ', '_').toLowerCase()}@trybe.com`;
   return {
     fullName: namePerson,
     email: email,
@@ -15,4 +16,10 @@ const newEmployees = (callback) => {
   return employees;
 };
 
-console.log(newEmployees(formatInfoPerson));
+// Requisito 02
+const verifyBet = (numberDrawn, betNumber) => numberDrawn === betNumber;
+
+function generateRaffle(betNumber, verifyBetFunction) {
+  const numberDrawn = Math.floor(Math.random() * 6);
+  return verifyBetFunction(numberDrawn, betNumber) ? 'Parabéns você ganhou' : 'Tente novamente';
+}
