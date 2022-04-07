@@ -2,7 +2,7 @@
 
 ### O que fazer:
 
-  1 - [ ]  Crie uma função que retorne a string 'Acordando!!' ;
+  1 - [x]  Crie uma função que retorne a string 'Acordando!!' ;
 
   2 - [ ] Crie outra função que retorne a string 'Bora tomar café!!' ;
 

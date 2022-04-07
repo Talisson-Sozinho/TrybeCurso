@@ -1,0 +1,1 @@
+const wakingUp = () => 'Acordando!!';
