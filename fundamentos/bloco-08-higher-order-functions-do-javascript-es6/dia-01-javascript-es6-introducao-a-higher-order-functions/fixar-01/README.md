@@ -4,7 +4,7 @@
 
   1 - [x]  Crie uma função que retorne a string 'Acordando!!' ;
 
-  2 - [ ] Crie outra função que retorne a string 'Bora tomar café!!' ;
+  2 - [x] Crie outra função que retorne a string 'Bora tomar café!!' ;
 
   3 - [ ] Crie mais uma função que retorne a string 'Partiu dormir!!' ;
 
