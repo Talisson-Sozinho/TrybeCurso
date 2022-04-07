@@ -23,3 +23,24 @@ function generateRaffle(betNumber, verifyBetFunction) {
   const numberDrawn = Math.floor(Math.random() * 6);
   return verifyBetFunction(numberDrawn, betNumber) ? 'Parabéns você ganhou' : 'Tente novamente';
 }
+
+// Requisito 03
+const RIGHT_ANSWERS = ['A', 'C', 'B', 'D', 'A', 'A', 'D', 'A', 'D', 'C'];
+const STUDENT_ANSWERS = ['A', 'N.A', 'B', 'D', 'A', 'C', 'N.A', 'A', 'D', 'B'];
+
+function calculateScore(rightAnswers, studentAnswers) {
+  let score = 0;
+  for ( let index = 0; index < rightAnswers.length; index += 1) {
+    if (rightAnswers[index] === studentAnswers[index]) {
+      score += 1;
+    } else if(studentAnswers[index] === 'N.A') {
+      score -= 0.5;
+    }
+  }
+  return score;
+}
+
+function getTestScore(gabarito, studentTest, getScoreFunction) {
+  const text = `A pontuação final do teste foi: ${getScoreFunction(gabarito, studentTest)}`;
+  return text;
+}
