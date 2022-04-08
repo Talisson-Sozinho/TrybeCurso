@@ -26,7 +26,7 @@ comandos:
     console.log(findNameWithFiveLetters());
   ```
 
-  3 - [ ]  Utilize o find para encontrar a música com id igual a 31031685 , caso ela exista:
+  3 - [x]  Utilize o find para encontrar a música com id igual a 31031685 , caso ela exista:
   
   ```js
     const musicas = [
