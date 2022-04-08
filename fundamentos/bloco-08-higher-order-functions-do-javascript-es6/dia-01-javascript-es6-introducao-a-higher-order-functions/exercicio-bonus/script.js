@@ -39,3 +39,16 @@ function generateWarriorDamage() {
 
   return warriorDamage;
 }
+
+function generateMageDamage() {
+  const haveMana = battleMembers.mage.mana >= 15 ;
+
+  const mageCost = {};
+  const minDamage = battleMembers.mage.intelligence;
+  const maxDamage = battleMembers.mage.intelligence * 2;
+
+  mageCost.damage = haveMana ? generateDamage(minDamage, maxDamage) : "Não possui mana suficiente";
+  mageCost.spentMana = haveMana ? 15 : 0;
+
+  return mageCost;
+}
