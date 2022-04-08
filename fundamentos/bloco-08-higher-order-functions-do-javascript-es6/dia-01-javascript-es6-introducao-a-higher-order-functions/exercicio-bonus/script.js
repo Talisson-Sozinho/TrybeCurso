@@ -20,9 +20,22 @@ const dragon = {
 
 const battleMembers = { mage, warrior, dragon };
 
-function getDragonDamage() {
+const generateDamage = (minDamage, maxDamage) => Math.floor(Math.random() * (maxDamage - minDamage) + minDamage);
+
+function generateDragonDamage() {
   const minDamage = 15;
   const maxDamage = battleMembers.dragon.strength;
-  const dragonDamage = Math.floor(Math.random() * (maxDamage - minDamage) + minDamage);
+
+  const dragonDamage = generateDamage(minDamage, maxDamage);
+
   return dragonDamage;
+}
+
+function generateWarriorDamage() {
+  const minDamage = battleMembers.warrior.strength;
+  const maxDamage = battleMembers.warrior.strength * battleMembers.warrior.weaponDmg;
+
+  const warriorDamage = generateDamage(minDamage, maxDamage);
+
+  return warriorDamage;
 }
