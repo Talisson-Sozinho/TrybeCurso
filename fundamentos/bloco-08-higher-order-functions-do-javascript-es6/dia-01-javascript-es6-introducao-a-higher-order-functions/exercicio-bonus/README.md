@@ -31,10 +31,10 @@ const battleMembers = { mage, warrior, dragon };
 ```
   Requisitos: 
 
-  1 - [ ] Crie uma função que retorna o dano do dragão.
+  1 - [x] Crie uma função que retorna o dano do dragão.
    - O dano será um número aleatório entre 15 (dano mínimo) e o valor do atributo strength (dano máximo)
 
-  2 - [ ] Crie uma função que retorna o dano causado pelo warrior .
+  2 - [ ] Crie uma função que retorna o dano causado pelo warrior.
    - O dano será um número aleatório entre o valor do atributo strength (dano mínimo) e o valor de strength * weaponDmg (dano máximo).
 
   3 - [ ] Crie uma função que retorna um objeto com duas chaves e dois valores contendo o dano e a mana gasta pelo mago em um turno.
