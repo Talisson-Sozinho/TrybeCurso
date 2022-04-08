@@ -52,3 +52,10 @@ function generateMageDamage() {
 
   return mageCost;
 }
+
+const gameActions = {
+  warriorTurn: (action) => {
+    warrior.damage = action();
+    opponent.healthPoints -= warrior.damage;
+  },
+};
