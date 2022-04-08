@@ -1,7 +1,7 @@
 # Para fixar 01 - Array.forEach
 
 comando: 
-  1 - [ ] Use o método forEach chamando a callback showEmailList para apresentar os emails.
+  1 - [x] Use o método forEach chamando a callback showEmailList para apresentar os emails.
 
   ```js
   const emailListInData = [
