@@ -12,7 +12,7 @@
   console.log(hasName(names, 'Ana'))
   ```
 
-  2 - [ ] Escreva uma função que dado um array de pessoas e uma idade mínima retorne true se todas tiverem a idade maior ou igual a mínima e caso contrário false, use every;
+  2 - [x] Escreva uma função que dado um array de pessoas e uma idade mínima retorne true se todas tiverem a idade maior ou igual a mínima e caso contrário false, use every;
 
   ```js
   const people = [
