@@ -2,7 +2,7 @@
 
 Comandos:
 
-  1 - [ ]  Utilize a sort para ordenar o array pela idade das pessoas em ordem crescente.
+  1 - [x]  Utilize a sort para ordenar o array pela idade das pessoas em ordem crescente.
   ```js
     const people = [
       { name: 'Mateus', age: 18 },
