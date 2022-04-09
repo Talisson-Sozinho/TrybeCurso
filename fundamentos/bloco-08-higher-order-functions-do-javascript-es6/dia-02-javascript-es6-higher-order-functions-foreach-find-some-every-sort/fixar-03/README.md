@@ -1,6 +1,6 @@
 # para fixar 03 - Array.some e Array.every
 
-1 - [ ] Escreva uma função que dado um array de nomes e um nome retorne true se ele estiver contido e caso contrário, retorne false, use some.
+1 - [x] Escreva uma função que dado um array de nomes e um nome retorne true se ele estiver contido e caso contrário, retorne false, use some.
 
   ```js
   const names = ['Mateus', 'José', 'Ana', 'Cláudia', 'Bruna'];
