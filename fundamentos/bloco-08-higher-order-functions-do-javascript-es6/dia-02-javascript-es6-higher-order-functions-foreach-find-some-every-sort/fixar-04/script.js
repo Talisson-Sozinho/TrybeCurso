@@ -8,5 +8,7 @@ const people = [
 ];
 // Adicione se código aqui
 people.sort( (person2, person1) => person2.age - person1.age);
-
+console.log(people);
+// Requisito 02
+people.sort( (person2, person1) => person1.age - person2.age);
 console.log(people);
