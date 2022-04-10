@@ -32,7 +32,7 @@ describe("Teste para o exercício 05: ", () => {
         releaseYear: 1951,
       },
     ];
-    expect(everyoneWasBornOnSecXX(booksForToBeTrue)).toBeFalsy();
+    expect(everyoneWasBornOnSecXX(booksForToBeTrue)).toBe(true);
 
   });
   
@@ -81,6 +81,6 @@ describe("Teste para o exercício 05: ", () => {
         releaseYear: 1928,
       },
     ];
-    expect(everyoneWasBornOnSecXX(booksForToBeFalse)).toBeFalsy();
+    expect(everyoneWasBornOnSecXX(booksForToBeFalse)).toBe(false);
   });
 });
