@@ -2,7 +2,7 @@ const oldBooksOrdered = require('../src/exercise4');
 const books = require('../src/template-library');
 
 describe('Teste do exercise4: ', () => {
-  it('Verifica se a função  retorna um array ordenado pelos livros com mais de 60 anos de publicação e ordene-o pelo livro mais velho', () => {
+  it('Verifica se a função retorna um array ordenado pelos livros com mais de 60 anos de publicação e ordene-o pelo livro mais velho', () => {
     const expectedResult = [
       {
         id: 6,
@@ -26,6 +26,6 @@ describe('Teste do exercise4: ', () => {
         releaseYear: 1954,
       },
     ];
-    expect(oldBooksOrdered(books)).toEqual(expectedResult);
+    expect(oldBooksOrdered(books, 60)).toEqual(expectedResult);
   });
 });

@@ -8,6 +8,6 @@ describe('Teste do exercise6: ', () => {
       'Fundação',
       'O Chamado de Cthulhu',
     ];
-    expect(oldBooks(books)).toEqual(expectedResult);
+    expect(oldBooks(books, 60)).toEqual(expectedResult);
   });
 });

@@ -33,6 +33,6 @@ describe('Teste do exercise3: ', () => {
         releaseYear: 1965
       }
     ];
-    expect(fantasyOrScienceFiction(books)).toEqual(expectedResult);
+    expect(fantasyOrScienceFiction(books, ['ficção científica', 'fantasia'])).toEqual(expectedResult);
   })
 });

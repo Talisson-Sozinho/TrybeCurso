@@ -9,6 +9,6 @@ describe('Teste do exercise5: ', () => {
       'Isaac Asimov',
       'J. R. R. Tolkien',
     ];
-    expect(fantasyOrScienceFictionAuthors(books)).toEqual(expectedResult);
+    expect(fantasyOrScienceFictionAuthors(books, ['ficção científica', 'fantasia'])).toEqual(expectedResult);
   });
 });
