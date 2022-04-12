@@ -60,12 +60,12 @@ _"A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vi
 - [x] 7.1 - JavaScript ES6 - let, const, arrow functions e template literals
 - [x] 7.2 - JavaScript ES6 - Fluxo de execeção e Objetos
 - [ ] 7.3 - Primeiros passos em Jest
-- [ ] 7.4 - Projeto - JavaScript Testes Unitários
+- [x] 7.4 - [Projeto - JavaScript Testes Unitários](#)
 
 ##### Bloco 8: Higher Order Functions do JavaScript ES6
-- [ ] 8.1 - JavaScript ES6 - Higher Order Functions
+- [x] 8.1 - JavaScript ES6 - Higher Order Functions
 - [ ] 8.2 - JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort
-- [ ] 8.3 - JavaScript ES6 - Higher Order Functions - map e filter
+- [x] 8.3 - JavaScript ES6 - Higher Order Functions - map e filter
 - [ ] 8.4 - JavaScript ES6 - Higher Order Functions - reduce
 - [ ] 8.5 - JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais
 - [ ] 8.6 - Projeto - Zoo functions
