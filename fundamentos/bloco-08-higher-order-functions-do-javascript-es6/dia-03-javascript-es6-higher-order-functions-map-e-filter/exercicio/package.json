@@ -1,0 +1,15 @@
+{
+  "name": "dia-03-javascript-es6-higher-order-functions-map-e-filter",
+  "version": "1.0.0",
+  "description": "Para os exercícios propostos use o seguinte template:",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
