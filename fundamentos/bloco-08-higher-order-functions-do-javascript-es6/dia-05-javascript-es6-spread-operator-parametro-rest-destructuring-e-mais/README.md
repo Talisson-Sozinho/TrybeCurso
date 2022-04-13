@@ -104,7 +104,7 @@ const chiron = ['Chiron', 'Bugatti', 2016];
 // escreva toObject abaixo
 ```
 
-7 - [ ] Escreva uma função shipLength que, dado um objeto representando um navio, retorna o comprimento dele, mostrando também a devida unidade de comprimento:
+7 - [x] Escreva uma função shipLength que, dado um objeto representando um navio, retorna o comprimento dele, mostrando também a devida unidade de comprimento:
  - Dica: use object destructuring.
 
 ```js
