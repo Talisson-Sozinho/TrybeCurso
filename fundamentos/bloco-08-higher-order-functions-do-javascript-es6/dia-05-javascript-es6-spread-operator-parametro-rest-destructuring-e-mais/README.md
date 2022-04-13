@@ -49,7 +49,7 @@ console.log(personLikes(alex)); // 'Alex is 26 years old and likes fly fishing.'
 console.log(personLikes(gunnar)); // 'Gunnar is 30 years old and likes hiking, scuba diving, taking pictures.'
 ```
 
-4 - [ ] Escreva uma função filterPeople que, dada uma lista de pessoas, retorna todas as pessoas australianas que nasceram no século 20:
+4 - [x] Escreva uma função filterPeople que, dada uma lista de pessoas, retorna todas as pessoas australianas que nasceram no século 20:
  - Dica: use object destructuring.
 
 ```js
