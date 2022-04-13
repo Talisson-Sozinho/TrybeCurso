@@ -15,7 +15,7 @@ Todos os exercícios devem ser realizados utilizando reduce, e se necessário ou
 
 2 - [x]  Crie uma string com os nomes de todas as pessoas autoras.
 
-3 - [ ] Calcule a média de idade que as pessoas autoras tinham quando seus respectivos livros foram lançados.
+3 - [x] Calcule a média de idade que as pessoas autoras tinham quando seus respectivos livros foram lançados.
 
 4 - [ ] Encontre o livro com o maior nome.
 
