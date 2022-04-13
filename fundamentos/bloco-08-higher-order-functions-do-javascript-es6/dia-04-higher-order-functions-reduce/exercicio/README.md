@@ -17,7 +17,7 @@ Todos os exercícios devem ser realizados utilizando reduce, e se necessário ou
 
 3 - [x] Calcule a média de idade que as pessoas autoras tinham quando seus respectivos livros foram lançados.
 
-4 - [ ] Encontre o livro com o maior nome.
+4 - [x] Encontre o livro com o maior nome.
 
 5 - [ ] Dada o array de nomes, retorne a quantidade de vezes em que aparecem a letra a maiúscula ou minúscula.
 
