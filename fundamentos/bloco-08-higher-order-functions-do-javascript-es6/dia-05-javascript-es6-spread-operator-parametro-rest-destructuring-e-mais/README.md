@@ -24,7 +24,7 @@ rectangles.forEach((rectangle) => {
 2 - [x] Crie uma função sum que dado um número variável de elementos retorna a soma desses elementos.
  - Dica: use parâmetro rest.
 
-3 - [ ]  Escreva a função personLikes , que dado um objeto de parâmetro que representa uma pessoa, retorna todos os gostos daquela pessoa, conforme mostrado abaixo:
+3 - [x] Escreva a função personLikes, que dado um objeto de parâmetro que representa uma pessoa, retorna todos os gostos daquela pessoa, conforme mostrado abaixo:
  - Dica: use object destructuring.
 
 ```js
