@@ -38,6 +38,6 @@ describe('Teste da função "searchEmployee": ', ()=> {
   });
 
   it('Verifica a mensagem do erro é a esperada, caso a informação que se quer acessar não exista', () => {
-    expect(() => { searchEmployee('4543-69', 'firstName') }).toThrowError( new Error('Informação indisponível'));
+    expect(() => { searchEmployee('8579-6', 'name') }).toThrowError( new Error('Informação indisponível'));
   });
 });
