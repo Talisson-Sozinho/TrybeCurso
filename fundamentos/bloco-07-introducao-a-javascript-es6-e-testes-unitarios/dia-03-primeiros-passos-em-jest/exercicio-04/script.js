@@ -1,11 +1,6 @@
 function isVogal(char) {
-  const vogais = ['a', 'e', 'i', 'o', 'u']; 
-  for (let vogal of vogais) {
-    if (vogal === char) {
-      return true;
-    }
-  }
-  return false;
+  const vogais = ['a', 'e', 'i', 'o', 'u'];
+  return vogais.find((element)=> element === char)
 }
 
 function vogalForNumber(char) {
@@ -20,15 +15,9 @@ function vogalForNumber(char) {
 }
 
 function encode(string) {
-  let stringEncoded = '';
-  for (let char of string) {
-    if (isVogal(char)) {
-      stringEncoded += vogalForNumber(char);
-    } else {
-      stringEncoded += char;
-    }
-  }
-  return stringEncoded;
+  return string.split('').reduce((stringEncoded, char) => {
+    return isVogal(char) ? stringEncoded += vogalForNumber(char) : stringEncoded += char;
+  }, '');
 }
 
 function numberForVogal(number) {
@@ -43,15 +32,9 @@ function numberForVogal(number) {
 }
 
 function decode(string) {
-  let stringDecoded = '';
-  for (let char of string) {
-    if (char > 0 && char < 6) {
-      stringDecoded += numberForVogal(char);
-    } else {
-      stringDecoded += char;
-    }
-  }
-  return stringDecoded;
+  return string.split('').reduce((stringDecoded, char) => {
+    return (char > 0 && char < 6) ? stringDecoded += numberForVogal(char) : stringDecoded += char;
+  }, '');
 }
 
 module.exports = {
