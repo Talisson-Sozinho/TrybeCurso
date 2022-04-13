@@ -8,6 +8,6 @@ describe('Teste para o exercise5: ', () => {
       'Abeladerco', 'Adieidy', 'Alarucha',
     ];
     const word = 'A';
-    expect(containsA(names, word)).toBe(21);
+    expect(containsA(names, word)).toBe(20);
   });
 });
