@@ -13,7 +13,7 @@ Todos os exercícios devem ser realizados utilizando reduce, e se necessário ou
 ```
 ### Para os exercícios 2, 3 e 4 considere o array do arquivo "./src/books.js":
 
-2 - [ ]  Crie uma string com os nomes de todas as pessoas autoras.
+2 - [x]  Crie uma string com os nomes de todas as pessoas autoras.
 
 3 - [ ] Calcule a média de idade que as pessoas autoras tinham quando seus respectivos livros foram lançados.
 
