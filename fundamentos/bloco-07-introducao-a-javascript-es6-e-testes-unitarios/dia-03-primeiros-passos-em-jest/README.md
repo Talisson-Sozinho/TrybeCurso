@@ -66,7 +66,7 @@ programação: o Playground functions . Nos exercícios a seguir, você irá tra
 algumas funções que você criou! Aproveite para refatorá-las e usar todos os recursos que já aprendemos
 até aqui, como as Higher Order Functions e as features do Javascript ES.
 
-4 - [ ] Para as funções encode e decode crie os seguintes testes em Jest:
+4 - [x] Para as funções encode e decode crie os seguintes testes em Jest:
 
  - Teste se encode e decode são funções;
  - Para a função encode teste se as vogais a, e, i, o, u são convertidas em 1, 2, 3, 4 e 5, respectivamente;
