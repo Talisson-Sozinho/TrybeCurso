@@ -39,7 +39,7 @@ describe("Teste para o exercício 07: ", () => {
         genre: "Ficção Científica",
         author: {
           name: "Frank Herbert",
-          birthYear: 1920,
+          birthYear: 1921,
         },
         releaseYear: 1965,
       },
@@ -69,7 +69,7 @@ describe("Teste para o exercício 07: ", () => {
         genre: "Fantasia",
         author: {
           name: "Talisson L. Sozinho",
-          birthYear: 1890,
+          birthYear: 1891,
         },
         releaseYear: 2020,
       },
