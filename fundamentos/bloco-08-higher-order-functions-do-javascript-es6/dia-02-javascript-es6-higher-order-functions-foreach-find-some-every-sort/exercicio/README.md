@@ -21,7 +21,7 @@
  - Dica: use a função forEach.
 
 ### exercício 03.
-[ ] - Encontre o primeiro livro cujo nome possui 26 caracteres.
+[x] - Encontre o primeiro livro cujo nome possui 26 caracteres.
 
 ### exercício 04.
 [ ] - Ordene os livros por data de lançamento em ordem decrescente.
