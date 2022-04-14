@@ -17,7 +17,7 @@
  - Dica: use a função find.
 
 ### exercício 02.
-[ ] - Retorne o nome do livro de menor nome.
+[x] - Retorne o nome do livro de menor nome.
  - Dica: use a função forEach.
 
 ### exercício 03.
