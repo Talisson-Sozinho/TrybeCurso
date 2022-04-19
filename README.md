@@ -54,13 +54,13 @@ _"A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vi
 - [x] 6.3 - CSS Flexbox - Parte 1
 - [x] 6.4 - CSS Flexbox - Parte 2
 - [x] 6.5 - CSS Responsivo - Mobile First
-- [x] 6.6 - [Projeto - Trybewarts](#)
+- [x] 6.6 - [Projeto - Trybewarts](https://github.com/Talisson-Sozinho/project-trybewarts)
 
 ##### Bloco 7: [Introdução à JavaScript ES6 e Testes Unitários](./fundamentos/bloco-07-introducao-a-javascript-es6-e-testes-unitarios/)
 - [x] 7.1 - JavaScript ES6 - let, const, arrow functions e template literals
 - [x] 7.2 - JavaScript ES6 - Fluxo de execeção e Objetos
 - [x] 7.3 - Primeiros passos em Jest
-- [x] 7.4 - [Projeto - JavaScript Testes Unitários](#)
+- [x] 7.4 - [Projeto - JavaScript Testes Unitários](https://github.com/Talisson-Sozinho/project-js-unit-tests)
 
 ##### Bloco 8: Higher Order Functions do JavaScript ES6
 - [x] 8.1 - JavaScript ES6 - Higher Order Functions
@@ -68,7 +68,7 @@ _"A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vi
 - [x] 8.3 - JavaScript ES6 - Higher Order Functions - map e filter
 - [x] 8.4 - JavaScript ES6 - Higher Order Functions - reduce
 - [x] 8.5 - JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais
-- [ ] 8.6 - Projeto - Zoo functions
+- [x] 8.6 - [Projeto - Zoo functions](#)
 
 ##### Bloco 9: JavaScript e Testes Assíncronos
 - [ ] 9.1 - JavaScript Assíncrono e Callbacks
