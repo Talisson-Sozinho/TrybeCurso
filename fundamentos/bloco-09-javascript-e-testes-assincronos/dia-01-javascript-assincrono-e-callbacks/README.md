@@ -31,18 +31,4 @@ getPlanet(); // imprime Marte depois de 4 segundos
 
 6.1 - [x] A fim de evitar que futuros treinadores sejam prejudicados, o Professor Carvalho pediu que você o ajude a escrever testes para o sistema que distribui os pokémons. Crie um novo arquivo .test.js ou .spec.js. Complete os testes para a função getPokemonDetails de acordo com as especificações.
 
-8 - [ ] Para este exercício, tente adivinhar a saída dos console.log dos testes abaixo sem executá-los, e veja se compreendeu bem o funcionamento do beforeEach e do afterEach.
-
-```js
-beforeEach(() => console.log('1 - beforeEach'));
-afterEach(() => console.log('1 - afterEach'));
-
-test('', () => console.log('1 - test'));
-
-describe('Scoped / Nested block', () => {
-  beforeEach(() => console.log('2 - beforeEach'));
-  afterEach(() => console.log('2 - afterEach'));
-
-  test('', () => console.log('2 - test'));
-});
-```
+7 - [x] Para este exercício, tente adivinhar a saída dos console.log dos testes abaixo sem executá-los, e veja se compreendeu bem o funcionamento do beforeEach e do afterEach.
