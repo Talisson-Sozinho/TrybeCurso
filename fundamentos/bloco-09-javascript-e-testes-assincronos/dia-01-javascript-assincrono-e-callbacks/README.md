@@ -2,77 +2,7 @@
 
 Cada exercício terá seu próprio diretório.
 
-1 - [ ] Dado o código abaixo, qual a ordem de finalização de execução das linhas comentadas?
-
-```js
-const planetDistanceFromSun = ({ name, distanceFromSun: { value, measurementUnit } }) =>
-  `${name} is ${value} ${measurementUnit} apart from the Sun`;
-
-const mars = {
-  name: "Mars",
-  distanceFromSun: {
-    value: 227900000,
-    measurementUnit: "kilometers",
-  },
-};
-
-const venus = {
-  name: "Venus",
-  distanceFromSun: {
-    value: 108200000,
-    measurementUnit: "kilometers",
-  },
-};
-
-const jupiter = {
-  name: "Jupiter",
-  distanceFromSun: {
-    value: 778500000,
-    measurementUnit: "kilometers",
-  },
-};
-
-console.log(planetDistanceFromSun(mars)); // A
-console.log(planetDistanceFromSun(venus)); // B
-console.log(planetDistanceFromSun(jupiter)); // C
-```
-
-2 - [ ] Agora, dado o código abaixo, qual a ordem de finalização de execução das linhas comentadas?
-
-```js
-const planetDistanceFromSun = ({ name, distanceFromSun: { value, measurementUnit } }) =>
-  `${name} is ${value} ${measurementUnit} apart from the Sun`;
-
-const mars = {
-  name: "Mars",
-  distanceFromSun: {
-    value: 227900000,
-    measurementUnit: "kilometers",
-  },
-};
-
-const venus = {
-  name: "Venus",
-  distanceFromSun: {
-    value: 108200000,
-    measurementUnit: "kilometers",
-  },
-};
-
-const jupiter = {
-  name: "Jupiter",
-  distanceFromSun: {
-    value: 778500000,
-    measurementUnit: "kilometers",
-  },
-};
-
-console.log(planetDistanceFromSun(mars)); // A
-setTimeout(() => console.log(planetDistanceFromSun(venus)), 3000); // B
-setTimeout(() => console.log(planetDistanceFromSun(jupiter)), 2000); // C
-```
-
-3 - [ ] A função getPlanet abaixo imprime o planeta Marte de forma síncrona. Modifique getPlanet , de forma que Marte seja impresso assincronamente, depois de 4 segundos.
+1 - [ ] A função getPlanet abaixo imprime o planeta Marte de forma síncrona. Modifique getPlanet , de forma que Marte seja impresso assincronamente, depois de 4 segundos.
 
 ```js
 const getPlanet = () => {
@@ -89,7 +19,7 @@ const getPlanet = () => {
 getPlanet(); // imprime Marte depois de 4 segundos
 ```
 
-4 - [ ] Suponha que você precise simular uma mensagem enviada do robô Curiosity de Marte para a Terra. O Curiosity envia para a Terra a temperatura atual em Marte, gastando um tempo variável de até 5 segundos para que termine o envio. Crie a função sendMarsTemperature , que imprime a temperatura em Marte.
+2 - [ ] Suponha que você precise simular uma mensagem enviada do robô Curiosity de Marte para a Terra. O Curiosity envia para a Terra a temperatura atual em Marte, gastando um tempo variável de até 5 segundos para que termine o envio. Crie a função sendMarsTemperature , que imprime a temperatura em Marte.
 
 ```js
 const messageDelay = () => Math.floor(Math.random() * 5000);
@@ -104,7 +34,7 @@ const getMarsTemperature = () => {
 sendMarsTemperature(); // imprime "Mars temperature is: 20 degree Celsius", por exemplo
 ```
 
-5 - [ ] Agora que você fez a função que envia a temperatura de Marte, suponha que você consiga enviar para o robô Curiosity o que você deseja fazer, uma vez obtida com sucesso a temperatura em Marte. Logo, adicione na função sendMarsTemperature uma callback que contenha as ações a serem tomadas em cima da temperatura.
+3 - [ ] Agora que você fez a função que envia a temperatura de Marte, suponha que você consiga enviar para o robô Curiosity o que você deseja fazer, uma vez obtida com sucesso a temperatura em Marte. Logo, adicione na função sendMarsTemperature uma callback que contenha as ações a serem tomadas em cima da temperatura.
 
 ```js
 const messageDelay = () => Math.floor(Math.random() * 5000);
@@ -128,7 +58,7 @@ sendMarsTemperature(temperatureInFahrenheit); // imprime "It is currently 47ºF 
 sendMarsTemperature(greet); // imprime "Hi there! Curiosity here. Right now is 53ºC at Mars", por exemplo
 ```
 
-6 - [ ] Por fim, o robô Curiosity tem uma taxa de sucesso de envio de mensagem de 60% devido ao fato de o robô já estar muito ocupado com outras operações. Logo, adicione na função sendMarsTemperature uma outra callback que contenha as ações a serem tomadas em caso de falha.
+4 - [ ] Por fim, o robô Curiosity tem uma taxa de sucesso de envio de mensagem de 60% devido ao fato de o robô já estar muito ocupado com outras operações. Logo, adicione na função sendMarsTemperature uma outra callback que contenha as ações a serem tomadas em caso de falha.
 
 ```js
 const messageDelay = () => Math.floor(Math.random() * 5000);
@@ -168,7 +98,7 @@ const uppercase = (str, callback) => {
 };
 ```
 
-8 - [ ] Para o próximo exercício, você vai sentir na pele o primeiro dia de um treinador Pokémon! No laboratório do Professor Carvalho, você é informado de que existem três pokémons disponíveis: Bulbasaur, Charmander e Squirtle. Complete a chamada da função getPokemonDetails de modo que ela imprima no console os detalhes do pokémon que você escolheu. PS: é possível que o sistema do Professor Carvalho apresente erros caso o pokémon não exista no banco de dados, então não se esqueça de tratá-los também, combinado?
+5 - [ ] Para o próximo exercício, você vai sentir na pele o primeiro dia de um treinador Pokémon! No laboratório do Professor Carvalho, você é informado de que existem três pokémons disponíveis: Bulbasaur, Charmander e Squirtle. Complete a chamada da função getPokemonDetails de modo que ela imprima no console os detalhes do pokémon que você escolheu. PS: é possível que o sistema do Professor Carvalho apresente erros caso o pokémon não exista no banco de dados, então não se esqueça de tratá-los também, combinado?
 
 ```js
 const pokemons = [
@@ -211,7 +141,7 @@ module.exports = {
 };
 ```
 
-9 - [ ] A fim de evitar que futuros treinadores sejam prejudicados, o Professor Carvalho pediu que você o ajude a escrever testes para o sistema que distribui os pokémons. Crie um novo arquivo .test.js ou .spec.js e copie o código abaixo. Complete os testes para a função getPokemonDetails de acordo com as especificações.
+6 - [ ] A fim de evitar que futuros treinadores sejam prejudicados, o Professor Carvalho pediu que você o ajude a escrever testes para o sistema que distribui os pokémons. Crie um novo arquivo .test.js ou .spec.js e copie o código abaixo. Complete os testes para a função getPokemonDetails de acordo com as especificações.
 
 ```js
 // Verifique se a importação do arquivo correto está sendo feita.
@@ -228,7 +158,7 @@ describe("A função getPokemonDetails", () => {
 });
 ```
 
-10 - [ ] Para este exercício, tente adivinhar a saída dos console.log dos testes abaixo sem executá-los, e veja se compreendeu bem o funcionamento do beforeEach e do afterEach.
+7 - [ ] Para este exercício, tente adivinhar a saída dos console.log dos testes abaixo sem executá-los, e veja se compreendeu bem o funcionamento do beforeEach e do afterEach.
 
 ```js
 beforeEach(() => console.log('1 - beforeEach'));
