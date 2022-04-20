@@ -71,7 +71,7 @@ _"A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vi
 - [x] 8.6 - [Projeto - Zoo functions](#)
 
 ##### Bloco 9: JavaScript e Testes Assíncronos
-- [ ] 9.1 - JavaScript Assíncrono e Callbacks
+- [x] 9.1 - JavaScript Assíncrono e Callbacks
 - [ ] 9.2 - JavaScript Assíncrono - Fetch API e async/await
 - [ ] 9.2 - Jest - Teste Assíncronos
 - [ ] 9.3 - Projeto - Carrinho de Compras
