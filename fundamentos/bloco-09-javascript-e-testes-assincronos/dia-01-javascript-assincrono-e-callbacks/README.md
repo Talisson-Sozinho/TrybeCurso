@@ -29,22 +29,7 @@ getPlanet(); // imprime Marte depois de 4 segundos
 
 6 - [x] Para o próximo exercício, você vai sentir na pele o primeiro dia de um treinador Pokémon! No laboratório do Professor Carvalho, você é informado de que existem três pokémons disponíveis: Bulbasaur, Charmander e Squirtle. Complete a chamada da função getPokemonDetails de modo que ela imprima no console os detalhes do pokémon que você escolheu. PS: é possível que o sistema do Professor Carvalho apresente erros caso o pokémon não exista no banco de dados, então não se esqueça de tratá-los também, combinado?
 
-7 - [ ] A fim de evitar que futuros treinadores sejam prejudicados, o Professor Carvalho pediu que você o ajude a escrever testes para o sistema que distribui os pokémons. Crie um novo arquivo .test.js ou .spec.js e copie o código abaixo. Complete os testes para a função getPokemonDetails de acordo com as especificações.
-
-```js
-// Verifique se a importação do arquivo correto está sendo feita.
-const { getPokemonDetails } = require("./get-pokemon-details");
-
-describe("A função getPokemonDetails", () => {
-  it("retorna erro quando procuramos um pokemon que não existe no banco de dados", () => {
-    // Escreva aqui seu código
-  });
-
-  it("retorna um pokemon que existe no banco de dados", () => {
-    // Escreva aqui seu código
-  });
-});
-```
+6.1 - [x] A fim de evitar que futuros treinadores sejam prejudicados, o Professor Carvalho pediu que você o ajude a escrever testes para o sistema que distribui os pokémons. Crie um novo arquivo .test.js ou .spec.js. Complete os testes para a função getPokemonDetails de acordo com as especificações.
 
 8 - [ ] Para este exercício, tente adivinhar a saída dos console.log dos testes abaixo sem executá-los, e veja se compreendeu bem o funcionamento do beforeEach e do afterEach.
 
