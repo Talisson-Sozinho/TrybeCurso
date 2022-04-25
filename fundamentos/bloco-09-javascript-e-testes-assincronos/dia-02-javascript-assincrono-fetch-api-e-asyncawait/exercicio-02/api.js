@@ -3,6 +3,13 @@ async function fetchCoinApi() {
     .then(response => response.json())
     .then(({data}) => data)
     .catch(err => err);
-    console.log(data);
   return data;
+}
+
+async function fetchConversion() {
+  const data = await fetch(`https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies/brl.json`)
+    .then(response => response.json())
+    .then( data => data )
+    .catch(err => err);
+    return data.brl;
 }
