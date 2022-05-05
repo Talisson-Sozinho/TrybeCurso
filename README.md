@@ -68,13 +68,13 @@ _"A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vi
 - [x] 8.3 - JavaScript ES6 - Higher Order Functions - map e filter
 - [x] 8.4 - JavaScript ES6 - Higher Order Functions - reduce
 - [x] 8.5 - JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais
-- [x] 8.6 - [Projeto - Zoo functions](#)
+- [x] 8.6 - [Projeto - Zoo functions](https://github.com/Talisson-Sozinho/project-zoo-functions)
 
 ##### Bloco 9: JavaScript e Testes Assíncronos
 - [x] 9.1 - JavaScript Assíncrono e Callbacks
-- [ ] 9.2 - JavaScript Assíncrono - Fetch API e async/await
-- [ ] 9.2 - Jest - Teste Assíncronos
-- [ ] 9.3 - Projeto - Carrinho de Compras
+- [x] 9.2 - JavaScript Assíncrono - Fetch API e async/await
+- [x] 9.2 - Jest - Teste Assíncronos
+- [x] 9.3 - [Projeto - Carrinho de Compras](https://github.com/Talisson-Sozinho/project-shopping-cart)
 
 
 ## Desenvolvimento Front-end :hourglass_flowing_sand:
