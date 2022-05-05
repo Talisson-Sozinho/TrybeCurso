@@ -3,7 +3,6 @@ const listContainer = document.getElementById('list');
 async function createList() {
   const data = await fetchCoinApi();
   const lastPrice = await fetchConversion();
-  console.log(lastPrice);
   const dataFiltered = data.filter(({ rank }) => rank <= 10 );
 
   dataFiltered.forEach(({symbol, name }) => {
