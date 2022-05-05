@@ -12,4 +12,4 @@ Esse bloco pertence ao módulo de `fundamentos` do curso da [Trybe](https://www.
   estruturas responsivas.
 
   Ao final do bloco fiz um projeto em dupla de um formulário de inscrição para uma escola fictícia baseada
-  no escola de bruxos Hogwarts. você pode acessa o repositório do projeto [aqui](#).
+  no escola de bruxos Hogwarts. você pode acessa o repositório do projeto [aqui](https://github.com/Talisson-Sozinho/project-trybewarts).
