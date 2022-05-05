@@ -62,7 +62,7 @@ _"A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vi
 - [x] 7.3 - Primeiros passos em Jest
 - [x] 7.4 - [Projeto - JavaScript Testes Unitários](https://github.com/Talisson-Sozinho/project-js-unit-tests)
 
-##### Bloco 8: Higher Order Functions do JavaScript ES6
+##### Bloco 8: [Higher Order Functions do JavaScript ES6](./fundamentos/bloco-08-higher-order-functions-do-javascript-es6/)
 - [x] 8.1 - JavaScript ES6 - Higher Order Functions
 - [x] 8.2 - JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort
 - [x] 8.3 - JavaScript ES6 - Higher Order Functions - map e filter
@@ -70,7 +70,7 @@ _"A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vi
 - [x] 8.5 - JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais
 - [x] 8.6 - [Projeto - Zoo functions](https://github.com/Talisson-Sozinho/project-zoo-functions)
 
-##### Bloco 9: JavaScript e Testes Assíncronos
+##### Bloco 9: [JavaScript e Testes Assíncronos](./fundamentos/bloco-09-javascript-e-testes-assincronos/)
 - [x] 9.1 - JavaScript Assíncrono e Callbacks
 - [x] 9.2 - JavaScript Assíncrono - Fetch API e async/await
 - [x] 9.2 - Jest - Teste Assíncronos
