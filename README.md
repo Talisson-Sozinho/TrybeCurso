@@ -6,9 +6,9 @@ _"A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vi
 
 >"O programa conta com mais de 1.500 horas de aulas síncronas e assíncronas, aborda introdução ao desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias ágeis e habilidades comportamentais."
 
-## Fundamentos do Desenvolvimento Web :hourglass_flowing_sand:
-
-##### Bloco 1: [Unix e Bash](./fundamentos/fundamentos/bloco-01-unix-e-bash)
+## Fundamentos do Desenvolvimento Web :heavy_check_mark:
+fundamentos/bloco-01-unix-e-bash
+##### Bloco 1: [Unix e Bash](./fundamentos/bloco-01-unix-e-bash)
 - [x] 1.3 - Fundamentos do Desenvolvimento Web
 - [x] 1.3 - Introdução - Unix & Shell
 - [x] 1.3 - Unix & Bash - Parte 1
@@ -62,20 +62,19 @@ _"A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vi
 - [x] 7.3 - Primeiros passos em Jest
 - [x] 7.4 - [Projeto - JavaScript Testes Unitários](https://github.com/Talisson-Sozinho/project-js-unit-tests)
 
-##### Bloco 8: Higher Order Functions do JavaScript ES6
+##### Bloco 8: [Higher Order Functions do JavaScript ES6](./fundamentos/bloco-08-higher-order-functions-do-javascript-es6/)
 - [x] 8.1 - JavaScript ES6 - Higher Order Functions
 - [x] 8.2 - JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort
 - [x] 8.3 - JavaScript ES6 - Higher Order Functions - map e filter
 - [x] 8.4 - JavaScript ES6 - Higher Order Functions - reduce
 - [x] 8.5 - JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais
-- [x] 8.6 - [Projeto - Zoo functions](#)
+- [x] 8.6 - [Projeto - Zoo functions](https://github.com/Talisson-Sozinho/project-zoo-functions)
 
-##### Bloco 9: JavaScript e Testes Assíncronos
+##### Bloco 9: [JavaScript e Testes Assíncronos](./fundamentos/bloco-09-javascript-e-testes-assincronos/)
 - [x] 9.1 - JavaScript Assíncrono e Callbacks
-- [ ] 9.2 - JavaScript Assíncrono - Fetch API e async/await
-- [ ] 9.2 - Jest - Teste Assíncronos
-- [ ] 9.3 - Projeto - Carrinho de Compras
-
+- [x] 9.2 - JavaScript Assíncrono - Fetch API e async/await
+- [x] 9.2 - Jest - Teste Assíncronos
+- [x] 9.3 - [Projeto - Carrinho de Compras](https://github.com/Talisson-Sozinho/project-shopping-cart)
 
 ## Desenvolvimento Front-end :hourglass_flowing_sand:
 
