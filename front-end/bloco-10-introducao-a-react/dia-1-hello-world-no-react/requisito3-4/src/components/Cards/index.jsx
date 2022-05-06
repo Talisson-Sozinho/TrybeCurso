@@ -1,4 +1,5 @@
 import React from "react";
+import "./style.css";
 
 const conteudos = [
   {
@@ -23,20 +24,18 @@ const conteudos = [
   },
 ];
 
-
-
-export class Content extends React.Component {
+export class Cards extends React.Component {
   render() {
     return(
-      conteudos.map(({conteudo, status, bloco}, index) => (
-        <>
-          <p key={index}>
-            O conteúdo é: {conteudo}<br />
-            Status: {status}<br />
-            Bloco: {bloco}<br />
-          </p>
-        </>
-      ))
+      <main>{
+        conteudos.map(({conteudo, status, bloco}, index) => (
+          <ul key={index}>
+            <li>O conteúdo é: {conteudo}</li>
+            <li>Status: {status}</li>
+            <li>Bloco: {bloco}</li>
+          </ul>
+        ))
+      }</main>
     );
   }
 }

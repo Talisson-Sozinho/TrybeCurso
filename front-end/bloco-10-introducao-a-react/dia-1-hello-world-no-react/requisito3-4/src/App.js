@@ -1,12 +1,13 @@
-import { Content } from "./Content";
-import { Footer } from "./Footer";
-import { Header } from "./Header";
+import { Cards } from "./components/Cards";
+import { Footer } from "./components/Footer";
+import { Header } from "./components/Header";
+import "./global.css";
 
 function App() {
   return (
     <>
       <Header />
-      <Content />
+      <Cards />
       <Footer />
     </>
   );
