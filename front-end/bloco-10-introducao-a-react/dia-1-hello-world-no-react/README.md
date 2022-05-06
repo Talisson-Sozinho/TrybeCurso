@@ -3,7 +3,9 @@
 Requisitos:
 
 1. [x] Crie um novo projeto utilizando npx create-react-app nome-app e acesse a pasta nome-app.
-2. [ ] Crie uma lista de tarefas simples seguindo os passos abaixo:
+ * Substitua o nome-app pelo que você desejar para seu app
+  - exercise-10.1
+2. [x] Crie uma lista de tarefas simples seguindo os passos abaixo:
  * insira a função Task a seguir acima do seu componente App dentro do arquivo App.js:
 
 ```js
