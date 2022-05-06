@@ -79,7 +79,7 @@ fundamentos/bloco-01-unix-e-bash
 ## Desenvolvimento Front-end :hourglass_flowing_sand:
 
 ##### Bloco 10: Introdução à React
-- [ ] 10.1 - Introdução - Front-end
+- [z] 10.1 - Introdução - Front-end
 - [ ] 10.1 - Introdução - React
 - [ ] 10.1 - 'Hello, world!' no React!
 - [ ] 10.2 - Componentes React
