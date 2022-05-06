@@ -18,7 +18,7 @@ const Task = (value) => {
  * agora, chame a função dentro do seu componente App (não se esqueça da sintaxe JSX!). Insira o valor que você quiser, salve a página e inicie-a rodando o comando npm start.
  * por fim, crie uma array de compromissos e use a função map para que cada item do array apareça, como um item de lista, no seu componente App.
 
-3. [ ] Crie um novo projeto utilizando npx create-react-app.
+3. [x] Crie um novo projeto utilizando npx create-react-app.
  * Na pasta src, crie um novo arquivo chamado Header.jsx, que representará o componente Header;
  * No arquivo Header.jsx, crie uma classe React, chamada Header. Essa classe deve renderizar uma tag h1 com o texto 'Conteúdos de Front-End'. Não esqueça de exportar esse componente;
  * No arquivo App.js, importe o componente Header criado anteriormente;
