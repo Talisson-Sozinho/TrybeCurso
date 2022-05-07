@@ -8,4 +8,6 @@
    * peso médio do pokemon, acompanhado da unidade de medida usada;
    * imagem do pokemon.
 
-  2. [ ] Pokedex: esse componente representa a enciclopédia de pokemons. Esse componente recebe como entrada uma lista de pokemons para serem mostrados na tela. Para cada um desses pokemons recebidos, Pokedex chama o componente Pokemon.
+  2. [x] Pokedex: esse componente representa a enciclopédia de pokemons. Esse componente recebe como entrada uma lista de pokemons para serem mostrados na tela. Para cada um desses pokemons recebidos, Pokedex chama o componente Pokemon.
+  
+  3. [ ] Estilização.

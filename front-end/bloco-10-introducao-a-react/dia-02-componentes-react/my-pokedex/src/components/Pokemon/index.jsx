@@ -7,12 +7,12 @@ export class Pokemon extends React.Component {
 
     return (
       <article className='card-pokemon-container'>
+        <img src={image} alt={name} />
         <ul>
           <li>Name: {name}</li>
           <li>Type: {type}</li>
           <li>Average Weight: {value} {measurementUnit}</li>
         </ul>
-        <img src={image} alt={name} />
       </article>
     );
   };
@@ -21,7 +21,7 @@ export class Pokemon extends React.Component {
 Pokemon.propTypes = {
   name: PropTypes.string.isRequired,
   type: PropTypes.string.isRequired,
-  averageWeight: PropTypes.exact({
+  averageWeight: PropTypes.shape({
     value: PropTypes.number.isRequired,
     measurementUnit: PropTypes.string.isRequired,
   }),
