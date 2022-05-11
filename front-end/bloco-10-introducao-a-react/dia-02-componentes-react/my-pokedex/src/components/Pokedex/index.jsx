@@ -1,6 +1,7 @@
 import { Pokemon } from "../Pokemon";
 import PropTypes from 'prop-types';
 import React from "react";
+import './styles.css';
 
 export class Pokedex extends React.Component {
   render() {

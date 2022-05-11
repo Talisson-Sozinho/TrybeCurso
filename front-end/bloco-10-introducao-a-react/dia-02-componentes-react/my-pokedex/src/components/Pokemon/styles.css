@@ -1,0 +1,23 @@
+.card-pokemon-container {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 13rem;
+  height: 20rem;
+  background-color: rgba(255, 0, 0, 0.493);
+}
+
+.card-pokemon-container img {
+  width: 196px;
+  height: 196px;
+}
+
+.card-pokemon-container ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
