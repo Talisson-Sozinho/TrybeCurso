@@ -1,12 +1,12 @@
 import React from "react";
 
 class App extends React.Component {
-  handleClick() {
-    console.log('um texto qualquer');
+  handleClick(text) {
+    console.log(text);
   }
 
   render() {
-    return (<button onClick={this.handleClick}>BUTÃO</button>);
+    return (<button onClick={()=> {this.handleClick(this.props.text)}}>BUTÃO</button>);
   }
 }
 
