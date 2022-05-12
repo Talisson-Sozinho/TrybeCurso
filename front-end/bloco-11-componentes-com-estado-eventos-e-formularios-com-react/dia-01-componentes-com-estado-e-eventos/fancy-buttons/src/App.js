@@ -8,13 +8,26 @@ class App extends React.Component {
     }
     this.handleClick = this.handleClick.bind(this);
   }
-  handleClick() {
-    this.setState((currentState) => ({count: currentState.count + 1}));
+  
+  async handleClick() {
+    await this.setState((currentState) => ({
+      count: currentState.count + 1,
+      color: ((currentState.count + 1) % 2 === 0) ? 'green' : `blue`,
+    }));
+    console.log(this.state.color);
   }
 
   render() {
+    const style = {
+      backgroundColor: this.state.color,
+    }
     return (
-      <button onClick={this.handleClick}>Numero de clicks: {this.state.count}</button>
+      <button 
+        onClick={this.handleClick}
+        style = {style}
+      >
+        Numero de clicks: {this.state.count}
+      </button>
     );
   }
 }

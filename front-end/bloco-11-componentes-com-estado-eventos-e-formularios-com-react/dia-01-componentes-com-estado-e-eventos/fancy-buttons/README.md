@@ -14,3 +14,7 @@
 6 - [x] Agora, quando um botão for clicado, altere de forma assíncrona o estado deste botão de zero para um.
 
 7 - [x] Por fim, baseie-se no estado anterior ao atual para incrementar a contagem de cliques cada vez que um botão for clicado!
+
+8 - [x] Defina uma lógica que estabeleça que, quando o número de cliques no botão for par, ele deve ser verde.
+
+9 - [x] A cor atual do botão deve ser impressa num console.log() de dentro da função do evento que lida com o clique. Faça isso acontecer!
