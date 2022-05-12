@@ -7,3 +7,10 @@
 3 - [x] Declare dentro da classe do seu componente dos exercícios de fixação acima a função que lida com o evento que antes era lidado por uma função do lado de fora da classe!
 
 4 - [x] Garanta acesso ao objeto this na função que você declarou.
+
+5 - [x] Agora você vai converter sua aplicação para uma que conta o número de cliques dado em cada botão! Primeiramente, defina um estado inicial para a contagem de cada botão.
+  🦜 Dica: Uma possibilidade é você definir três chaves, uma para cada botão!
+
+6 - [x] Agora, quando um botão for clicado, altere de forma assíncrona o estado deste botão de zero para um.
+
+7 - [x] Por fim, baseie-se no estado anterior ao atual para incrementar a contagem de cliques cada vez que um botão for clicado!
