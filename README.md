@@ -86,7 +86,7 @@ fundamentos/bloco-01-unix-e-bash
 - [x] 10.3 - [Projeto - Sistema Solar](#)
 
 ##### Bloco 11: Componentes com Estado, Eventos e Formulários com React
-- [ ] 11.1 - Componentes com estado e eventos
+- [x] 11.1 - Componentes com estado e eventos
 - [ ] 11.2 - Formulários no React
 - [ ] 11.3 - Projeto - Tryunfo
 
