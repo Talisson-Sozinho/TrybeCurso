@@ -1,4 +1,6 @@
 import React from "react";
+import { SelectInput } from "../SelectInput";
+import { Textarea } from "../Textarea";
 
 export class Form extends React.Component {
   constructor() {
@@ -19,24 +21,14 @@ export class Form extends React.Component {
   render() {
     return (
       <form>
-        <fieldset>
-          <legend>Options</legend>
-          <select name='inputOptions' value={this.state.inputOptions} onChange={this.handleChange}>
-            <option>hm</option>
-            <option>haha</option>
-            <option>kkkkkk</option>
-          </select>
-        </fieldset>
+        <SelectInput value={this.state.inputSe} handleChange={this.handleChange} />
         <fieldset>
           <legend>sla</legend>
-          <input type="file" name="file" ref={this.fileInput} onChange={this.handleChange}/>
+          <input type="file" name="file" ref={this.inputOptions} onChange={this.handleChange}/>
           <input type="text" name='inputText' value={this.state.inputText} onChange={this.handleChange} />
           <input type="checkbox" name='inputCheckbox' value={this.state.inputCheckbox} onChange={this.handleChange} />
         </fieldset>
-        <fieldset>
-          <legend>Textarea</legend>
-          <textarea name='inputTextarea' value={this.state.inputTextarea} onChange={this.handleChange}></textarea>
-        </fieldset>
+        <Textarea value={this.state.inputTextarea} handleChange={this.handleChange} />
       </form>
     );
   }
