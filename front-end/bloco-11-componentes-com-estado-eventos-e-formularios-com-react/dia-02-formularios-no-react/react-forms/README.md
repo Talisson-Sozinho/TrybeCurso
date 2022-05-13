@@ -1,0 +1,5 @@
+# Para fixar do bloco 11.2
+
+1 - [x] Crie um formulário com um campo select, dois inputs de tipo diferente, uma textarea e faça de um deles um componente controlado, ou seja, elementos do formulário controlados pelo Estado.
+
+2 - [x] Baixe a React Developer Tools e veja, nela, o dado inserido no elemento controlado sendo salvo no Estado.
