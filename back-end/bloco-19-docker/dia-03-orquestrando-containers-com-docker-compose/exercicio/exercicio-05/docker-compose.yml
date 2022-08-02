@@ -5,3 +5,5 @@ services:
     build: ./dockerizando/
     ports:
       - 8000:3000
+    volumes:
+      - ./dockerizando/src:/app/frontend/src
