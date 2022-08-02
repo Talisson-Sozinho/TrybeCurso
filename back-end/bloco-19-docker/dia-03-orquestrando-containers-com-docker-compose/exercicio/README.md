@@ -28,7 +28,7 @@
   [x] - Depois de obter o IMAGE ID, exclua a imagem.
 
 ## exercício 02: 
-  [ ] - Crie o arquivo Compose para subir um ghost blog. Essa plataforma é similar ao Wordpress e é utilizada para criar sites de conteúdo. Você pode ler no site oficial como criar conteúdos nele e utilizá-lo. Para esse exercício, utilizaremos apenas sua página de exemplo:
+  [x] - Crie o arquivo Compose para subir um ghost blog. Essa plataforma é similar ao Wordpress e é utilizada para criar sites de conteúdo. Você pode ler no site oficial como criar conteúdos nele e utilizá-lo. Para esse exercício, utilizaremos apenas sua página de exemplo:
    - Utilize a versão "3" no arquivo;
    - Crie um service para subir a plataforma. Para isso, utilize a imagem ghost:1-alpine;
    - Publique a porta 2368, fazendo bind também para a 2368;
