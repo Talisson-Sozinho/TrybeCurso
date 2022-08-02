@@ -68,4 +68,4 @@
   [x] - Publique a porta exposta no Dockerfile fazendo bind para a porta 8080 do localhost;
 
 ## exercício 06:00
-  [ ] - Para simularmos o processo de desenvolvimento, faça a alteração em alguma parte do código do app react. Então, execute o comando para subir o serviço novamente, "rebuildando" a imagem para aplicar as alterações.
+  [x] - Para simularmos o processo de desenvolvimento, faça a alteração em alguma parte do código do app react. Então, execute o comando para subir o serviço novamente, "rebuildando" a imagem para aplicar as alterações.
