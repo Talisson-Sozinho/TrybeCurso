@@ -132,11 +132,11 @@ fundamentos/bloco-01-unix-e-bash
 - [x] 19.1 - Utilizando Conteiners - Docker
 - [x] 19.2 - Manipulação e Criação de Imagens no Docker
 - [x] 19.3 - Orquestrando Containers com Docker Compose
-- [ ] 19.4 - Projeto - Docker Todo-List
+- [x] 19.4 - Projeto - Docker Todo-List
 
 ##### Bloco 20: Introdução à SQL
-- [ ] 20.1 - Introdução - Banco de dados relacionais
-- [ ] 20.1 - Banco de dados SQL
+- [x] 20.1 - Introdução - Banco de dados relacionais
+- [x] 20.1 - Banco de dados SQL
 - [ ] 20.2 - Encontrando dados em um banco de dados
 - [ ] 20.3 - Filtrando dados de forma específica 
 - [ ] 20.4 - Manipulando tabelas
