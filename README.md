@@ -138,8 +138,8 @@ fundamentos/bloco-01-unix-e-bash
 - [x] 20.1 - Introdução - Banco de dados relacionais
 - [x] 20.1 - Banco de dados SQL
 - [x] 20.2 - Encontrando dados em um banco de dados
-- [ ] 20.3 - Filtrando dados de forma específica 
-- [ ] 20.4 - Manipulando tabelas
+- [x] 20.3 - Filtrando dados de forma específica 
+- [x] 20.4 - Manipulando tabelas
 - [ ] 20.5 - Projeto - All For One
 
 ##### Bloco 21: Funções SQL, JOINs e Normalização 
